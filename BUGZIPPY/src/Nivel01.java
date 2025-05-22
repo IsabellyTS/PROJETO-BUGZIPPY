@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+//import java.util.Random;
+// int numeroInt = rand.nextInt(100); // número inteiro de 0 a 99
 public class Nivel01 {
     public static void main(String[] args) {
         //DadosArmazenados dados = new DadosArmazenados();
