@@ -3,10 +3,9 @@ import java.util.Random;
 public class Nivel01 {
     //DadosArmazenados dados = new DadosArmazenados();
     //inseto bugzippy: 𓆤
-    public static void main(String[] args) {
 
 
-        //public String ChamaNivel01 () {
+        public void ChamaNivel01 () {
 
 
             Scanner scanner = new Scanner(System.in);
@@ -171,10 +170,5 @@ public class Nivel01 {
             res = scanner.nextInt();
         }
         System.out.println("Parabéns, estou a um passo a menos no meu caminho! \n \uD81A\uDC7C\uD81A\uDD23\uD81A\uDD67\uD81A\uDC7C Passos para chegar ao destino: " + cc--);
-
-
-
-        //return "";
-        //}
-    }
+        }
 }
