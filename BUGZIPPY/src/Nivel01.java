@@ -3,11 +3,7 @@ import java.util.Random;
 public class Nivel01 {
     //DadosArmazenados dados = new DadosArmazenados();
     //inseto bugzippy: 𓆤
-
-
         public void ChamaNivel01 () {
-
-
             Scanner scanner = new Scanner(System.in);
             System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
             System.out.println("                                                                      NÍVEL 01 \uD80C\uDDA4 ");
@@ -84,7 +80,6 @@ public class Nivel01 {
                 " 3) É uma ilha onde vivem programadores que só falam com códigos secretos. ");
             res = scanner.nextInt();
             scanner.nextLine();
-
             while (res == 1) {
                 break;
             }
