@@ -7,10 +7,10 @@ public class Nivel03 {
 
     }
 
-    public void ChamaNivel3(String nome) {
+    public void ChamaNivel3() {
         int res = 0;
         ArrayList<String> perguntasN3 = new ArrayList<>();
-        String p1 = "1. [Capítulo 5, pág. 172]\n" +
+        String p1 = "\n1. [Capítulo 5, pág. 172]\n" +
                 "O que o comando switch faz no Java? Escolha a melhor explicação:\n" +
                 "Imagine que você tem várias opções e precisa escolher apenas uma, como em um cardápio. O switch ajuda o computador a escolher o que fazer com base em um valor.\n" +
                 "1) Repete um bloco de código várias vezes\n" +
@@ -20,7 +20,7 @@ public class Nivel03 {
                 "5) Mostra mensagens na tela\n" +
                 "6) Deixa o programa mais lento\n" +
                 "escreva: ";
-        String p2 = "2. [Capítulo 5, pág. 173]\n" +
+        String p2 = "\n2. [Capítulo 5, pág. 173]\n" +
                 "Para que serve o comando break dentro de um switch?\n" +
                 "1) Para fazer uma pausa no teclado\n" +
                 "2) Para encerrar o programa inteiro\n" +
@@ -29,7 +29,7 @@ public class Nivel03 {
                 "5) Para pular para o próximo case\n" +
                 "6) Para escrever uma nova variável\n" +
                 "escreva: ";
-        String p3 = "3. [Capítulo 5, pág. 173]\n" +
+        String p3 = "\n3. [Capítulo 5, pág. 173]\n" +
                 "O que acontece se esquecermos o break dentro do switch?\n" +
                 "1) Ele para automaticamente\n" +
                 "2) Mostra um erro na tela\n" +
@@ -38,7 +38,7 @@ public class Nivel03 {
                 "5) Ele volta para o início do programa\n" +
                 "6) Nada acontece\n" +
                 "escreva: ";
-        String p4 = "4. [Capítulo 5, pág. 172]\n" +
+        String p4 = "\n4. [Capítulo 5, pág. 172]\n" +
                 "Qual destas opções mostra a forma correta de escrever um switch básico?\n" +
                 "1) switch x { \ncase 1: \nbreak; }\n" +
                 "2) switch(x) { \ncase 1: \nSystem.out.println(\"Um\"); \nbreak; }\n" +
@@ -47,24 +47,24 @@ public class Nivel03 {
                 "5) switch(x) case 1: System.out.println(\"Um\")\n" +
                 "6) switched(x) { case 1: break; }\n" +
                 "escreva: ";
-        String p5 = "5. [Capítulo 5, pág. 174]\n" +
+        String p5 = "\n5. [Capítulo 5, pág. 174]\n" +
                 "O que será impresso na tela?\nint dia = 2;\nswitch (dia) {\n    case 1: System.out.println(\"Domingo\"); break;\n    case 2: System.out.println(\"Segunda\"); break;\n}\n" +
                 "1) Domingo\n2) Segunda\n3) Nada\n4) Erro de compilação\n5) Terça\n6) Segunda e Terça\n" +
                 "escreva: ";
-        String p6 = "6. [Capítulo 5, pág. 174]\n" +
+        String p6 = "\n6. [Capítulo 5, pág. 174]\n" +
                 "O que acontece com este código?\nint x = 3;\nswitch(x) {\n case 1: System.out.println(\"Um\");\n case 2: System.out.println(\"Dois\");\n case 3: System.out.println(\"Três\");\n}\n" +
                 "1) Imprime “Três”\n2) Não imprime nada\n3) Imprime “Três” apenas\n4) Imprime “Três” e dá erro\n5) Imprime “Três”, “Dois” e “Um”\n6) Imprime “Três” e continua com os outros case\n" +
                 "escreva: ";
-        String p7 = "7. [Capítulo 5, pág. 172]\n" +
+        String p7 = "\n7. [Capítulo 5, pág. 172]\n" +
                 "Qual tipo de variável é mais usada no switch?\n" +
                 "1) boolean\n2) double\n3) float\n4) int\n5) String apenas\n6) long apenas\n" +
                 "escreva: ";
-        String p8 = "8. [Capítulo 5, pág. 174]\n" +
+        String p8 = "\n8. [Capítulo 5, pág. 174]\n" +
                 "Complete a frase: o switch é melhor usado quando...\n" +
                 "1) Temos poucas opções de escolha\n2) Queremos repetir várias vezes\n3) Precisamos verificar muitos valores de uma variável\n" +
                 "4) Queremos comparar dois valores apenas\n5) Queremos que o código seja mais difícil de ler\n6) Queremos usar apenas if e else\n" +
                 "escreva: ";
-        String p9 = "9. [Capítulo 5, pág. 175]\n" +
+        String p9 = "\n9. [Capítulo 5, pág. 175]\n" +
                 "Qual dessas situações é uma boa ideia para usar switch em vez de if?\n" +
                 "1) Quando queremos somar dois números\n2) Quando temos várias opções fixas, como dias da semana\n" +
                 "3) Quando temos que verificar se um número é par\n4) Quando lemos um número aleatório\n" +

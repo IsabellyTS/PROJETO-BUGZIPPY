@@ -1,7 +1,7 @@
 public class MainTeste {
     public static void main(String[] args) {
-        Nivel02 nivel02 = new Nivel02();
+        Nivel03 nivel03 = new Nivel03();
 
-        nivel02.ChamaNivel2();
+        nivel03.ChamaNivel3();
     }
 }
