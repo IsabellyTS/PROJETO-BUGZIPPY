@@ -7,17 +7,7 @@ public class Nivel02 {
         Scanner scanner = new Scanner(System.in);
         //Array
         ArrayList<String> perguntasN2 = new ArrayList<>();
-        perguntasN2.add("Programação é quando a gente dá instruções bem certinhas para o computador fazer alguma coisa, como mostrar mensagens," +
-                " somar números ou até criar jogos! \nEssas instruções são feitas por pessoas chamadas programadores. \n" +
-                "(Capitulo 1. Pagina 25)\n" +
-                "-----Pergunta:\n" +
-                "O que é programação e como ela funciona?\n" +
-                "\n" +
-                "Alternativas:\n" +
-                "\n" +
-                "1) Programação é um conjunto de passos escritos por pessoas (os programadores) para ensinar o computador a fazer tarefas. \n" +
-                "2) Programação é quando você digita qualquer coisa no teclado e o computador cria um jogo sozinho.\n" +
-                "3) Programar é conversar tanto com o computador que ele começa a ter sentimentos por você.\n");
+        perguntasN2.add("1");
         perguntasN2.add("2");
         perguntasN2.add("3");
         perguntasN2.add("4");
