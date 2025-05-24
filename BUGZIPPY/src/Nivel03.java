@@ -5,7 +5,7 @@ public class Nivel03 {
 
     }
 
-    public void ChamaNivel3(String nome, int acertos) {
+    public void ChamaNivel3(String nome) {
         int res = 0, nota = 0;
         Scanner sc = new Scanner(System.in);
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
@@ -27,7 +27,6 @@ public class Nivel03 {
             if (res == 2) {
                 System.out.println("✅ ACERTOU! Ele compara uma variável com vários valores possíveis.");
                 nota++;
-                acertos++;
             } else {
                 System.out.println("❌ ERROU!");
             }
@@ -44,7 +43,6 @@ public class Nivel03 {
             res = sc.nextInt();
             if (res == 3) {
                 nota++;
-                acertos++;
                 System.out.println("✅ ACERTOU! O break faz o switch parar na opção correta.");
             } else {
                 System.out.println("❌ ERROU!");
@@ -62,7 +60,6 @@ public class Nivel03 {
             res = sc.nextInt();
             if (res == 3) {
                 nota++;
-                acertos++;
                 System.out.println("✅ ACERTOU! O código continua executando os próximos cases.");
             } else {
                 System.out.println("❌ ERROU!");
@@ -80,7 +77,6 @@ public class Nivel03 {
             res = sc.nextInt();
             if (res == 2) {
                 nota++;
-                acertos++;
                 System.out.println("✅ ACERTOU! Esta é a sintaxe correta.");
             } else {
                 System.out.println("❌ ERROU!" + "\nescreva: ");
@@ -93,7 +89,6 @@ public class Nivel03 {
             res = sc.nextInt();
             if (res == 2) {
                 nota++;
-                acertos++;
                 System.out.println("✅ ACERTOU! O case 2 será executado.");
             } else {
                 System.out.println("❌ ERROU!");
@@ -111,7 +106,6 @@ public class Nivel03 {
             res = sc.nextInt();
             if (res == 1) {
                 nota++;
-                acertos++;
                 System.out.println("✅ ACERTOU! Essa é uma boa prática com switch.");
             } else {
                 System.out.println("❌ ERROU!");
@@ -124,7 +118,6 @@ public class Nivel03 {
             res = sc.nextInt();
             if (res == 6) {
                 nota++;
-                acertos++;
                 System.out.println("✅ ACERTOU! O switch continua executando os próximos cases.");
             } else {
                 System.out.println("❌ ERROU!");
@@ -137,7 +130,6 @@ public class Nivel03 {
             res = sc.nextInt();
             if (res == 4) {
                 nota++;
-                acertos++;
                 System.out.println("✅ ACERTOU! Os tipos mais comuns são int.");
             } else {
                 System.out.println("❌ ERROU!");
@@ -151,7 +143,6 @@ public class Nivel03 {
             res = sc.nextInt();
             if (res == 3) {
                 nota++;
-                acertos++;
                 System.out.println("✅ ACERTOU! Ideal para muitos valores de uma mesma variável.");
             } else {
                 System.out.println("❌ ERROU!");
@@ -166,7 +157,6 @@ public class Nivel03 {
             res = sc.nextInt();
             if (res == 2) {
                 nota++;
-                acertos++;
                 System.out.println("✅ ACERTOU! Dias da semana são ideais para switch.");
             } else {
                 System.out.println("❌ ERROU!");
@@ -178,7 +168,7 @@ public class Nivel03 {
         if (nota >= 7) {
             System.out.println("PARABENS!!!! PASSOU PARA O PROXIMO NIVEL");
             Nivel04 nvl4 = new Nivel04();
-            nvl4.ChamaNivel4(nome, acertos);
+            nvl4.ChamaNivel4(nome);
         }else{
             System.out.println("tente dnv amigunho");
         }

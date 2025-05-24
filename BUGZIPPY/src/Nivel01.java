@@ -9,12 +9,10 @@ public class Nivel01 {
 
 
             Scanner scanner = new Scanner(System.in);
-
             System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
             System.out.println("                                                                      NÍVEL 01 \uD80C\uDDA4 ");
             System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
             System.out.println("Resolva as questões utilizando apenas as teclas [1], [2], [3]!");
-
             int res = 0, c = 1, cc = 80;
             System.out.println("Passos para chegar ao meu destino: " + cc--);
 

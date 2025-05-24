@@ -32,7 +32,7 @@ public class Main {
                 case 1:
                     System.out.println("\nVamos nessa, Bugmigo(a)! " + nome + "! " +
                             "Juntos, enfrentaremos desafios de programação e encontraremos o caminho certo. Eu te dou uma mão, e você me guia pelo labirinto. \n Vamos lá!");
-                   nvl3.ChamaNivel3(nome, acertos); //chamar o nivel 1 ao inves o 3
+                   nvl3.ChamaNivel3(nome); //chamar o nivel 1 ao inves o 3
                     break;
                 case 2:
                     System.out.println("Que pena Bugmigo, " + nome + ", irei continuar perdido aqui...");

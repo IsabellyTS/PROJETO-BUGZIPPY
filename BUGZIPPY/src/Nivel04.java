@@ -4,7 +4,7 @@ public class Nivel04 {
 public Nivel04(){
 
 }
-public void ChamaNivel4(String nome, int acertos) {
+public void ChamaNivel4(String nome) {
     int res, cont = 0;
     Scanner sc = new Scanner(System.in);
     do {
@@ -24,7 +24,6 @@ public void ChamaNivel4(String nome, int acertos) {
             res = sc.nextInt();
             if (res == 2) {
                 cont++;
-                acertos++;
                 System.out.println("✅ Acertou!");
             } else {
                 System.out.println("❌ Errou!");
@@ -41,7 +40,6 @@ public void ChamaNivel4(String nome, int acertos) {
             res = sc.nextInt();
             if (res == 1) {
                 cont++;
-                acertos++;
                 System.out.println("✅ Acertou!");
             } else {
                 System.out.println("❌ Errou!");
@@ -58,7 +56,6 @@ public void ChamaNivel4(String nome, int acertos) {
             res = sc.nextInt();
             if (res == 2) {
                 cont++;
-                acertos++;
                 System.out.println("✅ Acertou!");
             } else {
                 System.out.println("❌ Errou!");
@@ -75,7 +72,6 @@ public void ChamaNivel4(String nome, int acertos) {
             res = sc.nextInt();
             if (res == 3) {
                 cont++;
-                acertos++;
                 System.out.println("✅ Acertou!");
             } else {
                 System.out.println("❌ Errou!");
@@ -92,7 +88,6 @@ public void ChamaNivel4(String nome, int acertos) {
             res = sc.nextInt();
             if (res == 2) {
                 cont++;
-                acertos++;
                 System.out.println("✅ Acertou!");
             } else {
                 System.out.println("❌ Errou!");
@@ -109,7 +104,6 @@ public void ChamaNivel4(String nome, int acertos) {
             res = sc.nextInt();
             if (res == 2) {
                 cont++;
-                acertos++;
                 System.out.println("✅ Acertou!");
             } else {
                 System.out.println("❌ Errou!");
@@ -126,7 +120,6 @@ public void ChamaNivel4(String nome, int acertos) {
             res = sc.nextInt();
             if (res == 4) {
                 cont++;
-                acertos++;
                 System.out.println("✅ Acertou!");
             } else {
                 System.out.println("❌ Errou!");
@@ -143,7 +136,6 @@ public void ChamaNivel4(String nome, int acertos) {
             res = sc.nextInt();
             if (res == 2) {
                 cont++;
-                acertos++;
                 System.out.println("✅ Acertou!");
             } else {
                 System.out.println("❌ Errou!");
@@ -160,7 +152,6 @@ public void ChamaNivel4(String nome, int acertos) {
             res = sc.nextInt();
             if (res == 3) {
                 cont++;
-                acertos++;
                 System.out.println("✅ Acertou!");
             } else {
                 System.out.println("❌ Errou!");
@@ -177,7 +168,6 @@ public void ChamaNivel4(String nome, int acertos) {
             res = sc.nextInt();
             if (res == 3) {
                 cont++;
-                acertos++;
                 System.out.println("✅ Acertou!");
             } else {
                 System.out.println("❌ Errou!");
