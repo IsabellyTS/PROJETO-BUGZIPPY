@@ -8,7 +8,9 @@ public Nivel08(){
 }
 public void ChamaNivel8(String nome) {
     Scanner sc = new Scanner(System.in);
-    int res = 0;
+    
+    int res = 0, cc = 3;
+    
     String p1 = "\n1. [Capítulo 7, pág. 262]\nPara que serve a classe ArrayList em Java?\n"
             + "1) Criar gráficos\n2) Armazenar muitos elementos que podem crescer automaticamente\n"
             + "3) Criar botões na tela\n4) Repetir ações com for\n5) Fazer contas matemáticas\n"
@@ -60,9 +62,17 @@ public void ChamaNivel8(String nome) {
     System.out.println("Você pode dizer: 'coloque isso na caixa!', ou 'me mostra o brinquedo número 3!'");
     System.out.println("Tudo isso é feito com comandos especiais como add(), get(), remove() e size().");
     System.out.println("O ArrayList é como um super baú que ajuda os programadores a guardar coisas direitinho!");
-    System.out.print("\nclique ENTER se voce entendeu\n");
-    sc.nextLine();
-        for (int i = 0; i < perguntasN8.size(); i++) {
+   
+    System.out.print("clique ENTER se voce entendeu");
+        sc.nextLine();
+
+        System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +
+                "*Ao você acertar, a Bugzippy dará um passo ao seu formigueiro.");
+
+        
+        System.out.println("Passos para chegar ao meu destino: " + cc--);
+        
+    for (int i = 0; i < perguntasN8.size(); i++) {
             if (i < 3) {
                 if (perguntasN8.get(i).equals(p1)) {
                     System.out.print(p1);
@@ -70,7 +80,7 @@ public void ChamaNivel8(String nome) {
                     res = sc.nextInt();
                     sc.nextLine();
                     if (res == 2) {
-                        System.out.print("✅ ACERTOU!");
+                        System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                     } else {
                         System.out.println("ERROU!☹");
                     }
@@ -80,7 +90,7 @@ public void ChamaNivel8(String nome) {
                     res = sc.nextInt();
                     sc.nextLine();
                     if (res == 1) {
-                        System.out.print("✅ ACERTOU!");
+                        System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                         ;
                     } else {
                         System.out.println("ERROU!☹");
@@ -91,7 +101,7 @@ public void ChamaNivel8(String nome) {
                     res = sc.nextInt();
                     sc.nextLine();
                     if (res == 4) {
-                        System.out.print("✅ ACERTOU!");
+                        System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                         ;
                     } else {
                         System.out.println("ERROU!☹");
@@ -102,7 +112,7 @@ public void ChamaNivel8(String nome) {
                     res = sc.nextInt();
                     sc.nextLine();
                     if (res == 1) {
-                        System.out.print("✅ ACERTOU!");
+                        System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                         ;
                     } else {
                         System.out.println("ERROU!☹");
@@ -113,7 +123,7 @@ public void ChamaNivel8(String nome) {
                     res = sc.nextInt();
                     sc.nextLine();
                     if (res == 2) {
-                        System.out.print("✅ ACERTOU!");
+                        System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                         ;
                     } else {
                         System.out.println("ERROU!☹");
@@ -124,7 +134,7 @@ public void ChamaNivel8(String nome) {
                     res = sc.nextInt();
                     sc.nextLine();
                     if (res == 4) {
-                        System.out.print("✅ ACERTOU!");
+                        System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                         ;
                     } else {
                         System.out.println("ERROU!☹");
@@ -135,7 +145,7 @@ public void ChamaNivel8(String nome) {
                     res = sc.nextInt();
                     sc.nextLine();
                     if (res == 4) {
-                        System.out.print("✅ ACERTOU!");
+                        System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                         ;
                     } else {
                         System.out.println("ERROU!☹");
@@ -146,7 +156,7 @@ public void ChamaNivel8(String nome) {
                     res = sc.nextInt();
                     sc.nextLine();
                     if (res == 3) {
-                        System.out.print("✅ ACERTOU!");
+                        System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                         ;
                     } else {
                         System.out.println("ERROU!☹");
@@ -157,7 +167,7 @@ public void ChamaNivel8(String nome) {
                     res = sc.nextInt();
                     sc.nextLine();
                     if (res == 4) {
-                        System.out.print("✅ ACERTOU!");
+                        System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                     } else {
                         System.out.println("ERROU!☹");
                     }
@@ -167,7 +177,7 @@ public void ChamaNivel8(String nome) {
                     res = sc.nextInt();
                     sc.nextLine();
                     if (res == 3) {
-                        System.out.print("✅ ACERTOU!");
+                        System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                     } else {
                         System.out.println("ERROU!☹");
                     }
