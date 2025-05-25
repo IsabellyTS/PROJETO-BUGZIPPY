@@ -201,6 +201,7 @@ public class Nivel03 {
                     }
                 }
             }
+            System.out.print("\n");
             Nivel04 nvl04 = new Nivel04();
              nvl04.ChamaNivel4(nome);
             } catch (Exception e) {

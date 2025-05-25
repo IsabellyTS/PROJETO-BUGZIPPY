@@ -4,6 +4,6 @@ public class MainTeste {
         Nivel04 nivel04 = new Nivel04();
         Nivel08 nivel08 = new Nivel08();
         String nome = "teste";
-        nivel08.ChamaNivel8(nome);
+        nivel03.ChamaNivel3(nome);
     }
 }
