@@ -229,9 +229,9 @@ public class Nivel02 {
                         System.out.println("ERROU!☹");
                     }
                 }
-                System.out.print("\n\n");
-                Nivel02 nvl02 = new Nivel02();
-                nvl02.ChamaNivel2(nome);
+              System.out.print("\n\n");
+                Nivel03 nvl03 = new Nivel03();
+                nvl03.ChamaNivel3(nome);
             }
         }
     }
