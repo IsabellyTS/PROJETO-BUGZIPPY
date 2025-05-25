@@ -53,10 +53,10 @@ public void ChamaNivel8(String nome) {
     System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
     System.out.println("                                                                      NÍVEL 08 \uD80C\uDDA4 ");
     System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
-    System.out.println("Imagine uma caixa mágica chamada ArrayList! 🧙‍♂️📦");
+    System.out.println("Imagine uma caixa mágica chamada ArrayList! ");
     System.out.println("Essa caixa pode guardar vários brinquedos, livros, ou o que você quiser!");
     System.out.println("O mais legal é que ela cresce sozinha quando você coloca mais coisas nela!");
-    System.out.println("E se você quiser tirar algo, ela encolhe também! 😄");
+    System.out.println("E se você quiser tirar algo, ela encolhe também! ");
     System.out.println("Você pode dizer: 'coloque isso na caixa!', ou 'me mostra o brinquedo número 3!'");
     System.out.println("Tudo isso é feito com comandos especiais como add(), get(), remove() e size().");
     System.out.println("O ArrayList é como um super baú que ajuda os programadores a guardar coisas direitinho!");
@@ -72,7 +72,7 @@ public void ChamaNivel8(String nome) {
                     if (res == 2) {
                         System.out.print("✅ ACERTOU!");
                     } else {
-                        System.out.println("❌ ERROU!");
+                        System.out.println("ERROU!☹");
                     }
                 } else if (perguntasN8.get(i).equals(p2)) {
                     System.out.print(p2);
@@ -83,7 +83,7 @@ public void ChamaNivel8(String nome) {
                         System.out.print("✅ ACERTOU!");
                         ;
                     } else {
-                        System.out.println("❌ ERROU!");
+                        System.out.println("ERROU!☹");
                     }
                 } else if (perguntasN8.get(i).equals(p3)) {
                     System.out.print(p3);
@@ -94,7 +94,7 @@ public void ChamaNivel8(String nome) {
                         System.out.print("✅ ACERTOU!");
                         ;
                     } else {
-                        System.out.println("❌ ERROU!");
+                        System.out.println("ERROU!☹");
                     }
                 } else if (perguntasN8.get(i).equals(p4)) {
                     System.out.print(p4);
@@ -105,7 +105,7 @@ public void ChamaNivel8(String nome) {
                         System.out.print("✅ ACERTOU!");
                         ;
                     } else {
-                        System.out.println("❌ ERROU!");
+                        System.out.println("ERROU!☹");
                     }
                 } else if (perguntasN8.get(i).equals(p5)) {
                     System.out.print(p5);
@@ -116,7 +116,7 @@ public void ChamaNivel8(String nome) {
                         System.out.print("✅ ACERTOU!");
                         ;
                     } else {
-                        System.out.println("❌ ERROU!");
+                        System.out.println("ERROU!☹");
                     }
                 } else if (perguntasN8.get(i).equals(p6)) {
                     System.out.print(p6);
@@ -127,7 +127,7 @@ public void ChamaNivel8(String nome) {
                         System.out.print("✅ ACERTOU!");
                         ;
                     } else {
-                        System.out.println("❌ ERROU!");
+                        System.out.println("ERROU!☹");
                     }
                 } else if (perguntasN8.get(i).equals(p7)) {
                     System.out.print(p7);
@@ -138,7 +138,7 @@ public void ChamaNivel8(String nome) {
                         System.out.print("✅ ACERTOU!");
                         ;
                     } else {
-                        System.out.println("❌ ERROU!");
+                        System.out.println("ERROU!☹");
                     }
                 } else if (perguntasN8.get(i).equals(p8)) {
                     System.out.print(p8);
@@ -149,7 +149,7 @@ public void ChamaNivel8(String nome) {
                         System.out.print("✅ ACERTOU!");
                         ;
                     } else {
-                        System.out.println("❌ ERROU!");
+                        System.out.println("ERROU!☹");
                     }
                 } else if (perguntasN8.get(i).equals(p9)) {
                     System.out.print(p9);
@@ -159,7 +159,7 @@ public void ChamaNivel8(String nome) {
                     if (res == 4) {
                         System.out.print("✅ ACERTOU!");
                     } else {
-                        System.out.println("❌ ERROU!");
+                        System.out.println("ERROU!☹");
                     }
                 }else if (perguntasN8.get(i).equals(p10)) {
                     System.out.print(p10);
@@ -169,7 +169,7 @@ public void ChamaNivel8(String nome) {
                     if (res == 3) {
                         System.out.print("✅ ACERTOU!");
                     } else {
-                        System.out.println("❌ ERROU!");
+                        System.out.println("ERROU!☹");
                     }
                 }
             }
