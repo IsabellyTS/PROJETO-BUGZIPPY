@@ -82,6 +82,7 @@ public class Nivel02 {
 
         int cc = 21;
         Scanner sc = new Scanner(System.in);
+        
         //Inicío jogo
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
         System.out.println("                                                                      NÍVEL 02 \uD80C\uDDA4 ");
