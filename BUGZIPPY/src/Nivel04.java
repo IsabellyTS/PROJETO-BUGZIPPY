@@ -7,7 +7,7 @@ public class Nivel04 {
 
     }
 
-    public void ChamaNivel4() {
+    public void ChamaNivel4(String nome) {
         int res, cont = 0;
         Scanner sc = new Scanner(System.in);
         ArrayList<String> perguntasN4 = new ArrayList<>();

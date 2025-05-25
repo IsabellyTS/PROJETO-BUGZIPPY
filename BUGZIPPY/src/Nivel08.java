@@ -6,7 +6,7 @@ public class Nivel08 {
 public Nivel08(){
 
 }
-public void ChamaNivel8() {
+public void ChamaNivel8(String nome) {
     Scanner sc = new Scanner(System.in);
     int res = 0;
     String p1 = "\n1. [Capítulo 7, pág. 262]\nPara que serve a classe ArrayList em Java?\n"
@@ -175,6 +175,7 @@ public void ChamaNivel8() {
             }
         }
     Fim fim = new Fim();
-    fim.Parabenizar();
+        nome = "be";
+    fim.Parabenizar(nome);
     }
 }

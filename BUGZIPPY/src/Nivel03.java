@@ -7,7 +7,7 @@ public class Nivel03 {
 
     }
 
-    public void ChamaNivel3() {
+    public void ChamaNivel3(String nome) {
         int res = 0;
         ArrayList<String> perguntasN3 = new ArrayList<>();
         String p1 = "\n1. [Capítulo 5, pág. 172]\n" +
@@ -171,6 +171,8 @@ public class Nivel03 {
                     }
                 }
             }
+            Nivel04 nvl04 = new Nivel04();
+             nvl04.ChamaNivel4(nome);
             } catch (Exception e) {
                 System.out.println("❌ Ocorreu um erro. Por favor, digite apenas números válidos.");
             }

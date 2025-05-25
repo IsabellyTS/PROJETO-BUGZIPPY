@@ -23,7 +23,7 @@ public class Main {
         user.setEmail(email);
         System.out.println("Seja bem vindo, " + nome + "!! \nEu sou a \uD835\uDC01\uD835\uDC2E\uD835\uDC20\uD835\uDC33\uD835\uDC22\uD835\uDC29\uD835\uDC29\uD835\uDC32 \uD80C\uDDA4 \nSou uma formiga voadora e preciso da sua ajuda! \n" +
                 "Estou perdido neste labirinto e só conseguirei voltar ao meu formigueiro se superar desafios de programação em Java. Você pode me guiar nessa jornada? \n 1- [SIM]   2-[NÃO]");
-        int ssnn=0;
+       int ssnn=0;
         try {
             ssnn = scanner.nextInt();
             switch (ssnn) {
@@ -31,7 +31,7 @@ public class Main {
                     System.out.println("\nVamos nessa, Bugmigo(a)! " + nome + "! " +
                             "Juntos, enfrentaremos desafios de programação e encontraremos o caminho certo. Eu te dou uma mão, e você me guia pelo labirinto. \n Vamos lá!");
                 Nivel01 nvl01 = new Nivel01();
-                nvl01.Nivel01();
+                nvl01.ChamaNivel1(nome);
                     break;
                 case 2:
                     System.out.println("Que pena Bugmigo, " + nome + ", irei continuar perdido aqui...");
