@@ -8,11 +8,9 @@ public class Nivel04 {
     }
 
     public void ChamaNivel4(String nome) {
-        
-        int res, cc = 15;
-        
+        int res, cont = 0;
+        int cc = 15;
         Scanner sc = new Scanner(System.in);
-        
         ArrayList<String> perguntasN4 = new ArrayList<>();
         String p1 = "\n1. [Capítulo 5, pág. 172] Para que serve o laço for em Java?\n" +
                 "1) Criar uma nova janela\n" +
@@ -129,16 +127,8 @@ public class Nivel04 {
                         + "E a cada vez, o computador faz o que você mandar.\n\n"
 
                         + "O 'for' é uma forma do computador repetir alguma coisa várias vezes!");
-                
-                System.out.print("clique ENTER se voce entendeu");
-        sc.nextLine();
-
-        System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +
-                "*Ao você acertar, a Bugzippy dará um passo ao seu formigueiro.");
-
-
-        System.out.println("Passos para chegar ao meu destino: " + cc--);
-                
+                System.out.print("\nclique ENTER se voce entendeu\n");
+                sc.nextLine();
                 for (int i = 0; i < perguntasN4.size(); i++) {
                     if (i < 3) {
                         if (perguntasN4.get(i).equals(p1)) {
