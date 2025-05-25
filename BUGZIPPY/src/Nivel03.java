@@ -84,7 +84,7 @@ public class Nivel03 {
         System.out.println("                                                                      NÍVEL 03 \uD80C\uDDA4 ");
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
             try {
-                System.out.println("Imagine que você tem um controle remoto com vários botões. 🎮");
+                System.out.println("Imagine que você tem um controle remoto com vários botões. ");
                 System.out.println("Cada botão faz uma coisa diferente: um liga a TV, outro muda o canal, outro aumenta o volume...");
                 System.out.println("O switch case no Java funciona como esse controle remoto!");
 
@@ -109,7 +109,7 @@ public class Nivel03 {
 
                 System.out.println("\nO 'case' é cada botão diferente que você pode apertar.");
                 System.out.println("O 'break' é como dizer: 'pronto, parei por aqui'. Ele evita que o código continue executando os próximos botões.");
-                System.out.println("E o 'default' é o que acontece se apertarmos um botão que não existe! 😲");
+                System.out.println("E o 'default' é o que acontece se apertarmos um botão que não existe! ");
 
                 System.out.println("\nCom o switch case, seu programa pode escolher o que fazer com base em um número, uma letra ou até uma palavra!");
                 System.out.print("\nclique ENTER se voce entendeu\n");
@@ -121,40 +121,40 @@ public class Nivel03 {
                             res = sc.nextInt();
                             sc.nextLine();
                             if (res == 2) {
-                                System.out.print("\n✅ ACERTOU!");
+                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                                 ;
                             } else {
-                                System.out.println("❌ ERROU!");
+                            System.out.println("ERROU!☹");
                             }
                         } else if (perguntasN3.get(i).equals(p2)) {
                             System.out.print(p2);
                             res = sc.nextInt();
                             sc.nextLine();
                             if (res == 3) {
-                                System.out.print("\n✅ ACERTOU!");
+                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                                 ;
                             } else {
-                                System.out.println("❌ ERROU!");
+                            System.out.println("ERROU!☹");
                             }
                         } else if (perguntasN3.get(i).equals(p3)) {
                             System.out.print(p3);
                             res = sc.nextInt();
                             sc.nextLine();
                             if (res == 3) {
-                                System.out.print("\n✅ ACERTOU!");
+                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                                 ;
                             } else {
-                                System.out.println("❌ ERROU!");
+                            System.out.println("ERROU!☹");
                             }
                         } else if (perguntasN3.get(i).equals(p4)) {
                             System.out.print(p4);
                             res = sc.nextInt();
                             sc.nextLine();
                             if (res == 2) {
-                                System.out.print("\n✅ ACERTOU!");
+                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                                 ;
                             } else {
-                                System.out.println("❌ ERROU!");
+                            System.out.println("ERROU!☹");
                             }
                         } else if (perguntasN3.get(i).equals(p5)) {
                             System.out.print(p5);
@@ -164,27 +164,27 @@ public class Nivel03 {
                                 System.out.print("\n✅ ACERTOU!");
                                 ;
                             } else {
-                                System.out.println("❌ ERROU!");
+                            System.out.println("ERROU!☹");
                             }
                         } else if (perguntasN3.get(i).equals(p6)) {
                             System.out.print(p6);
                             res = sc.nextInt();
                             sc.nextLine();
                             if (res == 6) {
-                                System.out.print("\n✅ ACERTOU!");
+                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                                 ;
                             } else {
-                                System.out.println("❌ ERROU!");
+                            System.out.println("ERROU!☹");
                             }
                         } else if (perguntasN3.get(i).equals(p7)) {
                             System.out.print(p7);
                             res = sc.nextInt();
                             sc.nextLine();
                             if (res == 4) {
-                                System.out.print("\n✅ ACERTOU!");
+                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                                 ;
                             } else {
-                                System.out.println("❌ ERROU!");
+                            System.out.println("ERROU!☹");
                             }
                         } else if (perguntasN3.get(i).equals(p8)) {
                             System.out.print(p8);
@@ -194,17 +194,17 @@ public class Nivel03 {
                                 System.out.print("\n✅ ACERTOU!");
                                 ;
                             } else {
-                                System.out.println("❌ ERROU!");
+                            System.out.println("ERROU!☹");
                             }
                         } else if (perguntasN3.get(i).equals(p9)) {
                             System.out.print(p9);
                             res = sc.nextInt();
                             sc.nextLine();
                             if (res == 2) {
-                                System.out.print("\n✅ ACERTOU!");
+                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                                 ;
                             } else {
-                                System.out.println("❌ ERROU!");
+                            System.out.println("ERROU!☹");
                             }
                         }
                     }
