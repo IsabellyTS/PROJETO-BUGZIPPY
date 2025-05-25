@@ -6,9 +6,8 @@ public class Nivel03 {
     public Nivel03() {
 
     }
-
     public void ChamaNivel3(String nome) {
-        int res = 0;
+        int res = 0, vef=0;
         ArrayList<String> perguntasN3 = new ArrayList<>();
         String p1 = "\n1. [Capítulo 5, pág. 172]\n" +
                 "O que o comando switch faz no Java? Escolha a melhor explicação:\n" +
@@ -84,128 +83,140 @@ public class Nivel03 {
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
         System.out.println("                                                                      NÍVEL 03 \uD80C\uDDA4 ");
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
-        try {
-            System.out.println("Imagine que você tem um controle remoto com vários botões. 🎮");
-            System.out.println("Cada botão faz uma coisa diferente: um liga a TV, outro muda o canal, outro aumenta o volume...");
-            System.out.println("O switch case no Java funciona como esse controle remoto!");
+        do {
+            try {
+                System.out.println("Imagine que você tem um controle remoto com vários botões. 🎮");
+                System.out.println("Cada botão faz uma coisa diferente: um liga a TV, outro muda o canal, outro aumenta o volume...");
+                System.out.println("O switch case no Java funciona como esse controle remoto!");
 
-            System.out.println("\nVocê diz: 'Se eu apertar o botão 1, faça isso. Se for o botão 2, faça aquilo.'");
-            System.out.println("É como dar comandos diferentes para cada número!");
+                System.out.println("\nVocê diz: 'Se eu apertar o botão 1, faça isso. Se for o botão 2, faça aquilo.'");
+                System.out.println("É como dar comandos diferentes para cada número!");
 
-            System.out.println("\nVeja um exemplo:");
-            System.out.println("int botão = 2;");
-            System.out.println("switch (botão) {");
-            System.out.println("    case 1:");
-            System.out.println("        System.out.println(\"Ligando a TV!\");");
-            System.out.println("        break;");
-            System.out.println("    case 2:");
-            System.out.println("        System.out.println(\"Mudando de canal!\");");
-            System.out.println("        break;");
-            System.out.println("    case 3:");
-            System.out.println("        System.out.println(\"Aumentando o volume!\");");
-            System.out.println("        break;");
-            System.out.println("    default:");
-            System.out.println("        System.out.println(\"Botão desconhecido!\");");
-            System.out.println("}");
+                System.out.println("\nVeja um exemplo:");
+                System.out.println("int botão = 2;");
+                System.out.println("switch (botão) {");
+                System.out.println("    case 1:");
+                System.out.println("        System.out.println(\"Ligando a TV!\");");
+                System.out.println("        break;");
+                System.out.println("    case 2:");
+                System.out.println("        System.out.println(\"Mudando de canal!\");");
+                System.out.println("        break;");
+                System.out.println("    case 3:");
+                System.out.println("        System.out.println(\"Aumentando o volume!\");");
+                System.out.println("        break;");
+                System.out.println("    default:");
+                System.out.println("        System.out.println(\"Botão desconhecido!\");");
+                System.out.println("}");
 
-            System.out.println("\nO 'case' é cada botão diferente que você pode apertar.");
-            System.out.println("O 'break' é como dizer: 'pronto, parei por aqui'. Ele evita que o código continue executando os próximos botões.");
-            System.out.println("E o 'default' é o que acontece se apertarmos um botão que não existe! 😲");
+                System.out.println("\nO 'case' é cada botão diferente que você pode apertar.");
+                System.out.println("O 'break' é como dizer: 'pronto, parei por aqui'. Ele evita que o código continue executando os próximos botões.");
+                System.out.println("E o 'default' é o que acontece se apertarmos um botão que não existe! 😲");
 
-            System.out.println("\nCom o switch case, seu programa pode escolher o que fazer com base em um número, uma letra ou até uma palavra!");
-            System.out.print("\nclique ENTER se voce entendeu\n");
-            sc.nextLine();
-            for (int i = 0; i < perguntasN3.size(); i++) {
-                            if (i < 3) {
-                                if (perguntasN3.get(i).equals(p1)) {
-                                    System.out.print(p1);
-                                    res = sc.nextInt();
-                                    sc.nextLine();
-                                    if (res == 2) {
-                                        System.out.print("\n✅ ACERTOU!");;
-                                    }else{
-                                        System.out.println("❌ ERROU!");
-                                    }
-                                } else if (perguntasN3.get(i).equals(p2)) {
-                                    System.out.print(p2);
-                                    res = sc.nextInt();
-                                    sc.nextLine();
-                                    if (res == 3) {
-                                        System.out.print("\n✅ ACERTOU!");;
-                                    }else{
-                                        System.out.println("❌ ERROU!");
-                                    }
-                                } else if (perguntasN3.get(i).equals(p3)) {
-                                    System.out.print(p3);
-                                    res = sc.nextInt();
-                                    sc.nextLine();
-                                    if (res == 3) {
-                                        System.out.print("\n✅ ACERTOU!");;
-                                    }else{
-                                        System.out.println("❌ ERROU!");
-                                    }
-                                } else if (perguntasN3.get(i).equals(p4)) {
-                                    System.out.print(p4);
-                                    res = sc.nextInt();
-                                    sc.nextLine();
-                                    if (res == 2) {
-                                        System.out.print("\n✅ ACERTOU!");;
-                                    }else{
-                                        System.out.println("❌ ERROU!");
-                                    }
-                                } else if (perguntasN3.get(i).equals(p5)) {
-                                    System.out.print(p5);
-                                    res = sc.nextInt();
-                                    sc.nextLine();
-                                    if (res == 2) {
-                                        System.out.print("\n✅ ACERTOU!");;
-                                    }else{
-                                        System.out.println("❌ ERROU!");
-                                    }
-                                } else if (perguntasN3.get(i).equals(p6)) {
-                                    System.out.print(p6);
-                                    res = sc.nextInt();
-                                    sc.nextLine();
-                                    if (res == 6) {
-                                        System.out.print("\n✅ ACERTOU!");;
-                                    }else{
-                                        System.out.println("❌ ERROU!");
-                                    }
-                                } else if (perguntasN3.get(i).equals(p7)) {
-                                    System.out.print(p7);
-                                    res = sc.nextInt();
-                                    sc.nextLine();
-                                    if (res == 4) {
-                                        System.out.print("\n✅ ACERTOU!");;
-                                    }else{
-                                        System.out.println("❌ ERROU!");
-                                    }
-                                } else if (perguntasN3.get(i).equals(p8)) {
-                                    System.out.print(p8);
-                                    res = sc.nextInt();
-                                    sc.nextLine();
-                                    if (res == 3) {
-                                        System.out.print("\n✅ ACERTOU!");;
-                                    }else{
-                                        System.out.println("❌ ERROU!");
-                                    }
-                                } else if (perguntasN3.get(i).equals(p9)) {
-                                    System.out.print(p9);
-                                    res = sc.nextInt();
-                                    sc.nextLine();
-                                    if (res == 2) {
-                                        System.out.print("\n✅ ACERTOU!");;
-                                    }else{
-                                        System.out.println("❌ ERROU!");
-                                    }
+                System.out.println("\nCom o switch case, seu programa pode escolher o que fazer com base em um número, uma letra ou até uma palavra!");
+                System.out.print("\nclique ENTER se voce entendeu\n");
+                sc.nextLine();
+                for (int i = 0; i < perguntasN3.size(); i++) {
+                    if (i < 3) {
+                        if (perguntasN3.get(i).equals(p1)) {
+                            System.out.print(p1);
+                            res = sc.nextInt();
+                            sc.nextLine();
+                            if (res == 2) {
+                                System.out.print("\n✅ ACERTOU!");
+                                ;
+                            } else {
+                                System.out.println("❌ ERROU!");
+                            }
+                        } else if (perguntasN3.get(i).equals(p2)) {
+                            System.out.print(p2);
+                            res = sc.nextInt();
+                            sc.nextLine();
+                            if (res == 3) {
+                                System.out.print("\n✅ ACERTOU!");
+                                ;
+                            } else {
+                                System.out.println("❌ ERROU!");
+                            }
+                        } else if (perguntasN3.get(i).equals(p3)) {
+                            System.out.print(p3);
+                            res = sc.nextInt();
+                            sc.nextLine();
+                            if (res == 3) {
+                                System.out.print("\n✅ ACERTOU!");
+                                ;
+                            } else {
+                                System.out.println("❌ ERROU!");
+                            }
+                        } else if (perguntasN3.get(i).equals(p4)) {
+                            System.out.print(p4);
+                            res = sc.nextInt();
+                            sc.nextLine();
+                            if (res == 2) {
+                                System.out.print("\n✅ ACERTOU!");
+                                ;
+                            } else {
+                                System.out.println("❌ ERROU!");
+                            }
+                        } else if (perguntasN3.get(i).equals(p5)) {
+                            System.out.print(p5);
+                            res = sc.nextInt();
+                            sc.nextLine();
+                            if (res == 2) {
+                                System.out.print("\n✅ ACERTOU!");
+                                ;
+                            } else {
+                                System.out.println("❌ ERROU!");
+                            }
+                        } else if (perguntasN3.get(i).equals(p6)) {
+                            System.out.print(p6);
+                            res = sc.nextInt();
+                            sc.nextLine();
+                            if (res == 6) {
+                                System.out.print("\n✅ ACERTOU!");
+                                ;
+                            } else {
+                                System.out.println("❌ ERROU!");
+                            }
+                        } else if (perguntasN3.get(i).equals(p7)) {
+                            System.out.print(p7);
+                            res = sc.nextInt();
+                            sc.nextLine();
+                            if (res == 4) {
+                                System.out.print("\n✅ ACERTOU!");
+                                ;
+                            } else {
+                                System.out.println("❌ ERROU!");
+                            }
+                        } else if (perguntasN3.get(i).equals(p8)) {
+                            System.out.print(p8);
+                            res = sc.nextInt();
+                            sc.nextLine();
+                            if (res == 3) {
+                                System.out.print("\n✅ ACERTOU!");
+                                ;
+                            } else {
+                                System.out.println("❌ ERROU!");
+                            }
+                        } else if (perguntasN3.get(i).equals(p9)) {
+                            System.out.print(p9);
+                            res = sc.nextInt();
+                            sc.nextLine();
+                            if (res == 2) {
+                                System.out.print("\n✅ ACERTOU!");
+                                ;
+                            } else {
+                                System.out.println("❌ ERROU!");
+                            }
+                        }
                     }
                 }
-            }
-            System.out.print("\n");
-            Nivel04 nvl04 = new Nivel04();
-             nvl04.ChamaNivel4(nome);
             } catch (Exception e) {
                 System.out.println("❌ Ocorreu um erro. Por favor, digite apenas números válidos.");
+                vef=1;
             }
+        }while(vef != 0);
+        System.out.print("\n");
+        Nivel04 nvl04 = new Nivel04();
+        nvl04.ChamaNivel4(nome);
     }
 }
