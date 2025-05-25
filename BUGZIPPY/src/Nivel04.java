@@ -105,7 +105,6 @@ public class Nivel04 {
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
         System.out.println("                                                                      NÍVEL 04 \uD80C\uDDA4 ");
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
-        do {
             try {
                 System.out.print("Imagina que você vai contar de 1 até 5.\n"
                         + "Em vez de dizer 1, 2, 3, 4, 5 sozinho,\n"
@@ -234,9 +233,7 @@ public class Nivel04 {
                 }
             } catch (Exception e) {
                 System.out.println("❌ Entrada inválida! Por favor, digite apenas números.");
-                cont =1;
             }
-        }while(cont != 0);
         //tem q fazer o metodo de chamar o nivel 5 aqui
     }
 }
