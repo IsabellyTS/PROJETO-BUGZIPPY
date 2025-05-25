@@ -9,119 +9,82 @@ public class Nivel01 {
 
     public void ChamaNivel1(String nome) {
         int res = 0;
+
+
         ArrayList<String> perguntasN3 = new ArrayList<>();
-        String p1 = "[Capitulo 1. Pagina 25]\n" +
-                "Programação é quando a gente dá instruções bem certinhas para o computador fazer alguma coisa, como mostrar mensagens," +
-                " somar números ou até criar jogos! \n Essas instruções são feitas por pessoas chamadas programadores.\n" +
-                "----O que é programação e como ela funciona?\n" +
-                " 1) Programação é um conjunto de passos escritos por pessoas (os programadores) para ensinar o computador a fazer tarefas. \n" +
-                " 2) Programação é quando você digita qualquer coisa no teclado e o computador cria um jogo sozinho.\n" +
-                " 3) Programar é conversar tanto com o computador que ele começa a ter sentimentos por você.\n";
+        String p1 = "O que é uma variável?\n" +
+                "1) Um botão secreto no teclado\n" +
+                "2) Um lugar para guardar valores, como números e textos ✅\n" +
+                "3) Um tipo de erro\n" +
+                "4) Uma função mágica\n" +
+                "5) Um comando que fecha o programa\n" +
+                "6) Um vírus de computador\n";
 
-        String p2 = "[Capítulo 2 - Página 39]\n" +
-                "Quando usamos o teclado, o mouse ou falamos com o computador, estamos enviando informações — isso é chamado de entrada.\n" +
-                "Quando o computador mostra algo na tela ou imprime, ele está nos dando a resposta — isso é chamado de saída.\n" +
-                "----O que são Entrada e Saída em um computador?\n" +
-                " 1) Entrada e saída são lugares onde o computador guarda jogos secretos." +
-                " 2) Entrada é quando mandamos informações pro computador (como clicar ou digitar), e saída é quando ele mostra o que fez (na tela ou impressora).\n" +
-                " 3) Entrada é onde o computador liga o ventilador, e saída é onde ele solta fumaça. \n";
+        String p2 = "Qual linha cria uma variável inteira com valor 12?\n" +
+                "1) int idade = 12; ✅\n" +
+                "2) idade = int 12;\n" +
+                "3) idade := 12;\n" +
+                "4) String idade = 12;\n" +
+                "5) double idade = idade;\n" +
+                "6) idade int = '12';\n";
 
-        String p3 = "[Capítulo 1. Página 27]\n" +
-                "Java é uma linguagem de programação usada por pessoas do mundo todo para criar programas.\n" +
-                "Ela é conhecida pela frase: \"Escreva uma vez e execute em qualquer lugar\", porque os programas \n" +
-                "feitos em Java podem funcionar em vários tipos de computadores sem precisar reescrever tudo!\n" +
-                "----O que é Java?\n" +
-                " 1)  É uma linguagem de programação que funciona em muitos computadores diferentes. \n" +
-                " 2) É um tipo de café mágico que faz o computador trabalhar mais rápido. \n" +
-                " 3) É uma ilha onde vivem programadores que só falam com códigos secretos. ";
+        String p3 =  "Como somar os valores das variáveis a e b e guardar o resultado?\n" +
+                "1) total = a mais b\n" +
+                "2) String total = a + b\n" +
+                "3) int total = a + b\n" +
+                "4) char total = a + b\n";
 
-        String p4 = "[Capítulo 2 - Página 37]\n" +
-                "Uma variável guarda um valor na memória do computador, como um nome, um número ou uma palavra.\n" +
-                "----O que é uma variável em Java?\n" +
-                " 1) O nome do computador. \n" +
-                " 2) Um botão secreto do computador.\n" +
-                " 3) Um tipo de lanche que o computador come. \n" +
-                " 4) Um lugar especial que guarda valores, como números ou textos. \n" +
-                " 5) Um espaço mágico onde aparecem vídeos. \n" +
-                " 6) Uma senha para abrir o sistema. \n";
+        String p4 = "O tipo boolean guarda que tipo de informação?\n" +
+                "1) Números inteiros\n" +
+                "2) Letras\n" +
+                "3) Palavras longas\n" +
+                "4) Verdadeiro ou falso ✅\n" +
+                "5) Fotos\n" +
+                "6) Vídeos\n";
 
-        String p5 = "[Capítulo 2 - Página 37]\n" +
-                "Em Java, existem vários tipos de variáveis, que servem para guardar diferentes tipos de informações:\n" +
-                "int → guarda números inteiros (sem vírgula)\n" +
-                "double → guarda números com vírgula (como 3.14)\n" +
-                "char → guarda um caractere (uma letra, como 'A')\n" +
-                "boolean → guarda verdadeiro ou falso (true ou false)\n" +
-                "String → guarda palavras ou frases (como \"Olá!\")\n" +
-                "float → parecido com double, mas menos preciso\n" +
-                "----Qual é o jeito certo de criar uma variável que guarda o número inteiro 10?\n" +
-                " 1) char idade = 10; \n" +
-                " 2) double idade = \"10\"; \n" +
-                " 3) String idade = 10; \n" +
-                " 4) float idade = dez; \n" +
-                " 5) int idade = 10; \n" +
-                " 6) boolean idade = 10; ";
+        String p5 = "Se eu tenho 10 balas e como 3, qual é a fórmula para saber quantas sobraram?\n" +
+                "1) int sobrou = 10 + 3\n" +
+                "2) int sobrou = 10 * 3\n" +
+                "3) int sobrou = 10 - 3\n" +
+                "4) int sobrou = 10 / 3\n";
 
-        String p6 = "[Capítulo. 2 - Página 45]\n" +
-                "O comando System.out.print mostra algo na tela sem pular linha depois.\n" +
-                "----O que acontece quando usamos o comando System.out.print(\"Olá\");?\n" +
-                "1) Transforma \"Olá\" em código secreto.. \n" +
-                "2) Mostra \"Olá\" e pula uma linha.\n" +
-                "3) Salva \"Olá\" numa variável do tipo char.\n" +
-                "4) Mostra \"Olá\" com uma música. \n" +
-                "5) Cria uma variável do tipo float.\n" +
-                "6)  Mostra \"Olá\" na tela, tudo na mesma linha.";
+        String p6 = "Qual dessas é uma forma correta de criar uma variável?\n" +
+                "1) 12 idade = int;\n" +
+                "2) idade: int = 12;\n" +
+                "3) var idade = 12;\n" +
+                "4) int idade = 12; ✅\n" +
+                "5) idade := 12;\n" +
+                "6) idade = '12';\n";
 
-        String p7 = "[Capítulo 2 – Página 45]\n" +
-                "O System.out.println mostra algo na tela e depois pula para a próxima linha." +
-                "----O que acontece se usamos System.out.println(\"Oi\");?\n" +
-                "1) Pinta a tela de verde. \n" +
-                "2) Mostra \"Oi\" sem pular linha." +
-                "3) Mostra \"Oi\" dentro de uma variável boolean.\n" +
-                "4) Mostra \"Oi\" e pula para a linha de baixo.\n" +
-                "5) Mostra o número 1.0 com double.\n" +
-                "6) Cria uma variável String chamada \"Oi\"";
+        String p7 = "Como juntar os valores 5 e 3 para fazer uma subtração?\n" +
+                "1) int resultado = 5 - 3\n" +
+                "2) int resultado = 5 + 3\n" +
+                "3) int resultado = 5 * 3\n" +
+                "4) int resultado = 5 / 3\n";
 
-        String p8 = "[Capítulo 2 – Página 50]\n" +
-                "O Scanner permite que o programa leia o que a pessoa digita no teclado, como números ou palavras." +
-                "----O que faz o comando Scanner entrada = new Scanner(System.in);?" +
-                "1) Permite que o programa leia números, palavras e letras que a pessoa digita.\n" +
-                "2) Cria um número do tipo double automaticamente.\n" +
-                "3) Transforma palavras em variáveis boolean.\n" +
-                "4) Abre um vídeo escondido no Java." +
-                "5) Cria uma variável char chamada \"Scanner\".\n" +
-                "6) É usado apenas para contar quantos cliques o mouse deu.";
+        String p8 =  "Para que serve uma variável além de guardar valores?\n" +
+                "1) Só para escrever o nome do jogador\n" +
+                "2) Para decorar o código\n" +
+                "3) Para guardar imagens\n" +
+                "4) Para usar em contas e decisões ✅\n" +
+                "5) Para imprimir na tela com println\n" +
+                "6) Para fazer desenhos\n";
 
-        String p9 = "[Capítulo 2 – Página 39]\n" +
-                "Operador\t     O que faz\t           Exemplo (a = 6, b = 3)\n" +
-                "   +\t           Soma\t                       a + b = 9\n" +
-                "-\t              Subtração\t                  a - b = 3\n" +
-                "*\t              Multiplicação\t              a * b = 18\n" +
-                "/\t              Divisão\t                    a / b = 2\n" +
-                "%\t              Resto da divisão\t           a % b = 0\n" +
-                "----Como somar os valores das variáveis a e b e guardar o resultado?" +
-                "1) int total = a - b; \n" +
-                "2) String total = a / b; \n" +
-                "3) total := a * b;\n" +
-                "4) total = a + b; \n" +
-                "5) float total = a ++ b; \n" +
-                "6) char total = a % b; ";
+        String p9 =  "O que significa a palavra int em Java?\n" +
+                "1) Iniciar um programa\n" +
+                "2) Mostrar uma mensagem\n" +
+                "3) Guardar um número inteiro ✅\n" +
+                "4) Criar uma nova janela\n" +
+                "5) Ligar a internet\n" +
+                "6) Apagar um valor\n";
 
-        String p10 = "[Capitulo 2 - Página 42]" +
-                "Os operadores lógicos são símbolos usados para fazer perguntas no código. Eles ajudam o computador a tomar decisões com respostas do tipo “sim” ou “não”\n" +
-                "&& (E): tudo precisa ser verdade.\n" +
-                "Exemplo: “Se eu tiver ingresso E for maior de 10 anos, eu entro.”\n" +
-                "|| (OU): só precisa que uma coisa seja verdade.\n" +
-                "Exemplo: “Se eu tiver bala ou chocolate, tá tudo bem!”\n" +
-                "! (NÃO): muda o que é verdade para falso e o que é falso para verdade.\n" +
-                "Exemplo: !temChave = \"não tem chave\"" +
-                "----Qual destas frases combina com: \nSe NÃO estiver chovendo, eu vou ao parque" +
-                "1) se || não chover \n" +
-                "2) se chovendo && não for forte\n" +
-                "3) se ! estiver chovendo, vou ao parque \n" +
-                "4) se não for parque, eu vou\n" +
-                "5) se estiver chovendo, ! parque\n" +
-                "6) se o parque quiser, eu ! vou\n" +
-                "\n";
+        String p10 =  "Qual nome é válido para uma variável?\n" +
+                "1) 1nome\n" +
+                "2) meu nome\n" +
+                "3) nome_do_usuario ✅\n" +
+                "4) nome-do-usuário\n" +
+                "5) nome@com\n" +
+                "6) class\n";
 
         perguntasN3.add(p1);
         perguntasN3.add(p2);
@@ -140,6 +103,74 @@ public class Nivel01 {
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
         System.out.println("                                                                      NÍVEL 01 \uD80C\uDDA4 ");
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
+
+        System.out.println(
+                ">> O que é Programação?\n" +
+                        "[Capítulo 1 – Página 25]\n\n" +
+                        "Programação é quando damos instruções bem certinhas para o computador seguir.\n" +
+                        "Essas instruções dizem exatamente o que ele deve fazer: mostrar uma mensagem,\n" +
+                        "somar números, tocar um som ou até criar um jogo!\n" +
+                        "Quem escreve essas instruções é chamado de programador.\n" +
+                        "Com a programação, ensinamos o computador a pensar do nosso jeito!\n\n" +
+
+                        "-------------------------------------------------------------\n\n" +
+
+                        ">> O que é Java?\n" +
+                        "[Capítulo 1 – Página 27]\n\n" +
+                        "Java é uma linguagem de programação, ou seja, uma forma de conversar com o computador.\n" +
+                        "Ela é usada no mundo todo porque funciona em vários tipos de computadores.\n" +
+                        "Frase famosa: \"Escreva uma vez e execute em qualquer lugar\".\n" +
+                        "Isso quer dizer que um programa em Java pode rodar em muitos lugares sem mudar nada.\n\n" +
+
+                        "-------------------------------------------------------------\n\n" +
+
+                        ">> O que são Variáveis?\n" +
+                        "[Capítulo 2 – Página 37]\n\n" +
+                        "Variáveis são como caixinhas que guardam informações.\n" +
+                        "Por exemplo, podemos ter uma variável chamada idade que guarda o número 12,\n" +
+                        "ou uma chamada nome que guarda o texto \"Maria\".\n\n" +
+
+                        "Exemplo:\n" +
+                        "int idade = 12;\n" +
+                        "String nome = \"Maria\";\n\n" +
+
+                        "-------------------------------------------------------------\n\n" +
+
+                        ">> Tipos de variáveis\n" +
+                        "[Capítulo 2 – Página 37-38]\n\n" +
+                        "int     - guarda números inteiros (ex: 5, 10, 99)\n" +
+                        "double  - guarda números com vírgula (ex: 3.14, 8.5)\n" +
+                        "char    - guarda um caractere, como 'A' ou '7'\n" +
+                        "boolean - guarda true ou false (verdadeiro ou falso)\n" +
+                        "String  - guarda palavras ou frases como \"Olá\"\n" +
+                        "float   - também guarda números com vírgula (menos preciso que double)\n\n" +
+
+                        "-------------------------------------------------------------\n\n" +
+
+                        ">> Regras de Nomes para Variáveis\n" +
+                        "[Capítulo 2 – Página 36]\n\n" +
+                        "1. Deve começar com letra (ex: idade, nomeAluno)\n" +
+                        "2. Pode usar números, mas não no começo (ex: nota1, não 1nota)\n" +
+                        "3. Pode usar _ (underline) ou $ (mas evite se puder)\n" +
+                        "4. Não pode ter espaços (ex: nome do aluno <-ERRADO, nomeDoAluno <-CERTO)\n" +
+                        "5. Não pode usar símbolos especiais como @, #, %, etc.\n" +
+                        "6. Não pode usar palavras reservadas do Java (como int, for, class, etc.)\n\n" +
+
+                        "-------------------------------------------------------------\n\n" +
+
+                        ">> O que são Fórmulas?\n" +
+                        "[Capítulo 2 – Página 41-42]\n\n" +
+                        "Fórmulas são operações que usamos para calcular algum valor usando variáveis.\n" +
+                        "É como fazer contas com números que estão guardados nas caixinhas (variáveis).\n\n" +
+                        "\"Operador\\t     O que faz\\t           Exemplo (a = 6, b = 3)\n"+
+                        "   +              Soma                       a + b = 9 +\n" +
+                        "   -              Subtração                  a - b = 3 +\n" +
+                        "   *              Multiplicação              a * b = 18+\n" +
+                        "   /              Divisão                    a / b = 2\n" +
+                        "   %              Resto da divisão           a % b = 0\n");
+        System.out.print("clique ENTER se voce entendeu");
+        sc.nextLine();
+
         System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +
                 "*Ao você acertar, a Bugzippy dará um passo ao seu formigueiro.");
 
@@ -150,31 +181,31 @@ public class Nivel01 {
                         System.out.print(p1);
                         res = sc.nextInt();
                         sc.nextLine();
-                        if (res == 1) {
+                        if (res == 2) {
                             System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                             ;
                         } else {
-                            System.out.println("❌ ERROU!");
+                            System.out.println("ERROU!☹");
                         }
                     } else if (perguntasN3.get(i).equals(p2)) {
                         System.out.print(p2);
                         res = sc.nextInt();
                         sc.nextLine();
-                        if (res == 2) {
+                        if (res == 1) {
                             System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                             ;
                         } else {
-                            System.out.println("❌ ERROU!");
+                            System.out.println("ERROU!☹");
                         }
                     } else if (perguntasN3.get(i).equals(p3)) {
                         System.out.print(p3);
                         res = sc.nextInt();
                         sc.nextLine();
-                        if (res == 1) {
+                        if (res == 3) {
                             System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                             ;
                         } else {
-                            System.out.println("❌ ERROU!");
+                            System.out.println("ERROU!☹");
                         }
                     } else if (perguntasN3.get(i).equals(p4)) {
                         System.out.print(p4);
@@ -184,70 +215,72 @@ public class Nivel01 {
                             System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                             ;
                         } else {
-                            System.out.println("❌ ERROU!");
+                            System.out.println("ERROU!☹");
                         }
                     } else if (perguntasN3.get(i).equals(p5)) {
                         System.out.print(p5);
                         res = sc.nextInt();
                         sc.nextLine();
-                        if (res == 5) {
+                        if (res == 3) {
                             System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                             ;
                         } else {
-                            System.out.println("❌ ERROU!");
+                            System.out.println("ERROU!☹");
                         }
                     } else if (perguntasN3.get(i).equals(p6)) {
                         System.out.print(p6);
-                        res = sc.nextInt();
-                        sc.nextLine();
-                        if (res == 6) {
-                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
-                            ;
-                        } else {
-                            System.out.println("❌ ERROU!");
-                        }
-                    } else if (perguntasN3.get(i).equals(p7)) {
-                        System.out.print(p7);
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 4) {
                             System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                             ;
                         } else {
-                            System.out.println("❌ ERROU!");
+                            System.out.println("ERROU!☹");
+                        }
+                    } else if (perguntasN3.get(i).equals(p7)) {
+                        System.out.print(p7);
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 1) {
+                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
+                            ;
+                        } else {
+                            System.out.println("ERROU!☹");
                         }
                     } else if (perguntasN3.get(i).equals(p8)) {
                         System.out.print(p8);
                         res = sc.nextInt();
                         sc.nextLine();
-                        if (res == 1) {
+                        if (res == 4) {
                             System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                             ;
                         } else {
-                            System.out.println("❌ ERROU!");
+                            System.out.println("ERROU!☹");
                         }
                     } else if (perguntasN3.get(i).equals(p9)) {
                         System.out.print(p9);
                         res = sc.nextInt();
                         sc.nextLine();
-                        if (res == 1) {
+                        if (res == 3) {
                             System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                             ;
                         } else {
-                            System.out.println("❌ ERROU!");
+                            System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN3.get(i).equals(p9)) {
-                        System.out.print(p9);
+                    } else if (perguntasN3.get(i).equals(p10)) {
+                        System.out.print(p10);
                         res = sc.nextInt();
                         sc.nextLine();
-                        if (res == 1) {
+                        if (res == 3) {
                             System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                             ;
                         } else {
-                            System.out.println("❌ ERROU!");
+                            System.out.println("ERROU!☹");
                         }
                     }
-
+                    System.out.print("\n\n");
+                    Nivel02 nvl02 = new Nivel02();
+                    nvl02.ChamaNivel2(nome);
                 }
             }
         }
