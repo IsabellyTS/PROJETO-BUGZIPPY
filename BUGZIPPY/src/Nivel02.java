@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class Nivel02 {
-    public void ChamaNivel2() {
+    public void ChamaNivel2(String nome) {
         int res = 0;
 
 
