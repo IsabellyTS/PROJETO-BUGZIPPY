@@ -87,7 +87,7 @@ public class Nivel02 {
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
         System.out.println("                                                                      NÍVEL 02 \uD80C\uDDA4 ");
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
-        System.out.println(">>O que é o if e o else?\n" +
+        System.out.println(">> O que é o if e o else?\n" +
                 "[Capítulo 4 – Página 131]\n" +
                 "O if é uma palavra usada para verificar se algo é verdadeiro.\n" +
                 "Se for, o computador executa um bloco de código.\n" +
@@ -103,7 +103,7 @@ public class Nivel02 {
 
                 "-------------------------------------------------------------\n\n" +
 
-                ">>O que são Operadores Lógicos?\n" +
+                ">> O que são Operadores Lógicos?\n" +
                 "[Capítulo 4 – Página 132]\n" +
                 "Operadores lógicos ajudam a fazer perguntas mais completas no if.\n" +
                 "Veja os principais:\n" +
