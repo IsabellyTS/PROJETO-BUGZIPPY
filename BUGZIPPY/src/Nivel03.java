@@ -7,7 +7,9 @@ public class Nivel03 {
 
     }
     public void ChamaNivel3(String nome) {
-        int res = 0;
+        
+        int res = 0, cc = 18;
+        
         ArrayList<String> perguntasN3 = new ArrayList<>();
         String p1 = "\n1. [Capítulo 5, pág. 172]\n" +
                 "O que o comando switch faz no Java? Escolha a melhor explicação:\n" +
@@ -69,6 +71,7 @@ public class Nivel03 {
                 "3) Quando temos que verificar se um número é par\n4) Quando lemos um número aleatório\n" +
                 "5) Quando lidamos com textos longos\n6) Quando precisamos de loops (for ou while)\n" +
                 "escreva: ";
+        
         perguntasN3.add(p1);
         perguntasN3.add(p2);
         perguntasN3.add(p3);
@@ -79,11 +82,14 @@ public class Nivel03 {
         perguntasN3.add(p8);
         perguntasN3.add(p9);
         Collections.shuffle(perguntasN3); //embaralha as posições do arraylist
+        
         Scanner sc = new Scanner(System.in);
+        
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
         System.out.println("                                                                      NÍVEL 03 \uD80C\uDDA4 ");
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
-            try {
+         
+        try {
                 System.out.println("Imagine que você tem um controle remoto com vários botões. ");
                 System.out.println("Cada botão faz uma coisa diferente: um liga a TV, outro muda o canal, outro aumenta o volume...");
                 System.out.println("O switch case no Java funciona como esse controle remoto!");
@@ -114,6 +120,7 @@ public class Nivel03 {
                 System.out.println("\nCom o switch case, seu programa pode escolher o que fazer com base em um número, uma letra ou até uma palavra!");
                 System.out.print("\nclique ENTER se voce entendeu\n");
                 sc.nextLine();
+            
                 for (int i = 0; i < perguntasN3.size(); i++) {
                     if (i < 3) {
                         if (perguntasN3.get(i).equals(p1)) {
@@ -161,7 +168,7 @@ public class Nivel03 {
                             res = sc.nextInt();
                             sc.nextLine();
                             if (res == 2) {
-                                System.out.print("\n✅ ACERTOU!");
+                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                                 ;
                             } else {
                             System.out.println("ERROU!☹");
@@ -191,7 +198,7 @@ public class Nivel03 {
                             res = sc.nextInt();
                             sc.nextLine();
                             if (res == 3) {
-                                System.out.print("\n✅ ACERTOU!");
+                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                                 ;
                             } else {
                             System.out.println("ERROU!☹");
