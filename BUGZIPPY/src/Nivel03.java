@@ -83,38 +83,38 @@ public class Nivel03 {
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
         System.out.println("                                                                      NÍVEL 03 \uD80C\uDDA4 ");
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
+        System.out.println("Imagine que você tem um controle remoto com vários botões. 🎮");
+        System.out.println("Cada botão faz uma coisa diferente: um liga a TV, outro muda o canal, outro aumenta o volume...");
+        System.out.println("O switch case no Java funciona como esse controle remoto!");
+
+        System.out.println("\nVocê diz: 'Se eu apertar o botão 1, faça isso. Se for o botão 2, faça aquilo.'");
+        System.out.println("É como dar comandos diferentes para cada número!");
+
+        System.out.println("\nVeja um exemplo:");
+        System.out.println("int botão = 2;");
+        System.out.println("switch (botão) {");
+        System.out.println("    case 1:");
+        System.out.println("        System.out.println(\"Ligando a TV!\");");
+        System.out.println("        break;");
+        System.out.println("    case 2:");
+        System.out.println("        System.out.println(\"Mudando de canal!\");");
+        System.out.println("        break;");
+        System.out.println("    case 3:");
+        System.out.println("        System.out.println(\"Aumentando o volume!\");");
+        System.out.println("        break;");
+        System.out.println("    default:");
+        System.out.println("        System.out.println(\"Botão desconhecido!\");");
+        System.out.println("}");
+
+        System.out.println("\nO 'case' é cada botão diferente que você pode apertar.");
+        System.out.println("O 'break' é como dizer: 'pronto, parei por aqui'. Ele evita que o código continue executando os próximos botões.");
+        System.out.println("E o 'default' é o que acontece se apertarmos um botão que não existe! 😲");
+
+        System.out.println("\nCom o switch case, seu programa pode escolher o que fazer com base em um número, uma letra ou até uma palavra!");
+        System.out.print("\nclique ENTER se voce entendeu\n");
+        sc.nextLine();
         do {
             try {
-                System.out.println("Imagine que você tem um controle remoto com vários botões. 🎮");
-                System.out.println("Cada botão faz uma coisa diferente: um liga a TV, outro muda o canal, outro aumenta o volume...");
-                System.out.println("O switch case no Java funciona como esse controle remoto!");
-
-                System.out.println("\nVocê diz: 'Se eu apertar o botão 1, faça isso. Se for o botão 2, faça aquilo.'");
-                System.out.println("É como dar comandos diferentes para cada número!");
-
-                System.out.println("\nVeja um exemplo:");
-                System.out.println("int botão = 2;");
-                System.out.println("switch (botão) {");
-                System.out.println("    case 1:");
-                System.out.println("        System.out.println(\"Ligando a TV!\");");
-                System.out.println("        break;");
-                System.out.println("    case 2:");
-                System.out.println("        System.out.println(\"Mudando de canal!\");");
-                System.out.println("        break;");
-                System.out.println("    case 3:");
-                System.out.println("        System.out.println(\"Aumentando o volume!\");");
-                System.out.println("        break;");
-                System.out.println("    default:");
-                System.out.println("        System.out.println(\"Botão desconhecido!\");");
-                System.out.println("}");
-
-                System.out.println("\nO 'case' é cada botão diferente que você pode apertar.");
-                System.out.println("O 'break' é como dizer: 'pronto, parei por aqui'. Ele evita que o código continue executando os próximos botões.");
-                System.out.println("E o 'default' é o que acontece se apertarmos um botão que não existe! 😲");
-
-                System.out.println("\nCom o switch case, seu programa pode escolher o que fazer com base em um número, uma letra ou até uma palavra!");
-                System.out.print("\nclique ENTER se voce entendeu\n");
-                sc.nextLine();
                 for (int i = 0; i < perguntasN3.size(); i++) {
                     if (i < 3) {
                         if (perguntasN3.get(i).equals(p1)) {
