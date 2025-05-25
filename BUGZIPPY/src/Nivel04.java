@@ -231,9 +231,9 @@ public class Nivel04 {
                         }
                     }
                 }
+                //tem q fazer o metodo de chamar o nivel 5 aquiii
             } catch (Exception e) {
                 System.out.println("❌ Entrada inválida! Por favor, digite apenas números.");
             }
-        //tem q fazer o metodo de chamar o nivel 5 aquiii
     }
 }
