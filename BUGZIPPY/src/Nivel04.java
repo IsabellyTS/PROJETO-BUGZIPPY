@@ -8,9 +8,11 @@ public class Nivel04 {
     }
 
     public void ChamaNivel4(String nome) {
-        int res, cont = 0;
-        int cc = 15;
+
+        int res, cc = 15;
+
         Scanner sc = new Scanner(System.in);
+
         ArrayList<String> perguntasN4 = new ArrayList<>();
         String p1 = "\n1. [Capítulo 5, pág. 172] Para que serve o laço for em Java?\n" +
                 "1) Criar uma nova janela\n" +
@@ -106,135 +108,143 @@ public class Nivel04 {
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
         System.out.println("                                                                      NÍVEL 04 \uD80C\uDDA4 ");
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
-            try {
-                System.out.print("Imagina que você vai contar de 1 até 5.\n"
-                        + "Em vez de dizer 1, 2, 3, 4, 5 sozinho,\n"
-                        + "você pode mandar o computador fazer isso com o comando 'for'.\n\n"
+        try {
+            System.out.print("Imagina que você vai contar de 1 até 5.\n"
+                    + "Em vez de dizer 1, 2, 3, 4, 5 sozinho,\n"
+                    + "você pode mandar o computador fazer isso com o comando 'for'.\n\n"
 
-                        + "Veja como é:\n"
-                        + "for (int i = 1; i <= 5; i++) {\n"
-                        + "    System.out.println(i);\n"
-                        + "}\n\n"
+                    + "Veja como é:\n"
+                    + "for (int i = 1; i <= 5; i++) {\n"
+                    + "    System.out.println(i);\n"
+                    + "}\n\n"
 
-                        + "Vamos entender cada parte:\n"
-                        + "int i = 1;     -> Comece no número 1\n"
-                        + "i <= 5;        -> Continue enquanto o número for até 5\n"
-                        + "i++            -> Aumente de 1 em 1\n"
-                        + "{ ... }        -> Aqui dentro você coloca o que quer fazer\n\n"
+                    + "Vamos entender cada parte:\n"
+                    + "int i = 1;     -> Comece no número 1\n"
+                    + "i <= 5;        -> Continue enquanto o número for até 5\n"
+                    + "i++            -> Aumente de 1 em 1\n"
+                    + "{ ... }        -> Aqui dentro você coloca o que quer fazer\n\n"
 
-                        + "Então, é como brincar com 5 brinquedos:\n"
-                        + "Brinque com o número 1, depois o 2, até chegar no 5.\n"
-                        + "E a cada vez, o computador faz o que você mandar.\n\n"
+                    + "Então, é como brincar com 5 brinquedos:\n"
+                    + "Brinque com o número 1, depois o 2, até chegar no 5.\n"
+                    + "E a cada vez, o computador faz o que você mandar.\n\n"
 
-                        + "O 'for' é uma forma do computador repetir alguma coisa várias vezes!");
-                System.out.print("\nclique ENTER se voce entendeu\n");
-                sc.nextLine();
-                for (int i = 0; i < perguntasN4.size(); i++) {
-                    if (i < 3) {
-                        if (perguntasN4.get(i).equals(p1)) {
-                            System.out.print(p1);
-                            res = sc.nextInt();
-                            sc.nextLine();
-                            if (res == 2) {
-                        System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
-                            } else {
-                        System.out.println("ERROU!☹");
-                            }
-                        } else if (perguntasN4.get(i).equals(p2)) {
-                            System.out.print(p2);
-                            res = sc.nextInt();
-                            sc.nextLine();
-                            if (res == 1) {
-                        System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
-                            } else {
-                        System.out.println("ERROU!☹");
-                            }
-                        } else if (perguntasN4.get(i).equals(p3)) {
-                            System.out.print(p3);
-                            res = sc.nextInt();
-                            sc.nextLine();
-                            if (res == 2) {
-                        System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
-                                ;
-                            } else {
-                        System.out.println("ERROU!☹");
-                            }
-                        } else if (perguntasN4.get(i).equals(p4)) {
-                            System.out.print(p4);
-                            res = sc.nextInt();
-                            sc.nextLine();
-                            if (res == 3) {
-                        System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
-                                ;
-                            } else {
-                        System.out.println("ERROU!☹");
-                            }
-                        } else if (perguntasN4.get(i).equals(p5)) {
-                            System.out.print(p5);
-                            res = sc.nextInt();
-                            sc.nextLine();
-                            if (res == 2) {
-                        System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
-                                ;
-                            } else {
-                        System.out.println("ERROU!☹");
-                            }
-                        } else if (perguntasN4.get(i).equals(p6)) {
-                            System.out.print(p6);
-                            res = sc.nextInt();
-                            sc.nextLine();
-                            if (res == 2) {
-                        System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
-                                ;
-                            } else {
-                        System.out.println("ERROU!☹");
-                            }
-                        } else if (perguntasN4.get(i).equals(p7)) {
-                            System.out.print(p7);
-                            res = sc.nextInt();
-                            sc.nextLine();
-                            if (res == 4) {
-                        System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
-                                ;
-                            } else {
-                        System.out.println("ERROU!☹");
-                            }
-                        } else if (perguntasN4.get(i).equals(p8)) {
-                            System.out.print(p8);
-                            res = sc.nextInt();
-                            sc.nextLine();
-                            if (res == 2) {
-                        System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
-                                ;
-                            } else {
-                        System.out.println("ERROU!☹");
-                            }
-                        } else if (perguntasN4.get(i).equals(p9)) {
-                            System.out.print(p9);
-                            res = sc.nextInt();
-                            sc.nextLine();
-                            if (res == 3) {
-                        System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
-                                ;
-                            } else {
-                        System.out.println("ERROU!☹");
-                            }
-                        } else if (perguntasN4.get(i).equals(p10)) {
-                            System.out.print(p10);
-                            res = sc.nextInt();
-                            sc.nextLine();
-                            if (res == 3) {
-                        System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
-                                ;
-                            } else {
-                        System.out.println("ERROU!☹");
-                            }
+                    + "O 'for' é uma forma do computador repetir alguma coisa várias vezes!");
+
+            System.out.print("clique ENTER se voce entendeu");
+            sc.nextLine();
+
+            System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +
+                    "*Ao você acertar, a Bugzippy dará um passo ao seu formigueiro.");
+
+
+            System.out.println("Passos para chegar ao meu destino: " + cc--);
+
+            for (int i = 0; i < perguntasN4.size(); i++) {
+                if (i < 3) {
+                    if (perguntasN4.get(i).equals(p1)) {
+                        System.out.print(p1);
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 2) {
+                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
+                        } else {
+                            System.out.println("ERROU!☹");
+                        }
+                    } else if (perguntasN4.get(i).equals(p2)) {
+                        System.out.print(p2);
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 1) {
+                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
+                        } else {
+                            System.out.println("ERROU!☹");
+                        }
+                    } else if (perguntasN4.get(i).equals(p3)) {
+                        System.out.print(p3);
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 2) {
+                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
+                            ;
+                        } else {
+                            System.out.println("ERROU!☹");
+                        }
+                    } else if (perguntasN4.get(i).equals(p4)) {
+                        System.out.print(p4);
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 3) {
+                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
+                            ;
+                        } else {
+                            System.out.println("ERROU!☹");
+                        }
+                    } else if (perguntasN4.get(i).equals(p5)) {
+                        System.out.print(p5);
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 2) {
+                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
+                            ;
+                        } else {
+                            System.out.println("ERROU!☹");
+                        }
+                    } else if (perguntasN4.get(i).equals(p6)) {
+                        System.out.print(p6);
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 2) {
+                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
+                            ;
+                        } else {
+                            System.out.println("ERROU!☹");
+                        }
+                    } else if (perguntasN4.get(i).equals(p7)) {
+                        System.out.print(p7);
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 4) {
+                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
+                            ;
+                        } else {
+                            System.out.println("ERROU!☹");
+                        }
+                    } else if (perguntasN4.get(i).equals(p8)) {
+                        System.out.print(p8);
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 2) {
+                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
+                            ;
+                        } else {
+                            System.out.println("ERROU!☹");
+                        }
+                    } else if (perguntasN4.get(i).equals(p9)) {
+                        System.out.print(p9);
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 3) {
+                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
+                            ;
+                        } else {
+                            System.out.println("ERROU!☹");
+                        }
+                    } else if (perguntasN4.get(i).equals(p10)) {
+                        System.out.print(p10);
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 3) {
+                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
+                            ;
+                        } else {
+                            System.out.println("ERROU!☹");
                         }
                     }
                 }
-                //tem q fazer o metodo de chamar o nivel 5 aquiii
-            } catch (Exception e) {
-                System.out.println("❌ Entrada inválida! Por favor, digite apenas números.");
             }
+            //tem q fazer o metodo de chamar o nivel 5 aquiii
+        } catch (Exception e) {
+            System.out.println("❌ Entrada inválida! Por favor, digite apenas números.");
+        }
     }
 }
