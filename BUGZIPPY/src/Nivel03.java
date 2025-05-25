@@ -118,8 +118,14 @@ public class Nivel03 {
                 System.out.println("E o 'default' é o que acontece se apertarmos um botão que não existe! ");
 
                 System.out.println("\nCom o switch case, seu programa pode escolher o que fazer com base em um número, uma letra ou até uma palavra!");
-                System.out.print("\nclique ENTER se voce entendeu\n");
+                
+            System.out.print("clique ENTER se voce entendeu");
                 sc.nextLine();
+
+             System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +
+                                 "*Ao você acertar, a Bugzippy dará um passo ao seu formigueiro.");
+
+             System.out.println("Passos para chegar ao meu destino: " + cc--);
             
                 for (int i = 0; i < perguntasN3.size(); i++) {
                     if (i < 3) {
