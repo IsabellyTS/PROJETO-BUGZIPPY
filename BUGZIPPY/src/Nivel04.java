@@ -137,7 +137,7 @@ public class Nivel04 {
                             if (res == 2) {
                         System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                             } else {
-                                System.out.println("❌ ERROU!");
+                        System.out.println("ERROU!☹");
                             }
                         } else if (perguntasN4.get(i).equals(p2)) {
                             System.out.print(p2);
@@ -146,7 +146,7 @@ public class Nivel04 {
                             if (res == 1) {
                         System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                             } else {
-                                System.out.println("❌ ERROU!");
+                        System.out.println("ERROU!☹");
                             }
                         } else if (perguntasN4.get(i).equals(p3)) {
                             System.out.print(p3);
@@ -156,7 +156,7 @@ public class Nivel04 {
                         System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                                 ;
                             } else {
-                                System.out.println("❌ ERROU!");
+                        System.out.println("ERROU!☹");
                             }
                         } else if (perguntasN4.get(i).equals(p4)) {
                             System.out.print(p4);
@@ -166,7 +166,7 @@ public class Nivel04 {
                         System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                                 ;
                             } else {
-                                System.out.println("❌ ERROU!");
+                        System.out.println("ERROU!☹");
                             }
                         } else if (perguntasN4.get(i).equals(p5)) {
                             System.out.print(p5);
@@ -176,7 +176,7 @@ public class Nivel04 {
                         System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                                 ;
                             } else {
-                                System.out.println("❌ ERROU!");
+                        System.out.println("ERROU!☹");
                             }
                         } else if (perguntasN4.get(i).equals(p6)) {
                             System.out.print(p6);
@@ -186,7 +186,7 @@ public class Nivel04 {
                         System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                                 ;
                             } else {
-                                System.out.println("❌ ERROU!");
+                        System.out.println("ERROU!☹");
                             }
                         } else if (perguntasN4.get(i).equals(p7)) {
                             System.out.print(p7);
@@ -196,7 +196,7 @@ public class Nivel04 {
                         System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                                 ;
                             } else {
-                                System.out.println("❌ ERROU!");
+                        System.out.println("ERROU!☹");
                             }
                         } else if (perguntasN4.get(i).equals(p8)) {
                             System.out.print(p8);
@@ -206,7 +206,7 @@ public class Nivel04 {
                         System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                                 ;
                             } else {
-                                System.out.println("❌ ERROU!");
+                        System.out.println("ERROU!☹");
                             }
                         } else if (perguntasN4.get(i).equals(p9)) {
                             System.out.print(p9);
@@ -216,7 +216,7 @@ public class Nivel04 {
                         System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                                 ;
                             } else {
-                                System.out.println("❌ ERROU!");
+                        System.out.println("ERROU!☹");
                             }
                         } else if (perguntasN4.get(i).equals(p10)) {
                             System.out.print(p10);
@@ -226,7 +226,7 @@ public class Nivel04 {
                         System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
                                 ;
                             } else {
-                                System.out.println("❌ ERROU!");
+                        System.out.println("ERROU!☹");
                             }
                         }
                     }
