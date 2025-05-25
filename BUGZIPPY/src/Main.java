@@ -15,12 +15,8 @@ public class Main {
         System.out.println("Qual seu nome? ");
         nome = scanner.nextLine();
         System.out.println("");
-        System.out.println("Qual seu email? ");
-        String email = scanner.nextLine();
-        System.out.println("");
         CadastraUser user = new CadastraUser();
         user.setNome(nome);
-        user.setEmail(email);
         System.out.println("Seja bem vindo, " + nome + "!! \nEu sou a \uD835\uDC01\uD835\uDC2E\uD835\uDC20\uD835\uDC33\uD835\uDC22\uD835\uDC29\uD835\uDC29\uD835\uDC32 \uD80C\uDDA4 \nSou uma formiga voadora e preciso da sua ajuda! \n" +
                 "Estou perdido neste labirinto e só conseguirei voltar ao meu formigueiro se superar desafios de programação em Java. Você pode me guiar nessa jornada? \n 1- [SIM]   2-[NÃO]");
        int ssnn=0;
