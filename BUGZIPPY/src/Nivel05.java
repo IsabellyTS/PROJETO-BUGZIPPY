@@ -9,7 +9,7 @@ public class Nivel05 {
 
     public void ChamaNivel5(String nome) {
 
-        int res, cc = 15;
+        int res, cc = 12;
 
         Scanner sc = new Scanner(System.in);
 
