@@ -57,7 +57,7 @@ public class Nivel02 {
                 " 3) Nega uma condição \n" +
                 " 4) Transforma número em texto\n";
 
-        String p8 =  "\n[]\n" +
+        String p8 =  "\n[ ]\n" +
                 "Para que servem os operadores lógicos?\n" +
                 " 1) Ajudar o programa a tomar decisões\n" +
                 " 2) Repetir códigos em laços\n" +
