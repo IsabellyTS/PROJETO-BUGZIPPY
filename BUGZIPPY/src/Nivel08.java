@@ -235,5 +235,7 @@ public void ChamaNivel8(String nome) {
                 }
             }
         }
+    Fim fim = new Fim();
+    fim.Parabenizar(nome);
     }
 }

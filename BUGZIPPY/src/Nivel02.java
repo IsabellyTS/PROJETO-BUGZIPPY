@@ -145,6 +145,8 @@ public class Nivel02 {
                     } else {
                         System.out.println("ERROU!☹");
                     }
+
+                    System.out.print("\n");
                 } else if (perguntasN2.get(i).equals(p2)) {
                     System.out.print(p2);
                     System.out.print("\nEscreva: ");
@@ -156,6 +158,8 @@ public class Nivel02 {
                     } else {
                         System.out.println("ERROU!☹");
                     }
+
+                    System.out.print("\n");
                 } else if (perguntasN2.get(i).equals(p3)) {
                     System.out.print(p3);
                     System.out.print("\nEscreva: ");
@@ -167,6 +171,8 @@ public class Nivel02 {
                     } else {
                         System.out.println("ERROU!☹");
                     }
+
+                    System.out.print("\n");
                 } else if (perguntasN2.get(i).equals(p4)) {
                     System.out.print(p4);
                     System.out.print("\nEscreva: ");
@@ -178,6 +184,8 @@ public class Nivel02 {
                     } else {
                         System.out.println("ERROU!☹");
                     }
+
+                    System.out.print("\n");
                 } else if (perguntasN2.get(i).equals(p5)) {
                     System.out.print(p5);
                     System.out.print("\nEscreva: ");
@@ -189,6 +197,8 @@ public class Nivel02 {
                     } else {
                         System.out.println("ERROU!☹");
                     }
+
+                    System.out.print("\n");
                 } else if (perguntasN2.get(i).equals(p6)) {
                     System.out.print(p6);
                     System.out.print("\nEscreva: ");
@@ -200,6 +210,8 @@ public class Nivel02 {
                     } else {
                         System.out.println("ERROU!☹");
                     }
+
+                    System.out.print("\n");
                 } else if (perguntasN2.get(i).equals(p7)) {
                     System.out.print(p7);
                     System.out.print("\nEscreva: ");
@@ -211,6 +223,8 @@ public class Nivel02 {
                     } else {
                         System.out.println("ERROU!☹");
                     }
+
+                    System.out.print("\n");
                 } else if (perguntasN2.get(i).equals(p8)) {
                     System.out.print(p8);
                     System.out.print("\nEscreva: ");
@@ -222,6 +236,8 @@ public class Nivel02 {
                     } else {
                         System.out.println("ERROU!☹");
                     }
+
+                    System.out.print("\n");
                 } else if (perguntasN2.get(i).equals(p9)) {
                     System.out.print(p9);
                     System.out.print("\nEscreva: ");
@@ -233,6 +249,8 @@ public class Nivel02 {
                     } else {
                         System.out.println("ERROU!☹");
                     }
+
+                    System.out.print("\n");
                 } else if (perguntasN2.get(i).equals(p10)) {
                     System.out.print(p10);
                     System.out.print("\nEscreva: ");
@@ -244,6 +262,8 @@ public class Nivel02 {
                     } else {
                         System.out.println("ERROU!☹");
                     }
+
+                    System.out.print("\n");
                 }
             }
         }
