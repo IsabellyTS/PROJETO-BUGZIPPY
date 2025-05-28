@@ -71,7 +71,12 @@ public class Nivel03 {
                 "3) Quando temos que verificar se um número é par\n4) Quando lemos um número aleatório\n" +
                 "5) Quando lidamos com textos longos\n6) Quando precisamos de loops (for ou while)\n" +
                 "escreva: ";
-        
+        String p10 = "\n[Capítulo 5, pág. 176]\n" +
+                "Em qual dessas situações o uso do switch é mais indicado?\n" +
+                "1) Para calcular a média de notas de um aluno\n2) Para verificar se um número é maior que 100\n" +
+                "3) Para escolher uma ação com base no botão pressionado (A, B, C...)\n4) Para contar até 10 com um loop\n" +
+                "5) Para comparar nomes completos\n6) Para validar se uma senha tem mais de 8 caracteres\n" +
+                "escreva: ";
         perguntasN3.add(p1);
         perguntasN3.add(p2);
         perguntasN3.add(p3);
@@ -81,14 +86,12 @@ public class Nivel03 {
         perguntasN3.add(p7);
         perguntasN3.add(p8);
         perguntasN3.add(p9);
+        perguntasN3.add(p10);
         Collections.shuffle(perguntasN3); //embaralha as posições do arraylist
-        
         Scanner sc = new Scanner(System.in);
-        
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
         System.out.println("                                                                      NÍVEL 03 \uD80C\uDDA4 ");
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
-         
         try {
                 System.out.println("Imagine que você tem um controle remoto com vários botões. ");
                 System.out.println("Cada botão faz uma coisa diferente: um liga a TV, outro muda o canal, outro aumenta o volume...");
@@ -217,6 +220,15 @@ public class Nivel03 {
                                 ;
                             } else {
                             System.out.println("ERROU!☹");
+                            }
+                        }else if (perguntasN3.get(i).equals(p10)) {
+                            System.out.print(p10);
+                            res = sc.nextInt();
+                            sc.nextLine();
+                            if (res == 3) {
+                                System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
+                            } else {
+                                System.out.println("ERROU!☹");
                             }
                         }
                     }
