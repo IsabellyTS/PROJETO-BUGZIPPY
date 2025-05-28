@@ -182,6 +182,7 @@ public class Nivel01 {
         System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +
                 "*Ao você acertar, a Bugzippy dará um passo ao seu formigueiro.");
 
+         System.out.println("Passos para chegar ao meu destino: " + cc--);
 
         for (int i = 0; i < perguntasN3.size(); i++) {
             if (i < 3) {
