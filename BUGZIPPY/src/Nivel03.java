@@ -112,7 +112,6 @@ public class Nivel03 {
                 System.out.println("    default:");
                 System.out.println("        System.out.println(\"Botão desconhecido!\");");
                 System.out.println("}");
-
                 System.out.println("\nO 'case' é cada botão diferente que você pode apertar.");
                 System.out.println("O 'break' é como dizer: 'pronto, parei por aqui'. Ele evita que o código continue executando os próximos botões.");
                 System.out.println("E o 'default' é o que acontece se apertarmos um botão que não existe! ");

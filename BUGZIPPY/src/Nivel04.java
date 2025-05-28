@@ -242,7 +242,9 @@ public class Nivel04 {
                     }
                 }
             }
-            //tem q fazer o metodo de chamar o nivel 5 aquiii
+            System.out.print("\n\n");
+            Nivel05 nvl5 = new Nivel05();
+            nvl5.ChamaNivel5(nome);
         } catch (Exception e) {
             System.out.println("❌ Entrada inválida! Por favor, digite apenas números.");
         }
