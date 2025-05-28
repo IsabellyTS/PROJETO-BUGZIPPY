@@ -129,11 +129,8 @@ public class Nivel02 {
 
         System.out.print("clique ENTER se voce entendeu");
         sc.nextLine();
-
         System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +
                 "*Ao você acertar, a Bugzippy dará um passo ao seu formigueiro.");
-
-
         System.out.println("Passos para chegar ao meu destino: " + cc--);
 
         //Perguntas
@@ -240,11 +237,11 @@ public class Nivel02 {
                         System.out.println("ERROU!☹");
                     }
                 }
-              System.out.print("\n\n");
-                Nivel03 nvl03 = new Nivel03();
-                nvl03.ChamaNivel3(nome);
             }
         }
+        System.out.print("\n\n");
+        Nivel03 nvl03 = new Nivel03();
+        nvl03.ChamaNivel3(nome);
     }
 }
 
