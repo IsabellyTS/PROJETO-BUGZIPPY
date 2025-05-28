@@ -160,6 +160,7 @@ public class Nivel06 {
                 if (i < 3) {
                     if (perguntasN6.get(i).equals(p1)) {
                         System.out.print(p1);
+                        System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 3) {
@@ -170,6 +171,7 @@ public class Nivel06 {
                         }
                     } else if (perguntasN6.get(i).equals(p2)) {
                         System.out.print(p2);
+                        System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 2) {
@@ -180,6 +182,7 @@ public class Nivel06 {
                         }
                     } else if (perguntasN6.get(i).equals(p3)) {
                         System.out.print(p3);
+                        System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 3) {
@@ -190,6 +193,7 @@ public class Nivel06 {
                         }
                     } else if (perguntasN6.get(i).equals(p4)) {
                         System.out.print(p4);
+                        System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 4) {
@@ -200,6 +204,7 @@ public class Nivel06 {
                         }
                     } else if (perguntasN6.get(i).equals(p5)) {
                         System.out.print(p5);
+                        System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 2) {
@@ -210,6 +215,7 @@ public class Nivel06 {
                         }
                     } else if (perguntasN6.get(i).equals(p6)) {
                         System.out.print(p6);
+                        System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 5) {
@@ -220,6 +226,7 @@ public class Nivel06 {
                         }
                     } else if (perguntasN6.get(i).equals(p7)) {
                         System.out.print(p7);
+                        System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 1) {
@@ -230,6 +237,7 @@ public class Nivel06 {
                         }
                     } else if (perguntasN6.get(i).equals(p8)) {
                         System.out.print(p8);
+                        System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 2) {
@@ -240,6 +248,7 @@ public class Nivel06 {
                         }
                     } else if (perguntasN6.get(i).equals(p9)) {
                         System.out.print(p9);
+                        System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 3) {
@@ -250,6 +259,7 @@ public class Nivel06 {
                         }
                     } else if (perguntasN6.get(i).equals(p10)) {
                         System.out.print(p10);
+                        System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 2) {

@@ -91,7 +91,6 @@ public void ChamaNivel8(String nome) {
             " 4) nomes.find(\"João\")\n" +
             " 5) nomes.locate(\"João\")\n" +
             " 6) nomes.check(\"João\")";
-
     ArrayList<String> perguntasN8 = new ArrayList<>();
     perguntasN8.add(p1);
     perguntasN8.add(p2);
@@ -236,8 +235,5 @@ public void ChamaNivel8(String nome) {
                 }
             }
         }
-    Fim fim = new Fim();
-        nome = "be"; //só pra teste
-    fim.Parabenizar(nome);
     }
 }
