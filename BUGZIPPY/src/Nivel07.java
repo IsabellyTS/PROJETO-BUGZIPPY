@@ -11,7 +11,7 @@ public class Nivel07 {
         int res = 0, cc = 18;
 
         ArrayList<String> perguntasN3 = new ArrayList<>();
-        String p1 = "\n[Cap. 7, pág.]\n" +
+        String p1 = "\n[Cap. 7, pág. 214]\n" +
                 "Qual dessas opções cria um ônibus com 3 fileiras e 2 assentos por fileira?\n" +
                 " 1) int[][] lugares = new int[3][2];\n" +
                 " 2) int lugares[3][2];\n" +
@@ -19,7 +19,7 @@ public class Nivel07 {
                 " 4) int lugares[] = new int[3][2];\n" +
                 " 5) int lugares[2][3];\n" +
                 " 6) int lugares = new int[2][3];\n";
-        String p2 = "\n[Cap. 7, pág.]\n" +
+        String p2 = "\n[Cap. 7, pág. 214]\n" +
                 "Em lugares[1][0], o que significa o número 1?\n" +
                 " 1) Número do assento\n" +
                 " 2) Número da janela\n" +
@@ -27,7 +27,7 @@ public class Nivel07 {
                 " 4) Número do passageiro\n" +
                 " 5) Número do ônibus\n" +
                 " 6) Número de assentos\n";
-        String p3 = "\n[]\n" +
+        String p3 = "\n[Cap. 7, pág. 214]\n" +
                 "Qual linha coloca o número 5 na segunda fileira, terceiro assento de uma matriz numeros?\n" +
                 " 1) numeros[1][2] = 5;\n" +
                 " 2) numeros[2][3] = 5;\n" +
@@ -35,7 +35,7 @@ public class Nivel07 {
                 " 4) numeros[3][2] = 5;\n" +
                 " 5) numeros[2,3] = 5;\n" +
                 " 6) numeros[1:2] = 5;\n";
-        String p4 = "\n[]\n" +
+        String p4 = "\n[Cap. 7, pág. 214]\n" +
                 "O que essa linha imprime?\n" +
                 "int[][] tabela = {\n" +
                 "  {1, 2},\n" +
@@ -49,7 +49,7 @@ public class Nivel07 {
                 " 4) 3\n" +
                 " 5) 4\n" +
                 " 6) Erro de compilação\n";
-        String p5 = "\n[]\n" +
+        String p5 = "\n[Cap. 7, pág. 214]\n" +
                 "O que for (int i = 0; i < matriz.length; i++) percorre?\n" +
                 " 1) Os assentos de cada fileira\n" +
                 " 2) Todas as colunas\n" +
@@ -57,7 +57,7 @@ public class Nivel07 {
                 " 4) Os valores da matriz\n" +
                 " 5) As linhas e colunas ao mesmo tempo\n" +
                 " 6) Os nomes dos assentos\n";
-        String p6 = "\n[]\n" +
+        String p6 = "\n[Cap. 7, pág. 213]\n" +
                 "Qual opção cria e preenche uma matriz com os valores abaixo?\n" +
                 "1 2  \n" +
                 "3 4  \n" +
@@ -68,7 +68,7 @@ public class Nivel07 {
                 " 4) int[][] m = { {1 2}, {3 4} };\n" +
                 " 5) int[2][2] m = {{1,2},{3,4}};\n" +
                 " 6) int m[][] = new int[2][2]{1,2,3,4};\n";
-        String p7 = "\n[]\n" +
+        String p7 = "\n[Cap. 7, pág. 214]\n" +
                 "Em lugares[0][1], o que o número 0 representa?\n" +
                 " 1) A coluna\n" +
                 " 2) A letra do alfabeto\n" +
@@ -76,7 +76,7 @@ public class Nivel07 {
                 " 4) O número do ônibus\n" +
                 " 5) Um número aleatório\n" +
                 " 6) A fileira";
-        String p8 = "\n[]\n" +
+        String p8 = "\n[Cap. 7, pág. 214]\n" +
                 "Qual dessas opções guarda o número 7 na primeira fileira e segundo assento?\n" +
                 " 1) matriz[0][1] = 7;\n" +
                 " 2) matriz[1][0] = 7;\n" +
@@ -84,7 +84,7 @@ public class Nivel07 {
                 " 4) matriz[1][7] = 0;\n" +
                 " 5) matriz[0][0] = 7;\n" +
                 " 6) matriz[2] = 7;";
-        String p9 = "\n[]\n" +
+        String p9 = "\n[Cap. 7, pág. 214]\n" +
                 "Quantos elementos cabem em uma matriz int[][] m = new int[2][2];?\n" +
                 " 1) 2\n" +
                 " 2) 4\n" +
@@ -92,7 +92,7 @@ public class Nivel07 {
                 " 4) 8\n" +
                 " 5) 1\n" +
                 " 6) 3";
-        String p10 = "\n[]\n" +
+        String p10 = "\n[Cap. 7, pág. 214]\n" +
                 "O que essa linha faz?\n" +
                 "System.out.println(matriz[1][0]);\n" +
                 " 1) Coloca um valor na matriz\n" +
