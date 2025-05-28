@@ -14,7 +14,7 @@ public class Nivel04 {
         Scanner sc = new Scanner(System.in);
 
         ArrayList<String> perguntasN4 = new ArrayList<>();
-        String p1 = "\n1. [Capítulo 5, pág. 172] Para que serve o laço for em Java?\n" +
+        String p1 = "\n[Capítulo 5, pág. 172] Para que serve o laço for em Java?\n" +
                 "1) Criar uma nova janela\n" +
                 "2) Repetir um bloco de código um número definido de vezes\n" +
                 "3) Fazer cálculos com variáveis\n" +
@@ -22,7 +22,7 @@ public class Nivel04 {
                 "5) Mostrar mensagens de erro\n" +
                 "6) Organizar as pastas do projeto\n";
 
-        String p2 = "\n2. [Capítulo 5, pág. 173] Qual é a estrutura básica de um laço for em Java?\n" +
+        String p2 = "\n[Capítulo 5, pág. 173] Qual é a estrutura básica de um laço for em Java?\n" +
                 "1) for (início; condição; atualização)\n" +
                 "2) for {início, condição, atualização}\n" +
                 "3) loop (início:condição:atualização)\n" +
@@ -30,7 +30,7 @@ public class Nivel04 {
                 "5) enquanto (condição)\n" +
                 "6) se (condição) então faça\n";
 
-        String p3 = "\n3. [Capítulo 5, pág. 175] O que será impresso por: for (int i = 1; i <= 3; i++) { System.out.print(i + \" \"); }\n" +
+        String p3 = "\n[Capítulo 5, pág. 175] O que será impresso por: for (int i = 1; i <= 3; i++) { System.out.print(i + \" \"); }\n" +
                 "1) 0 1 2\n" +
                 "2) 1 2 3\n" +
                 "3) 1 2 3 4\n" +
@@ -38,7 +38,7 @@ public class Nivel04 {
                 "5) 2 3 4\n" +
                 "6) Nada, dá erro\n";
 
-        String p4 = "\n4. [Capítulo 5, pág. 174] Em um for, qual parte verifica se o laço continua?\n" +
+        String p4 = "\n[Capítulo 5, pág. 174] Em um for, qual parte verifica se o laço continua?\n" +
                 "1) A parte do início\n" +
                 "2) A parte da atualização\n" +
                 "3) A parte da condição\n" +
@@ -46,7 +46,7 @@ public class Nivel04 {
                 "5) A variável i\n" +
                 "6) A palavra for\n";
 
-        String p5 = "\n5. [Capítulo 5, pág. 176] Qual alternativa cria um laço que conta de 10 até 1?\n" +
+        String p5 = "\n[Capítulo 5, pág. 176] Qual alternativa cria um laço que conta de 10 até 1?\n" +
                 "1) for (int i = 1; i <= 10; i++)\n" +
                 "2) for (int i = 10; i >= 1; i--)\n" +
                 "3) for (int i = 0; i < 10; i++)\n" +
@@ -54,7 +54,7 @@ public class Nivel04 {
                 "5) for (int i = 1; i >= 10; i++)\n" +
                 "6) for (int i = 10; i >= 1; i++)\n";
 
-        String p6 = "\n6. [Capítulo 5, pág. 177] O que esse código faz? for (int i = 0; i < 5; i++) { System.out.println(\"Olá\"); }\n" +
+        String p6 = "\n[Capítulo 5, pág. 177] O que esse código faz? for (int i = 0; i < 5; i++) { System.out.println(\"Olá\"); }\n" +
                 "1) Mostra “Olá” uma vez\n" +
                 "2) Mostra “Olá” cinco vezes\n" +
                 "3) Não mostra nada\n" +
@@ -62,7 +62,7 @@ public class Nivel04 {
                 "5) Mostra “Olá” infinitamente\n" +
                 "6) Mostra “Olá” 4 vezes\n";
 
-        String p7 = "\n7. [Capítulo 5, pág. 177] O que acontece com for (int i = 1; i > 5; i++)?\n" +
+        String p7 = "\n[Capítulo 5, pág. 177] O que acontece com for (int i = 1; i > 5; i++)?\n" +
                 "1) Mostra os números de 1 a 5\n" +
                 "2) Imprime só 1\n" +
                 "3) Dá erro de compilação\n" +
@@ -70,7 +70,7 @@ public class Nivel04 {
                 "5) Mostra infinitamente\n" +
                 "6) Mostra apenas 5\n";
 
-        String p8 = "\n8. [Capítulo 5, pág. 179] Qual laço soma os números de 1 a 5?\n" +
+        String p8 = "\n[Capítulo 5, pág. 179] Qual laço soma os números de 1 a 5?\n" +
                 "1) for (int i = 5; i >= 1; i++)\n" +
                 "2) for (int i = 1; i <= 5; i++) soma += i;\n" +
                 "3) for (i = 1; i < 5; i--) soma += i;\n" +
@@ -78,7 +78,7 @@ public class Nivel04 {
                 "5) for (int i = 1; i <= 5; i--) soma -= i;\n" +
                 "6) for (int i = 0; i <= 5; i++) print soma;\n";
 
-        String p9 = "\n9. [Capítulo 5, pág. 174] Para que serve o i++ no for?\n" +
+        String p9 = "\n[Capítulo 5, pág. 174] Para que serve o i++ no for?\n" +
                 "1) Iniciar a variável i\n" +
                 "2) Verificar a condição do laço\n" +
                 "3) Incrementar a variável a cada repetição\n" +
@@ -86,7 +86,7 @@ public class Nivel04 {
                 "5) Deixar o código mais bonito\n" +
                 "6) Declarar uma nova função\n";
 
-        String p10 = "\n10. [Capítulo 5, pág. 172] Qual situação é ideal para usar o laço for?\n" +
+        String p10 = "\n[Capítulo 5, pág. 172] Qual situação é ideal para usar o laço for?\n" +
                 "1) Quando não sabemos quantas vezes vamos repetir\n" +
                 "2) Quando temos que repetir algo para sempre\n" +
                 "3) Quando queremos repetir algo um número exato de vezes\n" +
