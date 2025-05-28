@@ -11,34 +11,86 @@ public void ChamaNivel8(String nome) {
     
     int res = 0, cc = 3;
     
-    String p1 = "\n[Capítulo 7, pág. 262]\nPara que serve a classe ArrayList em Java?\n"
-            + "1) Criar gráficos\n2) Armazenar muitos elementos que podem crescer automaticamente\n"
-            + "3) Criar botões na tela\n4) Repetir ações com for\n5) Fazer contas matemáticas\n"
-            + "6) Criar um banco de dados";
-    String p2 = "\n[Capítulo 7, pág. 263]\nComo se cria um ArrayList de Strings?\n"
-            + "1) ArrayList<String> nomes = new ArrayList<>();\n2) ArrayList nomes = \"String\";\n"
-            + "3) String[] nomes = ArrayList();\n4) ArrayList<nome> = new String();\n"
-            + "5) ArrayList = {\"nome\"};\n6) ArrayList new = String[];";
-    String p3 = "\n[Capítulo 7, pág. 264]\nQual método adiciona um item a um ArrayList?\n"
-            + "1) addItem()\n2) append()\n3) push()\n4) add()\n5) insert()\n6) put()";
-    String p4 = "\n[Capítulo 7, pág. 265]\nQual comando remove um elemento do ArrayList?\n"
-            + "1) remove(index)\n2) delete()\n3) pop()\n4) erase()\n5) clear(index)\n6) cut()";
-    String p5 = "\n[Capítulo 7, pág. 266]\nO que faz o método size()?\n"
-            + "1) Mostra o conteúdo do ArrayList\n2) Conta quantos itens há no ArrayList\n"
-            + "3) Apaga o ArrayList\n4) Adiciona um novo item\n5) Ordena os itens\n6) Mostra o último item";
-    String p6 = "\n[Capítulo 7, pág. 267]\nComo acessar o primeiro item de um ArrayList chamado nomes?\n"
-            + "1) nomes[1]\n2) nomes(0)\n3) nomes.first()\n4) nomes.get(0)\n5) nomes.top()\n6) nomes.index(1)";
-    String p7 = "\n[Capítulo 7, pág. 268]\nO que acontece se tentar acessar um índice que não existe?\n"
-            + "1) O Java cria esse índice\n2) Ele ignora e continua\n3) Ele imprime 'null'\n"
-            + "4) Dá erro em tempo de execução\n5) O Java coloca um valor vazio lá\n6) Ele reinicia o programa";
-    String p8 = "\n[Capítulo 7, pág. 269]\nComo limpar todos os itens de um ArrayList?\n"
-            + "1) nomes.empty()\n2) nomes.removeAll()\n3) nomes.clear()\n"
-            + "4) nomes.deleteAll()\n5) nomes.erase()\n6) nomes.cut()";
-    String p9 = "\n[Capítulo 7, pág. 270]\nQual método substitui um valor em um ArrayList?\n"
-            + "1) update()\n2) change()\n3) modify()\n4) set(index, valor)\n5) replace()\n6) switch()";
-    String p10 = "\n[Capítulo 7, pág. 271]\nComo verificamos se um item está no ArrayList?\n"
-            + "1) nomes.has(\"João\")\n2) nomes.exists(\"João\")\n3) nomes.contains(\"João\")\n"
-            + "4) nomes.find(\"João\")\n5) nomes.locate(\"João\")\n6) nomes.check(\"João\")";
+    String p1 = "\n[Capítulo 7, pág. 262]\n" +
+            "Para que serve a classe ArrayList em Java?\n" +
+            " 1) Criar gráficos\n" +
+            " 2) Armazenar muitos elementos que podem crescer automaticamente\n" +
+            " 3) Criar botões na tela\n" +
+            " 4) Repetir ações com for\n" +
+            " 5) Fazer contas matemáticas\n" +
+            " 6) Criar um banco de dados";
+    String p2 = "\n[Capítulo 7, pág. 263]\n" +
+            "Como se cria um ArrayList de Strings?\n" +
+            " 1) ArrayList<String> nomes = new ArrayList<>();\n" +
+            " 2) ArrayList nomes = \"String\";\n" +
+            " 3) String[] nomes = ArrayList();\n" +
+            " 4) ArrayList<nome> = new String();\n" +
+            " 5) ArrayList = {\"nome\"};\n" +
+            " 6) ArrayList new = String[];";
+    String p3 = "\n[Capítulo 7, pág. 264]\n" +
+            "Qual método adiciona um item a um ArrayList?\n" +
+            " 1) addItem()\n" +
+            " 2) append()\n" +
+            " 3) push()\n" +
+            " 4) add()\n" +
+            " 5) insert()\n" +
+            " 6) put()";
+    String p4 = "\n[Capítulo 7, pág. 265]\n" +
+            "Qual comando remove um elemento do ArrayList?\n" +
+            " 1) remove(index)\n" +
+            " 2) delete()\n" +
+            " 3) pop()\n" +
+            " 4) erase()\n" +
+            " 5) clear(index)\n" +
+            " 6) cut()";
+    String p5 = "\n[Capítulo 7, pág. 266]\n" +
+            "O que faz o método size()?\n" +
+            " 1) Mostra o conteúdo do ArrayList\n" +
+            " 2) Conta quantos itens há no ArrayList\n" +
+            " 3) Apaga o ArrayList\n" +
+            " 4) Adiciona um novo item\n" +
+            " 5) Ordena os itens\n" +
+            " 6) Mostra o último item";
+    String p6 = "\n[Capítulo 7, pág. 267]\n" +
+            "Como acessar o primeiro item de um ArrayList chamado nomes?\n" +
+            " 1) nomes[1]\n" +
+            " 2) nomes(0)\n" +
+            " 3) nomes.first()\n" +
+            " 4) nomes.get(0)\n" +
+            " 5) nomes.top()\n" +
+            " 6) nomes.index(1)";
+    String p7 = "\n[Capítulo 7, pág. 268]\n" +
+            "O que acontece se tentar acessar um índice que não existe?\n" +
+            " 1) O Java cria esse índice\n" +
+            " 2) Ele ignora e continua\n" +
+            " 3) Ele imprime 'null'\n" +
+            " 4) Dá erro em tempo de execução\n" +
+            " 5) O Java coloca um valor vazio lá\n" +
+            " 6) Ele reinicia o programa";
+    String p8 = "\n[Capítulo 7, pág. 269]\n" +
+            "Como limpar todos os itens de um ArrayList?\n" +
+            " 1) nomes.empty()\n" +
+            " 2) nomes.removeAll()\n" +
+            " 3) nomes.clear()\n" +
+            " 4) nomes.deleteAll()\n" +
+            " 5) nomes.erase()\n" +
+            " 6) nomes.cut()";
+    String p9 = "\n[Capítulo 7, pág. 270]\n" +
+            "Qual método substitui um valor em um ArrayList?\n" +
+            " 1) update()\n" +
+            " 2) change()\n" +
+            " 3) modify()\n" +
+            " 4) set(index, valor)\n" +
+            " 5) replace()\n" +
+            " 6) switch()";
+    String p10 = "\n[Capítulo 7, pág. 271]\n" +
+            "Como verificamos se um item está no ArrayList?\n" +
+            " 1) nomes.has(\"João\")\n" +
+            " 2) nomes.exists(\"João\")\n" +
+            " 3) nomes.contains(\"João\")\n" +
+            " 4) nomes.find(\"João\")\n" +
+            " 5) nomes.locate(\"João\")\n" +
+            " 6) nomes.check(\"João\")";
 
     ArrayList<String> perguntasN8 = new ArrayList<>();
     perguntasN8.add(p1);
