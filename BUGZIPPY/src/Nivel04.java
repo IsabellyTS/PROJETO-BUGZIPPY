@@ -3,6 +3,7 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class Nivel04 {
+    private int res, cc = 15;
     private String p1 = "\n[Capítulo 5, pág. 172]\n" +
             " Para que serve o laço for em Java?\n" +
             " 1) Criar uma nova janela\n" +
@@ -88,8 +89,6 @@ public class Nivel04 {
     }
 
     public void ChamaNivel4(String nome) {
-
-        int res, cc = 15;
 
         Scanner sc = new Scanner(System.in);
 
