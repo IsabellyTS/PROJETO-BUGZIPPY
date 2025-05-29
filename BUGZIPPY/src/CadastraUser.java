@@ -1,7 +1,8 @@
 public class CadastraUser {
     private String nome;
 
-    public CadastraUser() {}
+    public CadastraUser() {
+    }
 
     public String getNome() {
         return nome;

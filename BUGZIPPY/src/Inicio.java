@@ -6,8 +6,10 @@ public class Inicio {
     private int ssnn = 0;
     private CadastraUser user = new CadastraUser();
 
-    public Inicio(){}
-    public void chamaInicio(){
+    public Inicio() {
+    }
+
+    public void chamaInicio() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("");

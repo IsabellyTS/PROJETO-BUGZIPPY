@@ -89,7 +89,9 @@ public class Nivel03 {
             " 5) Para comparar nomes completos\n" +
             " 6) Para validar se uma senha tem mais de 8 caracteres\n";
 
-    public Nivel03() {}
+    public Nivel03() {
+    }
+
     public void ChamaNivel3(String nome) {
 
         int res = 0, cc = 18;

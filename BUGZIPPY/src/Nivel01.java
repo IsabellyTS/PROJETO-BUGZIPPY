@@ -21,7 +21,7 @@ public class Nivel01 {
             " 5) double idade = idade;\n" +
             " 6) idade int = '12';\n";
 
-    private String p3 =  "\n[Capítulo 2 – Página 37-38-41-42]\n" +
+    private String p3 = "\n[Capítulo 2 – Página 37-38-41-42]\n" +
             "Como somar os valores das variáveis a e b e guardar o resultado?\n" +
             " 1) total = a mais b\n" +
             " 2) String total = a + b\n" +
@@ -60,7 +60,7 @@ public class Nivel01 {
             " 3) int resultado = 5 * 3\n" +
             " 4) int resultado = 5 / 3\n";
 
-    private String p8 =  "\n[Capítulo 2 – Página 37]\n" +
+    private String p8 = "\n[Capítulo 2 – Página 37]\n" +
             "Para que serve uma variável além de guardar valores?\n" +
             " 1) Só para escrever o nome do jogador\n" +
             " 2) Para decorar o código\n" +
@@ -69,7 +69,7 @@ public class Nivel01 {
             " 5) Para imprimir na tela com println\n" +
             " 6) Para fazer desenhos\n";
 
-    private String p9 =  "\n[Capítulo 2 – Página 37]\n" +
+    private String p9 = "\n[Capítulo 2 – Página 37]\n" +
             "O que significa a palavra int em Java?\n" +
             " 1) Iniciar um programa\n" +
             " 2) Mostrar uma mensagem\n" +
@@ -78,7 +78,7 @@ public class Nivel01 {
             " 5) Ligar a internet\n" +
             " 6) Apagar um valor\n";
 
-    private String p10 =  "\n[Capítulo 2 – Página 36]\n" +
+    private String p10 = "\n[Capítulo 2 – Página 36]\n" +
             "Qual nome é válido para uma variável?\n" +
             " 1) 1nome\n" +
             " 2) meu nome\n" +
@@ -86,7 +86,10 @@ public class Nivel01 {
             " 4) nome-do-usuário\n" +
             " 5) nome@com\n" +
             " 6) class\n";
-    public Nivel01() {}
+
+    public Nivel01() {
+    }
+
     public void ChamaNivel1(String nome) {
         int res = 0;
 
@@ -163,7 +166,7 @@ public class Nivel01 {
                         "[Capítulo 2 – Página 41-42]\n\n" +
                         "Fórmulas são operações que usamos para calcular algum valor usando variáveis.\n" +
                         "É como fazer contas com números que estão guardados nas caixinhas (variáveis).\n\n" +
-                        "\"Operador\\t     O que faz\\t           Exemplo (a = 6, b = 3)\n"+
+                        "\"Operador\\t     O que faz\\t           Exemplo (a = 6, b = 3)\n" +
                         "   +              Soma                       a + b = 9 +\n" +
                         "   -              Subtração                  a - b = 3 +\n" +
                         "   *              Multiplicação              a * b = 18+\n" +

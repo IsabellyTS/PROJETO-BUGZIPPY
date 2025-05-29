@@ -94,7 +94,10 @@ public class Nivel06 {
             " 4) numeros.set(2)\n" +
             " 5) numeros[0]\n" +
             " 6) numeros = 2";
-    public Nivel06() {}
+
+    public Nivel06() {
+    }
+
     public void ChamaNivel6(String nome) {
 
         int res = 0, cc = 9;
@@ -119,173 +122,169 @@ public class Nivel06 {
         System.out.println("                                                                      NÍVEL 06 \uD80C\uDDA4 ");
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
-        try {
-            System.out.println("Pense em um ônibus com vários assentos, e cada assento tem um número para você se sentar.");
-            System.out.println("Mas aqui tem um segredo: no Java, o primeiro assento do ônibus é sempre o assento zero (0)!");
-            System.out.println("Um Array é como esse ônibus: um conjunto de 'lugares' onde você pode guardar várias informações (passageiros) do mesmo tipo.");
+        System.out.println("Pense em um ônibus com vários assentos, e cada assento tem um número para você se sentar.");
+        System.out.println("Mas aqui tem um segredo: no Java, o primeiro assento do ônibus é sempre o assento zero (0)!");
+        System.out.println("Um Array é como esse ônibus: um conjunto de 'lugares' onde você pode guardar várias informações (passageiros) do mesmo tipo.");
 
-            System.out.println("\nCada assento no ônibus é um índice do seu Array.");
-            System.out.println("E você pode colocar um 'passageiro' (um valor) em cada assento ou pegá-lo de volta, sabendo o número do assento.");
+        System.out.println("\nCada assento no ônibus é um índice do seu Array.");
+        System.out.println("E você pode colocar um 'passageiro' (um valor) em cada assento ou pegá-lo de volta, sabendo o número do assento.");
 
-            System.out.println("\nVeja como podemos usar nosso ônibus:");
-            System.out.println("int[] idades = new int[4]; // Criamos um ônibus com 4 assentos para idades");
-            System.out.println("idades[0] = 25;           // A idade 25 senta no assento 0");
-            System.out.println("idades[1] = 30;           // A idade 30 senta no assento 1");
-            System.out.println("idades[2] = 18;           // A idade 18 senta no assento 2");
-            System.out.println("idades[3] = 40;           // A idade 40 senta no assento 3");
+        System.out.println("\nVeja como podemos usar nosso ônibus:");
+        System.out.println("int[] idades = new int[4]; // Criamos um ônibus com 4 assentos para idades");
+        System.out.println("idades[0] = 25;           // A idade 25 senta no assento 0");
+        System.out.println("idades[1] = 30;           // A idade 30 senta no assento 1");
+        System.out.println("idades[2] = 18;           // A idade 18 senta no assento 2");
+        System.out.println("idades[3] = 40;           // A idade 40 senta no assento 3");
 
-            System.out.println("\nPara saber a idade de alguém que está no assento, fazemos assim:");
-            System.out.println("System.out.println(idades[2]); // Isso vai mostrar a idade 18, do assento 2!");
+        System.out.println("\nPara saber a idade de alguém que está no assento, fazemos assim:");
+        System.out.println("System.out.println(idades[2]); // Isso vai mostrar a idade 18, do assento 2!");
 
-            System.out.println("\nSuper Dica: Você pode até encher o ônibus com passageiros direto, logo que ele é criado!");
-            System.out.println("É como se todos os passageiros já estivessem esperando para entrar em seus lugares certinhos:");
-            System.out.println("String[] nomes = {\"Ana\", \"Bruno\", \"Carla\"}; // Um ônibus de nomes já com 3 passageiros!");
-            System.out.println("System.out.println(nomes[0]); // Mostra 'Ana', a passageira do assento 0!");
+        System.out.println("\nSuper Dica: Você pode até encher o ônibus com passageiros direto, logo que ele é criado!");
+        System.out.println("É como se todos os passageiros já estivessem esperando para entrar em seus lugares certinhos:");
+        System.out.println("String[] nomes = {\"Ana\", \"Bruno\", \"Carla\"}; // Um ônibus de nomes já com 3 passageiros!");
+        System.out.println("System.out.println(nomes[0]); // Mostra 'Ana', a passageira do assento 0!");
 
-            System.out.println("\nCom os Arrays, você organiza dados de um jeito super prático, como uma lista de números, de palavras ou de qualquer outra coisa!");
-            System.out.println("E o legal é que todos os 'passageiros' no mesmo ônibus são do mesmo tipo (são todas idades, ou todos nomes, etc.).");
-            System.out.println("Nunca se esqueça: o primeiro assento é sempre o zero (0)!");
+        System.out.println("\nCom os Arrays, você organiza dados de um jeito super prático, como uma lista de números, de palavras ou de qualquer outra coisa!");
+        System.out.println("E o legal é que todos os 'passageiros' no mesmo ônibus são do mesmo tipo (são todas idades, ou todos nomes, etc.).");
+        System.out.println("Nunca se esqueça: o primeiro assento é sempre o zero (0)!");
 
-            System.out.print("Clique ENTER se voce entendeu");
-            sc.nextLine();
+        System.out.print("Clique ENTER se voce entendeu");
+        sc.nextLine();
 
-            System.out.println("");
-            System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +
-                    "*Ao você acertar, a Bugzippy dará um passo ao seu formigueiro.");
+        System.out.println("");
+        System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +
+                "*Ao você acertar, a Bugzippy dará um passo ao seu formigueiro.");
 
-            System.out.println("\n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao meu destino: " + cc-- +
-                    "\n");
+        System.out.println("\n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao meu destino: " + cc-- +
+                "\n");
 
-            for (int i = 0; i < perguntasN6.size(); i++) {
-                if (i < 3) {
-                    if (perguntasN6.get(i).equals(this.p1)) {
-                        System.out.print(this.p1);
-                        System.out.print("\nEscreva: ");
-                        res = sc.nextInt();
-                        sc.nextLine();
-                        if (res == 3) {
-                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                    "\n");
-                        } else {
-                            System.out.println("ERROU!☹");
-                            System.out.println("A resposta certa é 3)");
-                        }
-                    } else if (perguntasN6.get(i).equals(this.p2)) {
-                        System.out.print(this.p2);
-                        System.out.print("\nEscreva: ");
-                        res = sc.nextInt();
-                        sc.nextLine();
-                        if (res == 2) {
-                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                    "\n");
-                        } else {
-                            System.out.println("ERROU!☹");
-                            System.out.println("A resposta certa é 2)");
-                        }
-                    } else if (perguntasN6.get(i).equals(this.p3)) {
-                        System.out.print(this.p3);
-                        System.out.print("\nEscreva: ");
-                        res = sc.nextInt();
-                        sc.nextLine();
-                        if (res == 3) {
-                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                    "\n");
-                        } else {
-                            System.out.println("ERROU!☹");
-                            System.out.println("A resposta certa é 3)");
-                        }
-                    } else if (perguntasN6.get(i).equals(this.p4)) {
-                        System.out.print(this.p4);
-                        System.out.print("\nEscreva: ");
-                        res = sc.nextInt();
-                        sc.nextLine();
-                        if (res == 4) {
-                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                    "\n");
-                        } else {
-                            System.out.println("ERROU!☹");
-                            System.out.println("A resposta certa é 4)");
-                        }
-                    } else if (perguntasN6.get(i).equals(this.p5)) {
-                        System.out.print(this.p5);
-                        System.out.print("\nEscreva: ");
-                        res = sc.nextInt();
-                        sc.nextLine();
-                        if (res == 2) {
-                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                    "\n");
-                        } else {
-                            System.out.println("ERROU!☹");
-                            System.out.println("A resposta certa é 2)");
-                        }
-                    } else if (perguntasN6.get(i).equals(this.p6)) {
-                        System.out.print(this.p6);
-                        System.out.print("\nEscreva: ");
-                        res = sc.nextInt();
-                        sc.nextLine();
-                        if (res == 5) {
-                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                    "\n");
-                        } else {
-                            System.out.println("ERROU!☹");
-                            System.out.println("A resposta certa é 5)");
-                        }
-                    } else if (perguntasN6.get(i).equals(this.p7)) {
-                        System.out.print(this.p7);
-                        System.out.print("\nEscreva: ");
-                        res = sc.nextInt();
-                        sc.nextLine();
-                        if (res == 1) {
-                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                    "\n");
-                        } else {
-                            System.out.println("ERROU!☹");
-                            System.out.println("A resposta certa é 1)");
-                        }
-                    } else if (perguntasN6.get(i).equals(this.p8)) {
-                        System.out.print(this.p8);
-                        System.out.print("\nEscreva: ");
-                        res = sc.nextInt();
-                        sc.nextLine();
-                        if (res == 2) {
-                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                    "\n");
-                        } else {
-                            System.out.println("ERROU!☹");
-                            System.out.println("A resposta certa é 2)");
-                        }
-                    } else if (perguntasN6.get(i).equals(this.p9)) {
-                        System.out.print(this.p9);
-                        System.out.print("\nEscreva: ");
-                        res = sc.nextInt();
-                        sc.nextLine();
-                        if (res == 3) {
-                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                    "\n");
-                        } else {
-                            System.out.println("ERROU!☹");
-                            System.out.println("A resposta certa é 3)");
-                        }
-                    } else if (perguntasN6.get(i).equals(this.p10)) {
-                        System.out.print(this.p10);
-                        System.out.print("\nEscreva: ");
-                        res = sc.nextInt();
-                        sc.nextLine();
-                        if (res == 2) {
-                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                    "\n");
-                        } else {
-                            System.out.println("ERROU!☹");
-                            System.out.println("A resposta certa é 2)");
-                        }
+        for (int i = 0; i < perguntasN6.size(); i++) {
+            if (i < 3) {
+                if (perguntasN6.get(i).equals(this.p1)) {
+                    System.out.print(this.p1);
+                    System.out.print("\nEscreva: ");
+                    res = sc.nextInt();
+                    sc.nextLine();
+                    if (res == 3) {
+                        System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                "\n");
+                    } else {
+                        System.out.println("ERROU!☹");
+                        System.out.println("A resposta certa é 3)");
+                    }
+                } else if (perguntasN6.get(i).equals(this.p2)) {
+                    System.out.print(this.p2);
+                    System.out.print("\nEscreva: ");
+                    res = sc.nextInt();
+                    sc.nextLine();
+                    if (res == 2) {
+                        System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                "\n");
+                    } else {
+                        System.out.println("ERROU!☹");
+                        System.out.println("A resposta certa é 2)");
+                    }
+                } else if (perguntasN6.get(i).equals(this.p3)) {
+                    System.out.print(this.p3);
+                    System.out.print("\nEscreva: ");
+                    res = sc.nextInt();
+                    sc.nextLine();
+                    if (res == 3) {
+                        System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                "\n");
+                    } else {
+                        System.out.println("ERROU!☹");
+                        System.out.println("A resposta certa é 3)");
+                    }
+                } else if (perguntasN6.get(i).equals(this.p4)) {
+                    System.out.print(this.p4);
+                    System.out.print("\nEscreva: ");
+                    res = sc.nextInt();
+                    sc.nextLine();
+                    if (res == 4) {
+                        System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                "\n");
+                    } else {
+                        System.out.println("ERROU!☹");
+                        System.out.println("A resposta certa é 4)");
+                    }
+                } else if (perguntasN6.get(i).equals(this.p5)) {
+                    System.out.print(this.p5);
+                    System.out.print("\nEscreva: ");
+                    res = sc.nextInt();
+                    sc.nextLine();
+                    if (res == 2) {
+                        System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                "\n");
+                    } else {
+                        System.out.println("ERROU!☹");
+                        System.out.println("A resposta certa é 2)");
+                    }
+                } else if (perguntasN6.get(i).equals(this.p6)) {
+                    System.out.print(this.p6);
+                    System.out.print("\nEscreva: ");
+                    res = sc.nextInt();
+                    sc.nextLine();
+                    if (res == 5) {
+                        System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                "\n");
+                    } else {
+                        System.out.println("ERROU!☹");
+                        System.out.println("A resposta certa é 5)");
+                    }
+                } else if (perguntasN6.get(i).equals(this.p7)) {
+                    System.out.print(this.p7);
+                    System.out.print("\nEscreva: ");
+                    res = sc.nextInt();
+                    sc.nextLine();
+                    if (res == 1) {
+                        System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                "\n");
+                    } else {
+                        System.out.println("ERROU!☹");
+                        System.out.println("A resposta certa é 1)");
+                    }
+                } else if (perguntasN6.get(i).equals(this.p8)) {
+                    System.out.print(this.p8);
+                    System.out.print("\nEscreva: ");
+                    res = sc.nextInt();
+                    sc.nextLine();
+                    if (res == 2) {
+                        System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                "\n");
+                    } else {
+                        System.out.println("ERROU!☹");
+                        System.out.println("A resposta certa é 2)");
+                    }
+                } else if (perguntasN6.get(i).equals(this.p9)) {
+                    System.out.print(this.p9);
+                    System.out.print("\nEscreva: ");
+                    res = sc.nextInt();
+                    sc.nextLine();
+                    if (res == 3) {
+                        System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                "\n");
+                    } else {
+                        System.out.println("ERROU!☹");
+                        System.out.println("A resposta certa é 3)");
+                    }
+                } else if (perguntasN6.get(i).equals(this.p10)) {
+                    System.out.print(this.p10);
+                    System.out.print("\nEscreva: ");
+                    res = sc.nextInt();
+                    sc.nextLine();
+                    if (res == 2) {
+                        System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                "\n");
+                    } else {
+                        System.out.println("ERROU!☹");
+                        System.out.println("A resposta certa é 2)");
                     }
                 }
             }
-            System.out.print("\n\n");
-            Nivel07 nvl07 = new Nivel07();
-            nvl07.ChamaNivel7(nome);
-        } catch (Exception e) {
-            System.out.println("❌ Ocorreu um erro. Por favor, digite apenas números válidos.");
         }
+        System.out.print("\n\n");
+        Nivel07 nvl07 = new Nivel07();
+        nvl07.ChamaNivel7(nome);
     }
 }
