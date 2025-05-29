@@ -118,7 +118,7 @@ public class Nivel08 {
         System.out.println("Tudo isso é feito com comandos especiais como add(), get(), remove() e size().");
         System.out.println("O ArrayList é como um super baú que ajuda os programadores a guardar coisas direitinho!");
 
-        System.out.print("clique ENTER se voce entendeu");
+        System.out.print("\nClique ENTER se voce entendeu");
         sc.nextLine();
 
         System.out.println("");

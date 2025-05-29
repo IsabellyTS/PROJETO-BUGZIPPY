@@ -133,7 +133,7 @@ public class Nivel02 {
                 "Ele inverte a condição. Se era verdadeiro, vira falso.\n" +
                 "-Exemplo: \"!chovendo\" significa \"não está chovendo\".");
 
-        System.out.print("Clique ENTER se voce entendeu");
+        System.out.print("\nClique ENTER se voce entendeu");
         sc.nextLine();
         System.out.println("");
         System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +

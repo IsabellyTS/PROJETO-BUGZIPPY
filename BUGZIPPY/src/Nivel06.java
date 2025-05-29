@@ -148,7 +148,7 @@ public class Nivel06 {
         System.out.println("E o legal é que todos os 'passageiros' no mesmo ônibus são do mesmo tipo (são todas idades, ou todos nomes, etc.).");
         System.out.println("Nunca se esqueça: o primeiro assento é sempre o zero (0)!");
 
-        System.out.print("Clique ENTER se voce entendeu");
+        System.out.print("\nClique ENTER se voce entendeu");
         sc.nextLine();
 
         System.out.println("");

@@ -133,7 +133,7 @@ public class Nivel04 {
 
                 + "O 'for' é uma forma do computador repetir alguma coisa várias vezes!");
 
-        System.out.print("clique ENTER se voce entendeu");
+        System.out.print("\nClique ENTER se voce entendeu");
         sc.nextLine();
 
         System.out.println("");

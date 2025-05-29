@@ -112,7 +112,7 @@ public class Nivel05 {
                 "while pergunta antes de fazer.\n" +
                 "do while faz uma vez e depois pergunta.");
 
-        System.out.print("clique ENTER se voce entendeu");
+        System.out.print("\nClique ENTER se voce entendeu");
         sc.nextLine();
 
         System.out.println("");

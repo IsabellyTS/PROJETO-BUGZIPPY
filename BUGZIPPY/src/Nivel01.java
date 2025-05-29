@@ -172,7 +172,7 @@ public class Nivel01 {
                         "   *              Multiplicação              a * b = 18+\n" +
                         "   /              Divisão                    a / b = 2\n" +
                         "   %              Resto da divisão           a % b = 0\n");
-        System.out.print("clique ENTER se voce entendeu");
+        System.out.print("Clique ENTER se voce entendeu");
         sc.nextLine();
         System.out.println("");
         System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +

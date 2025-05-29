@@ -155,7 +155,7 @@ public class Nivel07 {
         System.out.println("\nAs **Matrizes** são super úteis para organizar informações que precisam de mais de um 'endereço' para serem encontradas, como um placar de jogo, um mapa de tesouro ou notas de alunos organizadas por turma e prova!");
         System.out.println("Lembre-se sempre: comece a contar as filas e os assentos (colunas) do **zero (0)**!");
 
-        System.out.print("clique ENTER se voce entendeu");
+        System.out.print("\nClique ENTER se voce entendeu");
         sc.nextLine();
 
         System.out.println("");

@@ -144,7 +144,7 @@ public class Nivel03 {
 
             System.out.println("\nCom o switch case, seu programa pode escolher o que fazer com base em um número, uma letra ou até uma palavra!");
 
-            System.out.print("Clique ENTER se voce entendeu");
+            System.out.print("\nClique ENTER se voce entendeu");
             sc.nextLine();
 
             System.out.println("");
