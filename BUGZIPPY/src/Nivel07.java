@@ -10,7 +10,7 @@ public class Nivel07 {
 
         int res = 0, cc = 6;
 
-        ArrayList<String> perguntasN3 = new ArrayList<>();
+        ArrayList<String> perguntasN7 = new ArrayList<>();
         String p1 = "\n[Cap. 7, pág. 214]\n" +
                 "Qual dessas opções cria um ônibus com 3 fileiras e 2 assentos por fileira?\n" +
                 " 1) int[][] lugares = new int[3][2];\n" +
@@ -111,17 +111,17 @@ public class Nivel07 {
                 " 5) Apaga um valor da matriz\n" +
                 " 6) Mostra o tamanho da matriz";
 
-        perguntasN3.add(p1);
-        perguntasN3.add(p2);
-        perguntasN3.add(p3);
-        perguntasN3.add(p4);
-        perguntasN3.add(p5);
-        perguntasN3.add(p6);
-        perguntasN3.add(p7);
-        perguntasN3.add(p8);
-        perguntasN3.add(p9);
-        perguntasN3.add(p10);
-        Collections.shuffle(perguntasN3); //embaralha as posições do arraylist
+        perguntasN7.add(p1);
+        perguntasN7.add(p2);
+        perguntasN7.add(p3);
+        perguntasN7.add(p4);
+        perguntasN7.add(p5);
+        perguntasN7.add(p6);
+        perguntasN7.add(p7);
+        perguntasN7.add(p8);
+        perguntasN7.add(p9);
+        perguntasN7.add(p10);
+        Collections.shuffle(perguntasN7); //embaralha as posições do arraylist
 
         Scanner sc = new Scanner(System.in);
 
@@ -171,9 +171,9 @@ public class Nivel07 {
         System.out.println("\n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao meu destino: " + cc-- +
                 "\n");
 
-            for (int i = 0; i < perguntasN3.size(); i++) {
+            for (int i = 0; i < perguntasN7.size(); i++) {
                 if (i < 3) {
-                    if (perguntasN3.get(i).equals(p1)) {
+                    if (perguntasN7.get(i).equals(p1)) {
                         System.out.print(p1);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
@@ -184,7 +184,7 @@ public class Nivel07 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN3.get(i).equals(p2)) {
+                    } else if (perguntasN7.get(i).equals(p2)) {
                         System.out.print(p2);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
@@ -195,7 +195,7 @@ public class Nivel07 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN3.get(i).equals(p3)) {
+                    } else if (perguntasN7.get(i).equals(p3)) {
                         System.out.print(p3);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
@@ -206,7 +206,7 @@ public class Nivel07 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN3.get(i).equals(p4)) {
+                    } else if (perguntasN7.get(i).equals(p4)) {
                         System.out.print(p4);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
@@ -217,7 +217,7 @@ public class Nivel07 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN3.get(i).equals(p5)) {
+                    } else if (perguntasN7.get(i).equals(p5)) {
                         System.out.print(p5);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
@@ -228,7 +228,7 @@ public class Nivel07 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN3.get(i).equals(p6)) {
+                    } else if (perguntasN7.get(i).equals(p6)) {
                         System.out.print(p6);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
@@ -239,7 +239,7 @@ public class Nivel07 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN3.get(i).equals(p7)) {
+                    } else if (perguntasN7.get(i).equals(p7)) {
                         System.out.print(p7);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
@@ -250,7 +250,7 @@ public class Nivel07 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN3.get(i).equals(p8)) {
+                    } else if (perguntasN7.get(i).equals(p8)) {
                         System.out.print(p8);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
@@ -261,7 +261,7 @@ public class Nivel07 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN3.get(i).equals(p9)) {
+                    } else if (perguntasN7.get(i).equals(p9)) {
                         System.out.print(p9);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
@@ -272,7 +272,7 @@ public class Nivel07 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN3.get(i).equals(p10)) {
+                    } else if (perguntasN7.get(i).equals(p10)) {
                         System.out.print(p10);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
