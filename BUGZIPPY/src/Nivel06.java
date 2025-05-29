@@ -8,7 +8,7 @@ public class Nivel06 {
     }
     public void ChamaNivel6(String nome) {
 
-        int res = 0, cc = 18;
+        int res = 0, cc = 9;
 
         ArrayList<String> perguntasN6 = new ArrayList<>();
         String p1 = "\n[Cap. 7, pág. 194]\n" +
