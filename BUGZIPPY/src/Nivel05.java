@@ -3,6 +3,7 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class Nivel05 {
+    private int res, cc = 12;
     private String p1 = "\n[]\n" +
             "Para que serve o laço while em Java?\n" +
             " 1) Para repetir algo várias vezes\n" +
@@ -69,7 +70,7 @@ public class Nivel05 {
 
     public void ChamaNivel5(String nome) {
 
-        int res, cc = 12;
+        
 
         ArrayList<String> perguntasN5 = new ArrayList<>();
 
