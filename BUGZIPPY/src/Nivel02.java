@@ -3,6 +3,7 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class Nivel02 {
+    private int res = 0, cc = 21;
     private String p1 = "\n[Capítulo 4 – Página 131]\n" +
             "O que faz o if?\n" +
             " 1) Ele conta piadas\n" +
@@ -80,7 +81,6 @@ public class Nivel02 {
     }
 
     public void ChamaNivel2(String nome) {
-        int res = 0, cc = 21;
 
         ArrayList<String> perguntasN2 = new ArrayList<>();
 
