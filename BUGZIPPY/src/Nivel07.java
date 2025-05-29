@@ -3,124 +3,123 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class Nivel07 {
-    public Nivel07() {
+    private String p1 = "\n[Cap. 7, pág. 214]\n" +
+            "Qual dessas opções cria um ônibus com 3 fileiras e 2 assentos por fileira?\n" +
+            " 1) int[][] lugares = new int[3][2];\n" +
+            " 2) int lugares[3][2];\n" +
+            " 3) int lugares = new int(3,2);\n" +
+            " 4) int lugares[] = new int[3][2];\n" +
+            " 5) int lugares[2][3];\n" +
+            " 6) int lugares = new int[2][3];\n";
 
-    }
+    private String p2 = "\n[Cap. 7, pág. 214]\n" +
+            "Em lugares[1][0], o que significa o número 1?\n" +
+            " 1) Número do assento\n" +
+            " 2) Número da janela\n" +
+            " 3) Número da fileira\n" +
+            " 4) Número do passageiro\n" +
+            " 5) Número do ônibus\n" +
+            " 6) Número de assentos\n";
+
+    private String p3 = "\n[Cap. 7, pág. 214]\n" +
+            "Qual linha coloca o número 5 na segunda fileira, terceiro assento de uma matriz numeros?\n" +
+            " 1) numeros[1][2] = 5;\n" +
+            " 2) numeros[2][3] = 5;\n" +
+            " 3) numeros[2][1] = 5;\n" +
+            " 4) numeros[3][2] = 5;\n" +
+            " 5) numeros[2,3] = 5;\n" +
+            " 6) numeros[1:2] = 5;\n";
+
+    private String p4 = "\n[Cap. 7, pág. 214]\n" +
+            "O que essa linha imprime?\n" +
+            "int[][] tabela = {\n" +
+            "  {1, 2},\n" +
+            "  {3, 4}\n" +
+            "};\n" +
+            "System.out.println(tabela[0][1]);\n" +
+            "\n" +
+            " 1) 0\n" +
+            " 2) 1\n" +
+            " 3) 2\n" +
+            " 4) 3\n" +
+            " 5) 4\n" +
+            " 6) Erro de compilação\n";
+
+    private String p5 = "\n[Cap. 7, pág. 214]\n" +
+            "O que for (int i = 0; i < matriz.length; i++) percorre?\n" +
+            " 1) Os assentos de cada fileira\n" +
+            " 2) Todas as colunas\n" +
+            " 3) As fileiras da matriz\n" +
+            " 4) Os valores da matriz\n" +
+            " 5) As linhas e colunas ao mesmo tempo\n" +
+            " 6) Os nomes dos assentos\n";
+
+    private String p6 = "\n[Cap. 7, pág. 213]\n" +
+            "Qual opção cria e preenche uma matriz com os valores abaixo?\n" +
+            "1 2  \n" +
+            "3 4  \n" +
+            "\n" +
+            " 1) int[][] m = { 1, 2, 3, 4 };\n" +
+            " 2) int[][] m = new int[2][2]{1,2,3,4};\n" +
+            " 3) int[][] m = {{1, 2}, {3, 4}};\n" +
+            " 4) int[][] m = { {1 2}, {3 4} };\n" +
+            " 5) int[2][2] m = {{1,2},{3,4}};\n" +
+            " 6) int m[][] = new int[2][2]{1,2,3,4};\n";
+
+    private String p7 = "\n[Cap. 7, pág. 214]\n" +
+            "Em lugares[0][1], o que o número 0 representa?\n" +
+            " 1) A coluna\n" +
+            " 2) A letra do alfabeto\n" +
+            " 3) A quantidade total de assentos\n" +
+            " 4) O número do ônibus\n" +
+            " 5) Um número aleatório\n" +
+            " 6) A fileira";
+
+    private String p8 = "\n[Cap. 7, pág. 214]\n" +
+            "Qual dessas opções guarda o número 7 na primeira fileira e segundo assento?\n" +
+            " 1) matriz[0][1] = 7;\n" +
+            " 2) matriz[1][0] = 7;\n" +
+            " 3) matriz[7] = 0.1;\n" +
+            " 4) matriz[1][7] = 0;\n" +
+            " 5) matriz[0][0] = 7;\n" +
+            " 6) matriz[2] = 7;";
+
+    private String p9 = "\n[Cap. 7, pág. 214]\n" +
+            "Quantos elementos cabem em uma matriz int[][] m = new int[2][2];?\n" +
+            " 1) 2\n" +
+            " 2) 4\n" +
+            " 3) 6\n" +
+            " 4) 8\n" +
+            " 5) 1\n" +
+            " 6) 3";
+
+    private String p10 = "\n[Cap. 7, pág. 214]\n" +
+            "O que essa linha faz?\n" +
+            "System.out.println(matriz[1][0]);\n" +
+            " 1) Coloca um valor na matriz\n" +
+            " 2) Soma os valores da matriz\n" +
+            " 3) Cria uma nova matriz\n" +
+            " 4) Imprime o valor da segunda fileira, primeiro assento\n" +
+            " 5) Apaga um valor da matriz\n" +
+            " 6) Mostra o tamanho da matriz";
+
+    public Nivel07() {}
     public void ChamaNivel7(String nome) {
 
         int res = 0, cc = 6;
 
         ArrayList<String> perguntasN7 = new ArrayList<>();
-        String p1 = "\n[Cap. 7, pág. 214]\n" +
-                "Qual dessas opções cria um ônibus com 3 fileiras e 2 assentos por fileira?\n" +
-                " 1) int[][] lugares = new int[3][2];\n" +
-                " 2) int lugares[3][2];\n" +
-                " 3) int lugares = new int(3,2);\n" +
-                " 4) int lugares[] = new int[3][2];\n" +
-                " 5) int lugares[2][3];\n" +
-                " 6) int lugares = new int[2][3];\n";
-        
-        String p2 = "\n[Cap. 7, pág. 214]\n" +
-                "Em lugares[1][0], o que significa o número 1?\n" +
-                " 1) Número do assento\n" +
-                " 2) Número da janela\n" +
-                " 3) Número da fileira\n" +
-                " 4) Número do passageiro\n" +
-                " 5) Número do ônibus\n" +
-                " 6) Número de assentos\n";
-        
-        String p3 = "\n[Cap. 7, pág. 214]\n" +
-                "Qual linha coloca o número 5 na segunda fileira, terceiro assento de uma matriz numeros?\n" +
-                " 1) numeros[1][2] = 5;\n" +
-                " 2) numeros[2][3] = 5;\n" +
-                " 3) numeros[2][1] = 5;\n" +
-                " 4) numeros[3][2] = 5;\n" +
-                " 5) numeros[2,3] = 5;\n" +
-                " 6) numeros[1:2] = 5;\n";
-        
-        String p4 = "\n[Cap. 7, pág. 214]\n" +
-                "O que essa linha imprime?\n" +
-                "int[][] tabela = {\n" +
-                "  {1, 2},\n" +
-                "  {3, 4}\n" +
-                "};\n" +
-                "System.out.println(tabela[0][1]);\n" +
-                "\n" +
-                " 1) 0\n" +
-                " 2) 1\n" +
-                " 3) 2\n" +
-                " 4) 3\n" +
-                " 5) 4\n" +
-                " 6) Erro de compilação\n";
-        
-        String p5 = "\n[Cap. 7, pág. 214]\n" +
-                "O que for (int i = 0; i < matriz.length; i++) percorre?\n" +
-                " 1) Os assentos de cada fileira\n" +
-                " 2) Todas as colunas\n" +
-                " 3) As fileiras da matriz\n" +
-                " 4) Os valores da matriz\n" +
-                " 5) As linhas e colunas ao mesmo tempo\n" +
-                " 6) Os nomes dos assentos\n";
-        
-        String p6 = "\n[Cap. 7, pág. 213]\n" +
-                "Qual opção cria e preenche uma matriz com os valores abaixo?\n" +
-                "1 2  \n" +
-                "3 4  \n" +
-                "\n" +
-                " 1) int[][] m = { 1, 2, 3, 4 };\n" +
-                " 2) int[][] m = new int[2][2]{1,2,3,4};\n" +
-                " 3) int[][] m = {{1, 2}, {3, 4}};\n" +
-                " 4) int[][] m = { {1 2}, {3 4} };\n" +
-                " 5) int[2][2] m = {{1,2},{3,4}};\n" +
-                " 6) int m[][] = new int[2][2]{1,2,3,4};\n";
-        
-        String p7 = "\n[Cap. 7, pág. 214]\n" +
-                "Em lugares[0][1], o que o número 0 representa?\n" +
-                " 1) A coluna\n" +
-                " 2) A letra do alfabeto\n" +
-                " 3) A quantidade total de assentos\n" +
-                " 4) O número do ônibus\n" +
-                " 5) Um número aleatório\n" +
-                " 6) A fileira";
-        
-        String p8 = "\n[Cap. 7, pág. 214]\n" +
-                "Qual dessas opções guarda o número 7 na primeira fileira e segundo assento?\n" +
-                " 1) matriz[0][1] = 7;\n" +
-                " 2) matriz[1][0] = 7;\n" +
-                " 3) matriz[7] = 0.1;\n" +
-                " 4) matriz[1][7] = 0;\n" +
-                " 5) matriz[0][0] = 7;\n" +
-                " 6) matriz[2] = 7;";
-        
-        String p9 = "\n[Cap. 7, pág. 214]\n" +
-                "Quantos elementos cabem em uma matriz int[][] m = new int[2][2];?\n" +
-                " 1) 2\n" +
-                " 2) 4\n" +
-                " 3) 6\n" +
-                " 4) 8\n" +
-                " 5) 1\n" +
-                " 6) 3";
-        
-        String p10 = "\n[Cap. 7, pág. 214]\n" +
-                "O que essa linha faz?\n" +
-                "System.out.println(matriz[1][0]);\n" +
-                " 1) Coloca um valor na matriz\n" +
-                " 2) Soma os valores da matriz\n" +
-                " 3) Cria uma nova matriz\n" +
-                " 4) Imprime o valor da segunda fileira, primeiro assento\n" +
-                " 5) Apaga um valor da matriz\n" +
-                " 6) Mostra o tamanho da matriz";
 
-        perguntasN7.add(p1);
-        perguntasN7.add(p2);
-        perguntasN7.add(p3);
-        perguntasN7.add(p4);
-        perguntasN7.add(p5);
-        perguntasN7.add(p6);
-        perguntasN7.add(p7);
-        perguntasN7.add(p8);
-        perguntasN7.add(p9);
-        perguntasN7.add(p10);
+        perguntasN7.add(this.p1);
+        perguntasN7.add(this.p2);
+        perguntasN7.add(this.p3);
+        perguntasN7.add(this.p4);
+        perguntasN7.add(this.p5);
+        perguntasN7.add(this.p6);
+        perguntasN7.add(this.p7);
+        perguntasN7.add(this.p8);
+        perguntasN7.add(this.p9);
+        perguntasN7.add(this.p10);
         Collections.shuffle(perguntasN7); //embaralha as posições do arraylist
 
         Scanner sc = new Scanner(System.in);
@@ -173,8 +172,8 @@ public class Nivel07 {
 
             for (int i = 0; i < perguntasN7.size(); i++) {
                 if (i < 3) {
-                    if (perguntasN7.get(i).equals(p1)) {
-                        System.out.print(p1);
+                    if (perguntasN7.get(i).equals(this.p1)) {
+                        System.out.print(this.p1);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -184,8 +183,8 @@ public class Nivel07 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN7.get(i).equals(p2)) {
-                        System.out.print(p2);
+                    } else if (perguntasN7.get(i).equals(this.p2)) {
+                        System.out.print(this.p2);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -195,8 +194,8 @@ public class Nivel07 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN7.get(i).equals(p3)) {
-                        System.out.print(p3);
+                    } else if (perguntasN7.get(i).equals(this.p3)) {
+                        System.out.print(this.p3);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -206,8 +205,8 @@ public class Nivel07 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN7.get(i).equals(p4)) {
-                        System.out.print(p4);
+                    } else if (perguntasN7.get(i).equals(this.p4)) {
+                        System.out.print(this.p4);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -217,8 +216,8 @@ public class Nivel07 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN7.get(i).equals(p5)) {
-                        System.out.print(p5);
+                    } else if (perguntasN7.get(i).equals(this.p5)) {
+                        System.out.print(this.p5);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -228,8 +227,8 @@ public class Nivel07 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN7.get(i).equals(p6)) {
-                        System.out.print(p6);
+                    } else if (perguntasN7.get(i).equals(this.p6)) {
+                        System.out.print(this.p6);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -239,8 +238,8 @@ public class Nivel07 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN7.get(i).equals(p7)) {
-                        System.out.print(p7);
+                    } else if (perguntasN7.get(i).equals(this.p7)) {
+                        System.out.print(this.p7);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -250,8 +249,8 @@ public class Nivel07 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN7.get(i).equals(p8)) {
-                        System.out.print(p8);
+                    } else if (perguntasN7.get(i).equals(this.p8)) {
+                        System.out.print(this.p8);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -261,8 +260,8 @@ public class Nivel07 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN7.get(i).equals(p9)) {
-                        System.out.print(p9);
+                    } else if (perguntasN7.get(i).equals(this.p9)) {
+                        System.out.print(this.p9);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -272,8 +271,8 @@ public class Nivel07 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN7.get(i).equals(p10)) {
-                        System.out.print(p10);
+                    } else if (perguntasN7.get(i).equals(this.p10)) {
+                        System.out.print(this.p10);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();

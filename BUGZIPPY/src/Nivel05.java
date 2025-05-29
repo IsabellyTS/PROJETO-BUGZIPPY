@@ -3,9 +3,76 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class Nivel05 {
-    public Nivel05() {
+    private String p1 = "\n[]\n" +
+            "Para que serve o laço while em Java?\n" +
+            " 1) Para repetir algo várias vezes\n" +
+            " 2) Para pintar a tela de azul\n" +
+            " 3) Para guardar números\n" +
+            " 4) Para desligar o computador\n";
 
-    }
+    private String p2 = "\n[]\n" +
+            "O que o while faz primeiro?\n" +
+            " 1) Mostra uma mensagem\n" +
+            " 2) Verifica se a condição é verdadeira\n" +
+            " 3) Pede um número\n" +
+            " 4) Cria um jogo\n";
+
+    private String p3 = "\n[]\n" +
+            "Quando o while para de repetir?\n" +
+            " 1) Quando o computador cansa\n" +
+            " 2) Quando o usuário aperta Enter\n" +
+            " 3) Quando a condição fica falsa\n" +
+            " 4) Nunca para\n";
+
+    private String p4 = "\n[]\n" +
+            "Qual a diferença do do while?\n" +
+            " 1) Ele serve para decorar\n" +
+            " 2) Ele nunca repete\n" +
+            " 3) Ele só funciona com letras\n" +
+            " 4) Ele faz primeiro e pergunta depois\n";
+
+    private String p5 = "\n[]\n" +
+            "Quando é bom usar do while?\n" +
+            " 1) Quando queremos que o código rode pelo menos uma vez\n" +
+            " 2) Quando queremos repetir só uma vez\n" +
+            " 3) Quando usamos a palavra mágica 'faça'\n" +
+            " 4) Quando o código está com sono\n";
+
+    private String p6 = "\n[]\n" +
+            "O que esse código faz?\nwhile (i < 3) { System.out.println(\"Oi\"); i++; }\n" +
+            " 1) Escreve \"Oi\" mil vezes\n" +
+            " 2) Escreve \"Oi\" três vezes\n" +
+            " 3) Não escreve nada\n" +
+            " 4) Mostra um erro\n";
+
+    private String p7 = "\n[]\n" +
+            "Qual dessas é uma forma certa de usar do while?\n" +
+            " 1) while { jogar(); }\n" +
+            " 2) faça { jogar(); } até parar;\n" +
+            " 3) do { System.out.println(\"Vamos jogar!\"); } while (jogar == true);\n" +
+            " 4) repetir { jogar(); } se quiser\n";
+
+    private String p8 = "\n[]\n" +
+            "O que acontece se a condição do while for falsa logo no começo?\n" +
+            " 1) Fica preso em um loop\n" +
+            " 2) Roda uma vez só\n" +
+            " 3) Mostra \"erro!\"\n" +
+            " 4) O código não roda\n";
+
+    private String p9 = "\n[]\n" +
+            "O que o do while faz se a condição for falsa no final?\n" +
+            " 1) Roda uma vez e para\n" +
+            " 2) Não roda nada\n" +
+            " 3) Roda mil vezes\n" +
+            " 4) Muda o valor sozinho\n";
+
+    private String p10 = "\n[]\n" +
+            "O que é importante lembrar sobre while e do while?\n" +
+            " 1) do while é mais rápido\n" +
+            " 2) while pergunta antes, do while roda antes\n" +
+            " 3) while é só para números\n" +
+            " 4) Eles funcionam com mágica\n";
+    public Nivel05() {}
 
     public void ChamaNivel5(String nome) {
 
@@ -14,86 +81,18 @@ public class Nivel05 {
         Scanner sc = new Scanner(System.in);
 
         ArrayList<String> perguntasN5 = new ArrayList<>();
-        String p1 = "\n[]\n" +
-                "Para que serve o laço while em Java?\n" +
-                " 1) Para repetir algo várias vezes\n" +
-                " 2) Para pintar a tela de azul\n" +
-                " 3) Para guardar números\n" +
-                " 4) Para desligar o computador\n";
 
-        String p2 = "\n[]\n" +
-                "O que o while faz primeiro?\n" +
-                " 1) Mostra uma mensagem\n" +
-                " 2) Verifica se a condição é verdadeira\n" +
-                " 3) Pede um número\n" +
-                " 4) Cria um jogo\n";
 
-        String p3 = "\n[]\n" +
-                "Quando o while para de repetir?\n" +
-                " 1) Quando o computador cansa\n" +
-                " 2) Quando o usuário aperta Enter\n" +
-                " 3) Quando a condição fica falsa\n" +
-                " 4) Nunca para\n";
-
-        String p4 = "\n[]\n" +
-                "Qual a diferença do do while?\n" +
-                " 1) Ele serve para decorar\n" +
-                " 2) Ele nunca repete\n" +
-                " 3) Ele só funciona com letras\n" +
-                " 4) Ele faz primeiro e pergunta depois\n";
-
-        String p5 = "\n[]\n" +
-                "Quando é bom usar do while?\n" +
-                " 1) Quando queremos que o código rode pelo menos uma vez\n" +
-                " 2) Quando queremos repetir só uma vez\n" +
-                " 3) Quando usamos a palavra mágica 'faça'\n" +
-                " 4) Quando o código está com sono\n";
-
-        String p6 = "\n[]\n" +
-                "O que esse código faz?\nwhile (i < 3) { System.out.println(\"Oi\"); i++; }\n" +
-                " 1) Escreve \"Oi\" mil vezes\n" +
-                " 2) Escreve \"Oi\" três vezes\n" +
-                " 3) Não escreve nada\n" +
-                " 4) Mostra um erro\n";
-
-        String p7 = "\n[]\n" +
-                "Qual dessas é uma forma certa de usar do while?\n" +
-                " 1) while { jogar(); }\n" +
-                " 2) faça { jogar(); } até parar;\n" +
-                " 3) do { System.out.println(\"Vamos jogar!\"); } while (jogar == true);\n" +
-                " 4) repetir { jogar(); } se quiser\n";
-
-        String p8 = "\n[]\n" +
-                "O que acontece se a condição do while for falsa logo no começo?\n" +
-                " 1) Fica preso em um loop\n" +
-                " 2) Roda uma vez só\n" +
-                " 3) Mostra \"erro!\"\n" +
-                " 4) O código não roda\n";
-
-        String p9 = "\n[]\n" +
-                "O que o do while faz se a condição for falsa no final?\n" +
-                " 1) Roda uma vez e para\n" +
-                " 2) Não roda nada\n" +
-                " 3) Roda mil vezes\n" +
-                " 4) Muda o valor sozinho\n";
-
-        String p10 = "\n[]\n" +
-                "O que é importante lembrar sobre while e do while?\n" +
-                " 1) do while é mais rápido\n" +
-                " 2) while pergunta antes, do while roda antes\n" +
-                " 3) while é só para números\n" +
-                " 4) Eles funcionam com mágica\n";
-
-        perguntasN5.add(p1);
-        perguntasN5.add(p2);
-        perguntasN5.add(p3);
-        perguntasN5.add(p4);
-        perguntasN5.add(p5);
-        perguntasN5.add(p6);
-        perguntasN5.add(p7);
-        perguntasN5.add(p8);
-        perguntasN5.add(p9);
-        perguntasN5.add(p10);
+        perguntasN5.add(this.p1);
+        perguntasN5.add(this.p2);
+        perguntasN5.add(this.p3);
+        perguntasN5.add(this.p4);
+        perguntasN5.add(this.p5);
+        perguntasN5.add(this.p6);
+        perguntasN5.add(this.p7);
+        perguntasN5.add(this.p8);
+        perguntasN5.add(this.p9);
+        perguntasN5.add(this.p10);
         Collections.shuffle(perguntasN5);
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
         System.out.println("                                                                      NÍVEL 05 \uD80C\uDDA4 ");
@@ -132,8 +131,8 @@ public class Nivel05 {
 
             for (int i = 0; i < perguntasN5.size(); i++) {
                 if (i < 3) {
-                    if (perguntasN5.get(i).equals(p1)) {
-                        System.out.print(p1);
+                    if (perguntasN5.get(i).equals(this.p1)) {
+                        System.out.print(this.p1);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -143,8 +142,8 @@ public class Nivel05 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN5.get(i).equals(p2)) {
-                        System.out.print(p2);
+                    } else if (perguntasN5.get(i).equals(this.p2)) {
+                        System.out.print(this.p2);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -154,8 +153,8 @@ public class Nivel05 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN5.get(i).equals(p3)) {
-                        System.out.print(p3);
+                    } else if (perguntasN5.get(i).equals(this.p3)) {
+                        System.out.print(this.p3);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -165,8 +164,8 @@ public class Nivel05 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN5.get(i).equals(p4)) {
-                        System.out.print(p4);
+                    } else if (perguntasN5.get(i).equals(this.p4)) {
+                        System.out.print(this.p4);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -176,8 +175,8 @@ public class Nivel05 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN5.get(i).equals(p5)) {
-                        System.out.print(p5);
+                    } else if (perguntasN5.get(i).equals(this.p5)) {
+                        System.out.print(this.p5);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -187,8 +186,8 @@ public class Nivel05 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN5.get(i).equals(p6)) {
-                        System.out.print(p6);
+                    } else if (perguntasN5.get(i).equals(this.p6)) {
+                        System.out.print(this.p6);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -198,8 +197,8 @@ public class Nivel05 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN5.get(i).equals(p7)) {
-                        System.out.print(p7);
+                    } else if (perguntasN5.get(i).equals(this.p7)) {
+                        System.out.print(this.p7);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -209,8 +208,8 @@ public class Nivel05 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN5.get(i).equals(p8)) {
-                        System.out.print(p8);
+                    } else if (perguntasN5.get(i).equals(this.p8)) {
+                        System.out.print(this.p8);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -220,8 +219,8 @@ public class Nivel05 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN5.get(i).equals(p9)) {
-                        System.out.print(p9);
+                    } else if (perguntasN5.get(i).equals(this.p9)) {
+                        System.out.print(this.p9);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -231,8 +230,8 @@ public class Nivel05 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN5.get(i).equals(p10)) {
-                        System.out.print(p10);
+                    } else if (perguntasN5.get(i).equals(this.p10)) {
+                        System.out.print(this.p10);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();

@@ -3,125 +3,124 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class Nivel06 {
-    public Nivel06() {
+    private String p1 = "\n[Cap. 7, pág. 194]\n" +
+            "Qual opção cria um ônibus com 4 assentos (um array de 4 inteiros)?\n" +
+            " 1) int idades = new int[4];\n" +
+            " 2) int[4] idades = new int;\n" +
+            " 3) int[] idades = new int[4];\n" +
+            " 4) array int idades = 4;\n" +
+            " 5) new int idades[4];\n" +
+            " 6) int idades(4);\n";
 
-    }
+    private String p2 = "\n[Cap. 7, pág. 193]\n" +
+            "Verdadeiro ou Falso: o primeiro assento (índice) de um array em Java é 1.\n" +
+            " 1) Verdadeiro\n" +
+            " 2) Falso \n" +
+            " 3) Somente em arrays de texto\n" +
+            " 4) Somente em arrays de números\n" +
+            " 5) Depende do computador\n" +
+            " 6) Depende do compilador\n";
+
+    private String p3 = "\n[Cap. 7, pág. 193]\n" +
+            "Complete o código para colocar a idade 30 no segundo assento do array idades.\n" +
+            "int[] idades = new int[3];\n" +
+            "___________________________\n" +
+            "\n" +
+            " 1) idades(1) = 30;\n" +
+            " 2) idades[2] = 30;\n" +
+            " 3) idades[1] = 30;\n" +
+            " 4) idades = 30[1];\n" +
+            " 5) idades = {30};\n" +
+            " 6) idades:1 = 30;\n";
+
+    private String p4 = "\n[Cap. 7, pág. 195]\n" +
+            "O que será exibido?\n" +
+            "int[] numeros = { 5, 8, 3 };\n" +
+            "System.out.println( numeros[0] );\n" +
+            "\n" +
+            " 1) 0\n" +
+            " 2) 3\n" +
+            " 3) 8\n" +
+            " 4) 5\n" +
+            " 5) Erro de compilação\n" +
+            " 6) “numeros[0]”\n";
+
+    private String p5 = "\n[Cap. 7, pág. 195]\n" +
+            "Qual linha imprime quantos assentos existem no array nomes?\n" +
+            "String[] nomes = new String[10];\n" +
+            "\n" +
+            " 1) System.out.println( nomes.size );\n" +
+            " 2) System.out.println( nomes.length );\n" +
+            " 3) System.out.println( length(nomes) );\n" +
+            " 4) System.out.println( nomes.length() );\n" +
+            " 5) System.out.println( nomes.count );\n" +
+            " 6) System.out.println( nomes.tamanho );\n";
+
+    private String p6 = "\n[Cap. 7, pág. 196]\n" +
+            "Qual alternativa cria e preenche um array com os números 2, 4 e 6?\n" +
+            " 1) int[] pares = new int{2,4,6};\n" +
+            " 2) int[] pares = (2,4,6);\n" +
+            " 3) array pares = {2,4,6};\n" +
+            " 4) int pares = {2;4;6};\n" +
+            " 5) int pares[] = { 2, 4, 6 };\n" +
+            " 6) {2,4,6} -> int[] pares;\n";
+
+    private String p7 = "\n[Cap. 7, pág. 195]\n" +
+            "Verdadeiro ou Falso: em um array de int, se você não preencher um assento, ele vale 0.\n" +
+            " 1) Verdadeiro\n" +
+            " 2) Falso\n" +
+            " 3) Vale -1\n" +
+            " 4) Vale null\n" +
+            " 5) Vale “vazio”\n" +
+            " 6) Depende do sistema operacional\n";
+
+    private String p8 = "\n[Cap. 7, pág. 195]\n" +
+            "Qual das alternativas abaixo representa corretamente um Array que pode guardar 10 nomes de pessoas?\n" +
+            " 1) String nomes[10];\n" +
+            " 2) String[] nomes = new String[10];\n" +
+            " 3) int[] nomes = new String[10];\n" +
+            " 4) String nomes = new String[10];\n" +
+            " 5) nomes = String[10];\n" +
+            " 6) String nomes = 10;";
+
+    private String p9 = "\n[Cap. 7, pág. 194]\n" +
+            "Qual palavra em Java usamos para criar um novo Array?\n" +
+            " 1) create\n" +
+            " 2) make\n" +
+            " 3) new\n" +
+            " 4) build\n" +
+            " 5) array\n" +
+            " 6) start";
+
+    private String p10 = "\n[Cap. 7, pág. 196]\n" +
+            "Complete o código para colocar o número 30 no assento 2 do Array numeros:\n" +
+            "int[] numeros = new int[5];\n" +
+            "___________ = 30;\n" +
+            "\n" +
+            " 1) numeros[3]\n" +
+            " 2) numeros[2]\n" +
+            " 3) numeros(2)\n" +
+            " 4) numeros.set(2)\n" +
+            " 5) numeros[0]\n" +
+            " 6) numeros = 2";
+    public Nivel06() {}
     public void ChamaNivel6(String nome) {
 
         int res = 0, cc = 9;
 
         ArrayList<String> perguntasN6 = new ArrayList<>();
-        String p1 = "\n[Cap. 7, pág. 194]\n" +
-                "Qual opção cria um ônibus com 4 assentos (um array de 4 inteiros)?\n" +
-                " 1) int idades = new int[4];\n" +
-                " 2) int[4] idades = new int;\n" +
-                " 3) int[] idades = new int[4];\n" +
-                " 4) array int idades = 4;\n" +
-                " 5) new int idades[4];\n" +
-                " 6) int idades(4);\n";
-        
-        String p2 = "\n[Cap. 7, pág. 193]\n" +
-                "Verdadeiro ou Falso: o primeiro assento (índice) de um array em Java é 1.\n" +
-                " 1) Verdadeiro\n" +
-                " 2) Falso \n" +
-                " 3) Somente em arrays de texto\n" +
-                " 4) Somente em arrays de números\n" +
-                " 5) Depende do computador\n" +
-                " 6) Depende do compilador\n";
-        
-        String p3 = "\n[Cap. 7, pág. 193]\n" +
-                "Complete o código para colocar a idade 30 no segundo assento do array idades.\n" +
-                "int[] idades = new int[3];\n" +
-                "___________________________\n" +
-                "\n" +
-                " 1) idades(1) = 30;\n" +
-                " 2) idades[2] = 30;\n" +
-                " 3) idades[1] = 30;\n" +
-                " 4) idades = 30[1];\n" +
-                " 5) idades = {30};\n" +
-                " 6) idades:1 = 30;\n";
-        
-        String p4 = "\n[Cap. 7, pág. 195]\n" +
-                "O que será exibido?\n" +
-                "int[] numeros = { 5, 8, 3 };\n" +
-                "System.out.println( numeros[0] );\n" +
-                "\n" +
-                " 1) 0\n" +
-                " 2) 3\n" +
-                " 3) 8\n" +
-                " 4) 5\n" +
-                " 5) Erro de compilação\n" +
-                " 6) “numeros[0]”\n";
-        
-        String p5 = "\n[Cap. 7, pág. 195]\n" +
-                "Qual linha imprime quantos assentos existem no array nomes?\n" +
-                "String[] nomes = new String[10];\n" +
-                "\n" +
-                " 1) System.out.println( nomes.size );\n" +
-                " 2) System.out.println( nomes.length );\n" +
-                " 3) System.out.println( length(nomes) );\n" +
-                " 4) System.out.println( nomes.length() );\n" +
-                " 5) System.out.println( nomes.count );\n" +
-                " 6) System.out.println( nomes.tamanho );\n";
-        
-        String p6 = "\n[Cap. 7, pág. 196]\n" +
-                "Qual alternativa cria e preenche um array com os números 2, 4 e 6?\n" +
-                " 1) int[] pares = new int{2,4,6};\n" +
-                " 2) int[] pares = (2,4,6);\n" +
-                " 3) array pares = {2,4,6};\n" +
-                " 4) int pares = {2;4;6};\n" +
-                " 5) int pares[] = { 2, 4, 6 };\n" +
-                " 6) {2,4,6} -> int[] pares;\n";
-        
-        String p7 = "\n[Cap. 7, pág. 195]\n" +
-                "Verdadeiro ou Falso: em um array de int, se você não preencher um assento, ele vale 0.\n" +
-                " 1) Verdadeiro\n" +
-                " 2) Falso\n" +
-                " 3) Vale -1\n" +
-                " 4) Vale null\n" +
-                " 5) Vale “vazio”\n" +
-                " 6) Depende do sistema operacional\n";
-        
-        String p8 = "\n[Cap. 7, pág. 195]\n" +
-                "Qual das alternativas abaixo representa corretamente um Array que pode guardar 10 nomes de pessoas?\n" +
-                " 1) String nomes[10];\n" +
-                " 2) String[] nomes = new String[10];\n" +
-                " 3) int[] nomes = new String[10];\n" +
-                " 4) String nomes = new String[10];\n" +
-                " 5) nomes = String[10];\n" +
-                " 6) String nomes = 10;";
-        
-        String p9 = "\n[Cap. 7, pág. 194]\n" +
-                "Qual palavra em Java usamos para criar um novo Array?\n" +
-                " 1) create\n" +
-                " 2) make\n" +
-                " 3) new\n" +
-                " 4) build\n" +
-                " 5) array\n" +
-                " 6) start";
-        
-        String p10 = "\n[Cap. 7, pág. 196]\n" +
-                "Complete o código para colocar o número 30 no assento 2 do Array numeros:\n" +
-                "int[] numeros = new int[5];\n" +
-                "___________ = 30;\n" +
-                "\n" +
-                " 1) numeros[3]\n" +
-                " 2) numeros[2]\n" +
-                " 3) numeros(2)\n" +
-                " 4) numeros.set(2)\n" +
-                " 5) numeros[0]\n" +
-                " 6) numeros = 2";
 
-        perguntasN6.add(p1);
-        perguntasN6.add(p2);
-        perguntasN6.add(p3);
-        perguntasN6.add(p4);
-        perguntasN6.add(p5);
-        perguntasN6.add(p6);
-        perguntasN6.add(p7);
-        perguntasN6.add(p8);
-        perguntasN6.add(p9);
-        perguntasN6.add(p10);
+
+        perguntasN6.add(this.p1);
+        perguntasN6.add(this.p2);
+        perguntasN6.add(this.p3);
+        perguntasN6.add(this.p4);
+        perguntasN6.add(this.p5);
+        perguntasN6.add(this.p6);
+        perguntasN6.add(this.p7);
+        perguntasN6.add(this.p8);
+        perguntasN6.add(this.p9);
+        perguntasN6.add(this.p10);
         Collections.shuffle(perguntasN6); //embaralha as posições do arraylist
 
         Scanner sc = new Scanner(System.in);
@@ -169,8 +168,8 @@ public class Nivel06 {
 
             for (int i = 0; i < perguntasN6.size(); i++) {
                 if (i < 3) {
-                    if (perguntasN6.get(i).equals(p1)) {
-                        System.out.print(p1);
+                    if (perguntasN6.get(i).equals(this.p1)) {
+                        System.out.print(this.p1);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -180,8 +179,8 @@ public class Nivel06 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN6.get(i).equals(p2)) {
-                        System.out.print(p2);
+                    } else if (perguntasN6.get(i).equals(this.p2)) {
+                        System.out.print(this.p2);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -191,8 +190,8 @@ public class Nivel06 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN6.get(i).equals(p3)) {
-                        System.out.print(p3);
+                    } else if (perguntasN6.get(i).equals(this.p3)) {
+                        System.out.print(this.p3);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -202,8 +201,8 @@ public class Nivel06 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN6.get(i).equals(p4)) {
-                        System.out.print(p4);
+                    } else if (perguntasN6.get(i).equals(this.p4)) {
+                        System.out.print(this.p4);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -213,8 +212,8 @@ public class Nivel06 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN6.get(i).equals(p5)) {
-                        System.out.print(p5);
+                    } else if (perguntasN6.get(i).equals(this.p5)) {
+                        System.out.print(this.p5);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -224,8 +223,8 @@ public class Nivel06 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN6.get(i).equals(p6)) {
-                        System.out.print(p6);
+                    } else if (perguntasN6.get(i).equals(this.p6)) {
+                        System.out.print(this.p6);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -235,8 +234,8 @@ public class Nivel06 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN6.get(i).equals(p7)) {
-                        System.out.print(p7);
+                    } else if (perguntasN6.get(i).equals(this.p7)) {
+                        System.out.print(this.p7);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -246,8 +245,8 @@ public class Nivel06 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN6.get(i).equals(p8)) {
-                        System.out.print(p8);
+                    } else if (perguntasN6.get(i).equals(this.p8)) {
+                        System.out.print(this.p8);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -257,8 +256,8 @@ public class Nivel06 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN6.get(i).equals(p9)) {
-                        System.out.print(p9);
+                    } else if (perguntasN6.get(i).equals(this.p9)) {
+                        System.out.print(this.p9);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
@@ -268,8 +267,8 @@ public class Nivel06 {
                         } else {
                             System.out.println("ERROU!☹");
                         }
-                    } else if (perguntasN6.get(i).equals(p10)) {
-                        System.out.print(p10);
+                    } else if (perguntasN6.get(i).equals(this.p10)) {
+                        System.out.print(this.p10);
                         System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();

@@ -3,91 +3,94 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class Nivel02 {
+    private String p1 = "\n[Capítulo 4 – Página 131]\n" +
+            "O que faz o if?\n" +
+            " 1) Ele conta piadas\n" +
+            " 2) Ele decide se algo deve acontecer \n" +
+            " 3) Ele pinta a tela\n" +
+            " 4) Ele cria um jogo\n";
+
+    private String p2 = "\n[Capítulo 4 – Página 131]\n" +
+            "Quando usamos o else?\n" +
+            " 1) Quando o if não acontece \n" +
+            " 2) Quando queremos repetir algo\n" +
+            " 3) Quando criamos uma variável\n" +
+            " 4) Quando desenhamos na tela\n";
+
+    private String p3 = "\n[Capítulo 4 – Página 131]\n" +
+            "if (sol == true) { irPraPraia(); } - O que esse código quer dizer?\n" +
+            " 1) Se estiver chovendo, ir pra praia\n" +
+            " 2) Sempre ir pra praia\n" +
+            " 3) Dormir na praia\n" +
+            " 4) Só ir pra praia se tiver sol \n";
+
+    private String p4 = "\n[Capítulo 4 – Página 132]\n" +
+            "O que significa o símbolo || ?\n" +
+            " 1) E\n" +
+            " 2) Ou \n" +
+            " 3) Não\n" +
+            " 4) Igual\n";
+
+    private String p5 = "\n[Capítulo 4 – Página 132]\n" +
+            "O que significa o símbolo && ?\n" +
+            " 1) Ou\n" +
+            " 2) Se não\n" +
+            " 3) E \n" +
+            " 4) Multiplica\n";
+
+    private String p6 = "\n[Capítulo 4 – Página 131]\n" +
+            "O que essa parte faz: if (idade >= 12)?\n" +
+            " 1) Vê se a idade é menor que 12\n" +
+            " 2) Vê se a idade é 12 ou mais \n" +
+            " 3) Multiplica a idade\n" +
+            " 4) Cria a idade\n";
+
+    private String p7 = "\n[Capítulo 4 – Página 132]\n" +
+            "O que faz o operador '!' ?\n" +
+            " 1) Soma números\n" +
+            " 2) Compara dois textos\n" +
+            " 3) Nega uma condição \n" +
+            " 4) Transforma número em texto\n";
+
+    private String p8 =  "\n[Capítulo 4 – Página 132]\n" +
+            "Para que servem os operadores lógicos?\n" +
+            " 1) Ajudar o programa a tomar decisões\n" +
+            " 2) Repetir códigos em laços\n" +
+            " 3) Criar textos coloridos\n" +
+            " 4) Mudar a cor da tela\n";
+
+    private String p9 =  "\n[Capítulo 4 – Página 132]\n" +
+            "Qual destas opções de operadores lógicos serve para 'Está chovendo e tem vento!'\n" +
+            " 1) Chovendo && vento\n" +
+            " 2) Chovendo || vento\n" +
+            " 3) Chovendo + vento \n" +
+            " 4) Chovendo E vento\n";
+
+    private String p10 =  "\n[Capítulo 4 – Página 132]\n" +
+            "Qual destas frases corresponde a frase: Hoje eu NÃO vou para a aula.\n" +
+            " 1) Hoje eu ! vou para a aula.\n" +
+            " 2) Hoje eu && vou para a aula.\n" +
+            " 3) Hoje eu || vou para a aula.\n" +
+            " 4) Hoje eu + vou para a aula.\n" ;
+
+    public Nivel02(){}
     public void ChamaNivel2(String nome) {
         int res = 0;
 
 
         ArrayList<String> perguntasN2 = new ArrayList<>();
-        String p1 = "\n[Capítulo 4 – Página 131]\n" +
-                "O que faz o if?\n" +
-                " 1) Ele conta piadas\n" +
-                " 2) Ele decide se algo deve acontecer \n" +
-                " 3) Ele pinta a tela\n" +
-                " 4) Ele cria um jogo\n";
 
-        String p2 = "\n[Capítulo 4 – Página 131]\n" +
-                "Quando usamos o else?\n" +
-                " 1) Quando o if não acontece \n" +
-                " 2) Quando queremos repetir algo\n" +
-                " 3) Quando criamos uma variável\n" +
-                " 4) Quando desenhamos na tela\n";
 
-        String p3 = "\n[Capítulo 4 – Página 131]\n" +
-                "if (sol == true) { irPraPraia(); } - O que esse código quer dizer?\n" +
-                " 1) Se estiver chovendo, ir pra praia\n" +
-                " 2) Sempre ir pra praia\n" +
-                " 3) Dormir na praia\n" +
-                " 4) Só ir pra praia se tiver sol \n";
-
-        String p4 = "\n[Capítulo 4 – Página 132]\n" +
-                "O que significa o símbolo || ?\n" +
-                " 1) E\n" +
-                " 2) Ou \n" +
-                " 3) Não\n" +
-                " 4) Igual\n";
-
-        String p5 = "\n[Capítulo 4 – Página 132]\n" +
-                "O que significa o símbolo && ?\n" +
-                " 1) Ou\n" +
-                " 2) Se não\n" +
-                " 3) E \n" +
-                " 4) Multiplica\n";
-
-        String p6 = "\n[Capítulo 4 – Página 131]\n" +
-                "O que essa parte faz: if (idade >= 12)?\n" +
-                " 1) Vê se a idade é menor que 12\n" +
-                " 2) Vê se a idade é 12 ou mais \n" +
-                " 3) Multiplica a idade\n" +
-                " 4) Cria a idade\n";
-
-        String p7 = "\n[Capítulo 4 – Página 132]\n" +
-                "O que faz o operador '!' ?\n" +
-                " 1) Soma números\n" +
-                " 2) Compara dois textos\n" +
-                " 3) Nega uma condição \n" +
-                " 4) Transforma número em texto\n";
-
-        String p8 =  "\n[Capítulo 4 – Página 132]\n" +
-                "Para que servem os operadores lógicos?\n" +
-                " 1) Ajudar o programa a tomar decisões\n" +
-                " 2) Repetir códigos em laços\n" +
-                " 3) Criar textos coloridos\n" +
-                " 4) Mudar a cor da tela\n";
-
-        String p9 =  "\n[Capítulo 4 – Página 132]\n" +
-                "Qual destas opções de operadores lógicos serve para 'Está chovendo e tem vento!'\n" +
-                " 1) Chovendo && vento\n" +
-                " 2) Chovendo || vento\n" +
-                " 3) Chovendo + vento \n" +
-                " 4) Chovendo E vento\n";
-        
-        String p10 =  "\n[Capítulo 4 – Página 132]\n" +
-                "Qual destas frases corresponde a frase: Hoje eu NÃO vou para a aula.\n" +
-                " 1) Hoje eu ! vou para a aula.\n" +
-                " 2) Hoje eu && vou para a aula.\n" +
-                " 3) Hoje eu || vou para a aula.\n" +
-                " 4) Hoje eu + vou para a aula.\n" ;
-
-        perguntasN2.add(p1);
-        perguntasN2.add(p2);
-        perguntasN2.add(p3);
-        perguntasN2.add(p4);
-        perguntasN2.add(p5);
-        perguntasN2.add(p6);
-        perguntasN2.add(p7);
-        perguntasN2.add(p8);
-        perguntasN2.add(p9);
-        perguntasN2.add(p10);
+        perguntasN2.add(this.p1);
+        perguntasN2.add(this.p2);
+        perguntasN2.add(this.p3);
+        perguntasN2.add(this.p4);
+        perguntasN2.add(this.p5);
+        perguntasN2.add(this.p6);
+        perguntasN2.add(this.p7);
+        perguntasN2.add(this.p8);
+        perguntasN2.add(this.p9);
+        perguntasN2.add(this.p10);
         Collections.shuffle(perguntasN2);
 
         int cc = 21;
@@ -139,8 +142,8 @@ public class Nivel02 {
         //Perguntas
         for (int i = 0; i < perguntasN2.size(); i++) {
             if (i < 3) {
-                if (perguntasN2.get(i).equals(p1)) {
-                    System.out.print(p1);
+                if (perguntasN2.get(i).equals(this.p1)) {
+                    System.out.print(this.p1);
                     res = sc.nextInt();
                     sc.nextLine();
                     if (res == 2) {
@@ -149,8 +152,8 @@ public class Nivel02 {
                     } else {
                         System.out.println("ERROU!☹");
                     }
-                } else if (perguntasN2.get(i).equals(p2)) {
-                    System.out.print(p2);
+                } else if (perguntasN2.get(i).equals(this.p2)) {
+                    System.out.print(this.p2);
                     res = sc.nextInt();
                     sc.nextLine();
                     if (res == 1) {
@@ -159,8 +162,8 @@ public class Nivel02 {
                     } else {
                         System.out.println("ERROU!☹");
                     }
-                } else if (perguntasN2.get(i).equals(p3)) {
-                    System.out.print(p3);
+                } else if (perguntasN2.get(i).equals(this.p3)) {
+                    System.out.print(this.p3);
                     res = sc.nextInt();
                     sc.nextLine();
                     if (res == 4) {
@@ -169,8 +172,8 @@ public class Nivel02 {
                     } else {
                         System.out.println("ERROU!☹");
                     }
-                } else if (perguntasN2.get(i).equals(p4)) {
-                    System.out.print(p4);
+                } else if (perguntasN2.get(i).equals(this.p4)) {
+                    System.out.print(this.p4);
                     res = sc.nextInt();
                     sc.nextLine();
                     if (res == 2) {
@@ -179,8 +182,8 @@ public class Nivel02 {
                     } else {
                         System.out.println("ERROU!☹");
                     }
-                } else if (perguntasN2.get(i).equals(p5)) {
-                    System.out.print(p5);
+                } else if (perguntasN2.get(i).equals(this.p5)) {
+                    System.out.print(this.p5);
                     res = sc.nextInt();
                     sc.nextLine();
                     if (res == 3) {
@@ -189,8 +192,8 @@ public class Nivel02 {
                     } else {
                         System.out.println("ERROU!☹");
                     }
-                } else if (perguntasN2.get(i).equals(p6)) {
-                    System.out.print(p6);
+                } else if (perguntasN2.get(i).equals(this.p6)) {
+                    System.out.print(this.p6);
                     res = sc.nextInt();
                     sc.nextLine();
                     if (res == 2) {
@@ -199,8 +202,8 @@ public class Nivel02 {
                     } else {
                         System.out.println("ERROU!☹");
                     }
-                } else if (perguntasN2.get(i).equals(p7)) {
-                    System.out.print(p7);
+                } else if (perguntasN2.get(i).equals(this.p7)) {
+                    System.out.print(this.p7);
                     res = sc.nextInt();
                     sc.nextLine();
                     if (res == 3) {
@@ -209,8 +212,8 @@ public class Nivel02 {
                     } else {
                         System.out.println("ERROU!☹");
                     }
-                } else if (perguntasN2.get(i).equals(p8)) {
-                    System.out.print(p8);
+                } else if (perguntasN2.get(i).equals(this.p8)) {
+                    System.out.print(this.p8);
                     res = sc.nextInt();
                     sc.nextLine();
                     if (res == 1) {
@@ -219,8 +222,8 @@ public class Nivel02 {
                     } else {
                         System.out.println("ERROU!☹");
                     }
-                } else if (perguntasN2.get(i).equals(p9)) {
-                    System.out.print(p9);
+                } else if (perguntasN2.get(i).equals(this.p9)) {
+                    System.out.print(this.p9);
                     res = sc.nextInt();
                     sc.nextLine();
                     if (res == 3) {
@@ -229,8 +232,8 @@ public class Nivel02 {
                     } else {
                         System.out.println("ERROU!☹");
                     }
-                } else if (perguntasN2.get(i).equals(p10)) {
-                    System.out.print(p10);
+                } else if (perguntasN2.get(i).equals(this.p10)) {
+                    System.out.print(this.p10);
                     res = sc.nextInt();
                     sc.nextLine();
                     if (res == 1) {
