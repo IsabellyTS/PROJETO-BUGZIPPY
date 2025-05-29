@@ -3,6 +3,8 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class Nivel01 {
+    private int res = 0, cc = 24;
+
     private String p1 = "\n[Capítulo 2 – Página 37]\n" +
             "O que é uma variável?\n" +
             " 1) Um botão secreto no teclado\n" +
@@ -91,7 +93,7 @@ public class Nivel01 {
     }
 
     public void ChamaNivel1(String nome) {
-        int res = 0;
+        
 
         ArrayList<String> perguntasN1 = new ArrayList<>();
 
@@ -106,7 +108,7 @@ public class Nivel01 {
         perguntasN1.add(this.p9);
         perguntasN1.add(this.p10);
         Collections.shuffle(perguntasN1);
-        int cc = 24;
+        
         Scanner sc = new Scanner(System.in);
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
         System.out.println("                                                                      NÍVEL 01 \uD80C\uDDA4 ");
