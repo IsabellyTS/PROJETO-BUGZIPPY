@@ -187,7 +187,6 @@ public class Nivel01 {
                     if (res == 2) {
                         System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
                                 "\n");
-                        ;
                     } else {
                         System.out.println("ERROU!☹");
                         System.out.println("A resposta certa é 2)");
@@ -198,7 +197,7 @@ public class Nivel01 {
                     sc.nextLine();
                     if (res == 1) {
                         System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n");                        ;
+                                "\n");
                     } else {
                         System.out.println("ERROU!☹");
                         System.out.println("A resposta certa é 1)");
@@ -209,7 +208,7 @@ public class Nivel01 {
                     sc.nextLine();
                     if (res == 3) {
                         System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n");                        ;
+                                "\n");
                     } else {
                         System.out.println("ERROU!☹");
                         System.out.println("A resposta certa é 3)");
@@ -220,7 +219,7 @@ public class Nivel01 {
                     sc.nextLine();
                     if (res == 4) {
                         System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n");                        ;
+                                "\n");
                     } else {
                         System.out.println("ERROU!☹");
                         System.out.println("A resposta certa é 4)");
@@ -231,7 +230,7 @@ public class Nivel01 {
                     sc.nextLine();
                     if (res == 3) {
                         System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n");                        ;
+                                "\n");
                     } else {
                         System.out.println("ERROU!☹");
                         System.out.println("A resposta certa é 3)");
@@ -242,7 +241,7 @@ public class Nivel01 {
                     sc.nextLine();
                     if (res == 4) {
                         System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n");                        ;
+                                "\n");
                     } else {
                         System.out.println("ERROU!☹");
                         System.out.println("A resposta certa é 4)");
@@ -253,7 +252,7 @@ public class Nivel01 {
                     sc.nextLine();
                     if (res == 1) {
                         System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n");                        ;
+                                "\n");
                     } else {
                         System.out.println("ERROU!☹");
                         System.out.println("A resposta certa é 1)");
@@ -264,7 +263,7 @@ public class Nivel01 {
                     sc.nextLine();
                     if (res == 4) {
                         System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n");                        ;
+                                "\n");
                     } else {
                         System.out.println("ERROU!☹");
                         System.out.println("A resposta certa é 4)");
@@ -275,7 +274,7 @@ public class Nivel01 {
                     sc.nextLine();
                     if (res == 3) {
                         System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n");                        ;
+                                "\n");
                     } else {
                         System.out.println("ERROU!☹");
                         System.out.println("A resposta certa é 3)");
@@ -286,7 +285,7 @@ public class Nivel01 {
                     sc.nextLine();
                     if (res == 3) {
                         System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n");                        ;
+                                "\n");
                     } else {
                         System.out.println("ERROU!☹");
                         System.out.println("A resposta certa é 3)");
