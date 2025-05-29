@@ -3,6 +3,7 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class Nivel03 {
+     private int res = 0, cc = 18;
     private String p1 = "\n[Capítulo 5, pág. 172]\n" +
             "O que o comando switch faz no Java? Escolha a melhor explicação:\n" +
             "Imagine que você tem várias opções e precisa escolher apenas uma, como em um cardápio. O switch ajuda o computador a escolher o que fazer com base em um valor.\n" +
@@ -94,7 +95,7 @@ public class Nivel03 {
 
     public void ChamaNivel3(String nome) {
 
-        int res = 0, cc = 18;
+    
 
         ArrayList<String> perguntasN3 = new ArrayList<>();
 
