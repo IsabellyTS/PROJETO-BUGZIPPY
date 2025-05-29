@@ -18,7 +18,10 @@ public class Nivel02 {
             " 4) Quando desenhamos na tela\n";
 
     private String p3 = "\n[Capítulo 4 – Página 131]\n" +
-            "if (sol == true) { irPraPraia(); } - O que esse código quer dizer?\n" +
+            "O que esse código quer dizer?\n" +
+            "if (sol == true) { \n" +
+            "   irPraPraia(); \n" +
+            "} \n" +
             " 1) Se estiver chovendo, ir pra praia\n" +
             " 2) Sempre ir pra praia\n" +
             " 3) Dormir na praia\n" +
@@ -73,15 +76,11 @@ public class Nivel02 {
             " 3) Hoje eu || vou para a aula.\n" +
             " 4) Hoje eu + vou para a aula.\n";
 
-    public Nivel02() {
-    }
-
+    public Nivel02() {}
     public void ChamaNivel2(String nome) {
-        int res = 0;
-
+        int res = 0, cc = 21;
 
         ArrayList<String> perguntasN2 = new ArrayList<>();
-
 
         perguntasN2.add(this.p1);
         perguntasN2.add(this.p2);
@@ -95,7 +94,6 @@ public class Nivel02 {
         perguntasN2.add(this.p10);
         Collections.shuffle(perguntasN2);
 
-        int cc = 21;
         Scanner sc = new Scanner(System.in);
 
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
@@ -153,9 +151,9 @@ public class Nivel02 {
                         if (res == 2) {
                             System.out.println("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
                                     "\n");
-                            ;
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 2)");
                         }
                     } else if (perguntasN2.get(i).equals(this.p2)) {
                         System.out.print(this.p2);
@@ -165,9 +163,9 @@ public class Nivel02 {
                         if (res == 1) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
                                     "\n");
-                            ;
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 1)");
                         }
                     } else if (perguntasN2.get(i).equals(this.p3)) {
                         System.out.print(this.p3);
@@ -177,9 +175,9 @@ public class Nivel02 {
                         if (res == 4) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
                                     "\n");
-                            ;
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 4)");
                         }
                     } else if (perguntasN2.get(i).equals(this.p4)) {
                         System.out.print(this.p4);
@@ -189,9 +187,9 @@ public class Nivel02 {
                         if (res == 2) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
                                     "\n");
-                            ;
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 2)");
                         }
                     } else if (perguntasN2.get(i).equals(this.p5)) {
                         System.out.print(this.p5);
@@ -201,9 +199,9 @@ public class Nivel02 {
                         if (res == 3) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
                                     "\n");
-                            ;
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 3)");
                         }
                     } else if (perguntasN2.get(i).equals(this.p6)) {
                         System.out.print(this.p6);
@@ -213,9 +211,9 @@ public class Nivel02 {
                         if (res == 2) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
                                     "\n");
-                            ;
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 2)");
                         }
                     } else if (perguntasN2.get(i).equals(this.p7)) {
                         System.out.print(this.p7);
@@ -225,9 +223,9 @@ public class Nivel02 {
                         if (res == 3) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
                                     "\n");
-                            ;
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 3)");
                         }
                     } else if (perguntasN2.get(i).equals(this.p8)) {
                         System.out.print(this.p8);
@@ -237,9 +235,9 @@ public class Nivel02 {
                         if (res == 1) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
                                     "\n");
-                            ;
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 1)");
                         }
                     } else if (perguntasN2.get(i).equals(this.p9)) {
                         System.out.print(this.p9);
@@ -249,9 +247,9 @@ public class Nivel02 {
                         if (res == 1) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
                                     "\n");
-                            ;
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 1)");
                         }
                     } else if (perguntasN2.get(i).equals(this.p10)) {
                         System.out.print(this.p10);
@@ -261,9 +259,9 @@ public class Nivel02 {
                         if (res == 1) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
                                     "\n");
-                            ;
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 1)");
                         }
                     }
                 }

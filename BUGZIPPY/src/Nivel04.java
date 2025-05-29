@@ -84,9 +84,7 @@ public class Nivel04 {
             " 5) Quando queremos repetir só se o usuário quiser\n" +
             " 6) Quando usamos apenas switch\n";
 
-    public Nivel04() {
-    }
-
+    public Nivel04() {}
     public void ChamaNivel4(String nome) {
 
         int res, cc = 15;
@@ -155,6 +153,7 @@ public class Nivel04 {
                                     "\n");
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 2)");
                         }
                     } else if (perguntasN4.get(i).equals(this.p2)) {
                         System.out.print(this.p2);
@@ -166,6 +165,7 @@ public class Nivel04 {
                                     "\n");
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 1)");
                         }
                     } else if (perguntasN4.get(i).equals(this.p3)) {
                         System.out.print(this.p3);
@@ -177,6 +177,7 @@ public class Nivel04 {
                                     "\n");
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 2)");
                         }
                     } else if (perguntasN4.get(i).equals(this.p4)) {
                         System.out.print(this.p4);
@@ -188,6 +189,7 @@ public class Nivel04 {
                                     "\n");
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 3)");
                         }
                     } else if (perguntasN4.get(i).equals(this.p5)) {
                         System.out.print(this.p5);
@@ -199,6 +201,7 @@ public class Nivel04 {
                                     "\n");
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 2)");
                         }
                     } else if (perguntasN4.get(i).equals(this.p6)) {
                         System.out.print(this.p6);
@@ -210,6 +213,7 @@ public class Nivel04 {
                                     "\n");
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 2)");
                         }
                     } else if (perguntasN4.get(i).equals(this.p7)) {
                         System.out.print(this.p7);
@@ -221,6 +225,7 @@ public class Nivel04 {
                                     "\n");
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 4)");
                         }
                     } else if (perguntasN4.get(i).equals(this.p8)) {
                         System.out.print(this.p8);
@@ -232,6 +237,7 @@ public class Nivel04 {
                                     "\n");
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 2)");
                         }
                     } else if (perguntasN4.get(i).equals(this.p9)) {
                         System.out.print(this.p9);
@@ -243,6 +249,7 @@ public class Nivel04 {
                                     "\n");
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 2)");
                         }
                     } else if (perguntasN4.get(i).equals(this.p10)) {
                         System.out.print(this.p10);
@@ -254,6 +261,7 @@ public class Nivel04 {
                                     "\n");
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 3)");
                         }
                     }
                 }

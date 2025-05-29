@@ -95,7 +95,6 @@ public class Nivel06 {
             " 5) numeros[0]\n" +
             " 6) numeros = 2";
     public Nivel06() {}
-
     public void ChamaNivel6(String nome) {
 
         int res = 0, cc = 9;
@@ -169,6 +168,7 @@ public class Nivel06 {
                                     "\n");
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 3)");
                         }
                     } else if (perguntasN6.get(i).equals(this.p2)) {
                         System.out.print(this.p2);
@@ -180,6 +180,7 @@ public class Nivel06 {
                                     "\n");
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 2)");
                         }
                     } else if (perguntasN6.get(i).equals(this.p3)) {
                         System.out.print(this.p3);
@@ -191,6 +192,7 @@ public class Nivel06 {
                                     "\n");
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 3)");
                         }
                     } else if (perguntasN6.get(i).equals(this.p4)) {
                         System.out.print(this.p4);
@@ -202,6 +204,7 @@ public class Nivel06 {
                                     "\n");
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 4)");
                         }
                     } else if (perguntasN6.get(i).equals(this.p5)) {
                         System.out.print(this.p5);
@@ -213,6 +216,7 @@ public class Nivel06 {
                                     "\n");
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 2)");
                         }
                     } else if (perguntasN6.get(i).equals(this.p6)) {
                         System.out.print(this.p6);
@@ -224,6 +228,7 @@ public class Nivel06 {
                                     "\n");
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 5)");
                         }
                     } else if (perguntasN6.get(i).equals(this.p7)) {
                         System.out.print(this.p7);
@@ -235,6 +240,7 @@ public class Nivel06 {
                                     "\n");
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 1)");
                         }
                     } else if (perguntasN6.get(i).equals(this.p8)) {
                         System.out.print(this.p8);
@@ -246,6 +252,7 @@ public class Nivel06 {
                                     "\n");
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 2)");
                         }
                     } else if (perguntasN6.get(i).equals(this.p9)) {
                         System.out.print(this.p9);
@@ -257,6 +264,7 @@ public class Nivel06 {
                                     "\n");
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 3)");
                         }
                     } else if (perguntasN6.get(i).equals(this.p10)) {
                         System.out.print(this.p10);
@@ -268,6 +276,7 @@ public class Nivel06 {
                                     "\n");
                         } else {
                             System.out.println("ERROU!☹");
+                            System.out.println("A resposta certa é 2)");
                         }
                     }
                 }
