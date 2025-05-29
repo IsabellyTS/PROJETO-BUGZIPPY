@@ -8,7 +8,7 @@ public class Nivel07 {
     }
     public void ChamaNivel7(String nome) {
 
-        int res = 0, cc = 18;
+        int res = 0, cc = 6;
 
         ArrayList<String> perguntasN3 = new ArrayList<>();
         String p1 = "\n[Cap. 7, pág. 214]\n" +
@@ -155,10 +155,12 @@ public class Nivel07 {
             System.out.print("clique ENTER se voce entendeu");
             sc.nextLine();
 
-            System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +
-                    "*Ao você acertar, a Bugzippy dará um passo ao seu formigueiro.");
+            System.out.println("");
+        System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +
+                "*Ao você acertar, a Bugzippy dará um passo ao seu formigueiro.");
 
-            System.out.println("Passos para chegar ao meu destino: " + cc--);
+        System.out.println("\n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao meu destino: " + cc-- +
+                "\n");
 
             for (int i = 0; i < perguntasN3.size(); i++) {
                 if (i < 3) {
