@@ -12,7 +12,7 @@ public class Nivel01 {
 
 
         ArrayList<String> perguntasN1 = new ArrayList<>();
-        String p1 = "\nO que é uma variável?\n[Capítulo 2 – Página 37]" +
+        String p1 = "\n[Capítulo 2 – Página 37]\nO que é uma variável?\n" +
                 " 1) Um botão secreto no teclado\n" +
                 " 2) Um lugar para guardar valores, como números e textos\n" +
                 " 3) Um tipo de erro\n" +
@@ -20,7 +20,7 @@ public class Nivel01 {
                 " 5) Um comando que fecha o programa\n" +
                 " 6) Um vírus de computador\n";
 
-        String p2 = "\nQual linha cria uma variável inteira com valor 12?\n[Capítulo 2 – Página 37-38]" +
+        String p2 = "\n[Capítulo 2 – Página 37-38]\nQual linha cria uma variável inteira com valor 12?\n" +
                 " 1) int idade = 12;\n" +
                 " 2) idade = int 12;\n" +
                 " 3) idade := 12;\n" +
@@ -28,13 +28,13 @@ public class Nivel01 {
                 " 5) double idade = idade;\n" +
                 " 6) idade int = '12';\n";
 
-        String p3 =  "\nComo somar os valores das variáveis a e b e guardar o resultado?\n[Capítulo 2 – Página 37-38-41-42]" +
+        String p3 =  "\n[Capítulo 2 – Página 37-38-41-42]\nComo somar os valores das variáveis a e b e guardar o resultado?\n" +
                 " 1) total = a mais b\n" +
                 " 2) String total = a + b\n" +
                 " 3) int total = a + b\n" +
                 " 4) char total = a + b\n";
 
-        String p4 = "\nO tipo boolean guarda que tipo de informação?\n[Capítulo 2 – Página 37]" +
+        String p4 = "\n[Capítulo 2 – Página 37]\nO tipo boolean guarda que tipo de informação?\n" +
                 " 1) Números inteiros\n" +
                 " 2) Letras\n" +
                 " 3) Palavras longas\n" +
@@ -42,13 +42,13 @@ public class Nivel01 {
                 " 5) Fotos\n" +
                 " 6) Vídeos\n";
 
-        String p5 = "\nSe eu tenho 10 balas e como 3, qual é a fórmula para saber quantas sobraram?\n[Capítulo 2 – Página 41-42]" +
+        String p5 = "\n[Capítulo 2 – Página 41-42]\nSe eu tenho 10 balas e como 3, qual é a fórmula para saber quantas sobraram?\n" +
                 " 1) int sobrou = 10 + 3\n" +
                 " 2) int sobrou = 10 * 3\n" +
                 " 3) int sobrou = 10 - 3\n" +
                 " 4) int sobrou = 10 / 3\n";
 
-        String p6 = "\nQual dessas é uma forma correta de criar uma variável?\n[Capítulo 2 – Página 37-38]" +
+        String p6 = "\n[Capítulo 2 – Página 37-38]\nQual dessas é uma forma correta de criar uma variável?\n" +
                 " 1) 12 idade = int;\n" +
                 " 2) idade: int = 12;\n" +
                 " 3) var idade = 12;\n" +
@@ -56,13 +56,13 @@ public class Nivel01 {
                 " 5) idade := 12;\n" +
                 " 6) idade = '12';\n";
 
-        String p7 = "\nComo juntar os valores 5 e 3 para fazer uma subtração?\n[Capítulo 2 – Página 41-42]" +
+        String p7 = "\n[Capítulo 2 – Página 41-42]\nComo juntar os valores 5 e 3 para fazer uma subtração?\n" +
                 " 1) int resultado = 5 - 3\n" +
                 " 2) int resultado = 5 + 3\n" +
                 " 3) int resultado = 5 * 3\n" +
                 " 4) int resultado = 5 / 3\n";
 
-        String p8 =  "\nPara que serve uma variável além de guardar valores?\n[Capítulo 2 – Página 37]" +
+        String p8 =  "\n[Capítulo 2 – Página 37]\nPara que serve uma variável além de guardar valores?\n" +
                 " 1) Só para escrever o nome do jogador\n" +
                 " 2) Para decorar o código\n" +
                 " 3) Para guardar imagens\n" +
@@ -70,7 +70,7 @@ public class Nivel01 {
                 " 5) Para imprimir na tela com println\n" +
                 " 6) Para fazer desenhos\n";
 
-        String p9 =  "\nO que significa a palavra int em Java?\n[Capítulo 2 – Página 37]" +
+        String p9 =  "\n[Capítulo 2 – Página 37]\nO que significa a palavra int em Java?\n" +
                 " 1) Iniciar um programa\n" +
                 " 2) Mostrar uma mensagem\n" +
                 " 3) Guardar um número inteiro\n" +
@@ -78,7 +78,7 @@ public class Nivel01 {
                 " 5) Ligar a internet\n" +
                 " 6) Apagar um valor\n";
 
-        String p10 =  "\nQual nome é válido para uma variável?\n[Capítulo 2 – Página 36]" +
+        String p10 =  "\n[Capítulo 2 – Página 36]\nQual nome é válido para uma variável?\n" +
                 " 1) 1nome\n" +
                 " 2) meu nome\n" +
                 " 3) nome_do_usuario\n" +
