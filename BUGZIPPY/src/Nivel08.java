@@ -3,6 +3,7 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class Nivel08 {
+    private int res = 0, cc = 3;
     private String p1 = "\n[Capítulo 7, pág. 262]\n" +
             "Para que serve a classe ArrayList em Java?\n" +
             " 1) Criar gráficos\n" +
@@ -88,8 +89,6 @@ public class Nivel08 {
     }
 
     public void ChamaNivel8(String nome) {
-
-        int res = 0, cc = 3;
 
         ArrayList<String> perguntasN8 = new ArrayList<>();
         perguntasN8.add(this.p1);
