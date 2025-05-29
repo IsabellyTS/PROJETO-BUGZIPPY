@@ -248,9 +248,6 @@ public class Nivel02 {
         System.out.print("\n\n");
         Nivel03 nvl03 = new Nivel03();
         nvl03.ChamaNivel3(nome);
-    catch (Exception e) {
-            System.out.println("❌ Entrada inválida! Por favor, digite apenas números.");
-        }
     }
 }
 

@@ -251,8 +251,5 @@ public void ChamaNivel8(String nome) {
         }
     Fim fim = new Fim();
     fim.Parabenizar(nome);
-    catch (Exception e) {
-            System.out.println("❌ Entrada inválida! Por favor, digite apenas números.");
-        }
     }
 }
