@@ -9,79 +9,69 @@ public class Nivel05 {
             " 2) Para pintar a tela de azul\n" +
             " 3) Para guardar números\n" +
             " 4) Para desligar o computador\n";
-
     private String p2 = "\n[]\n" +
             "O que o while faz primeiro?\n" +
             " 1) Mostra uma mensagem\n" +
             " 2) Verifica se a condição é verdadeira\n" +
             " 3) Pede um número\n" +
             " 4) Cria um jogo\n";
-
     private String p3 = "\n[]\n" +
             "Quando o while para de repetir?\n" +
             " 1) Quando o computador cansa\n" +
             " 2) Quando o usuário aperta Enter\n" +
             " 3) Quando a condição fica falsa\n" +
             " 4) Nunca para\n";
-
     private String p4 = "\n[]\n" +
             "Qual a diferença do do while?\n" +
             " 1) Ele serve para decorar\n" +
             " 2) Ele nunca repete\n" +
             " 3) Ele só funciona com letras\n" +
             " 4) Ele faz primeiro e pergunta depois\n";
-
     private String p5 = "\n[]\n" +
             "Quando é bom usar do while?\n" +
             " 1) Quando queremos que o código rode pelo menos uma vez\n" +
             " 2) Quando queremos repetir só uma vez\n" +
             " 3) Quando usamos a palavra mágica 'faça'\n" +
             " 4) Quando o código está com sono\n";
-
     private String p6 = "\n[]\n" +
             "O que esse código faz?\nwhile (i < 3) { System.out.println(\"Oi\"); i++; }\n" +
             " 1) Escreve \"Oi\" mil vezes\n" +
             " 2) Escreve \"Oi\" três vezes\n" +
             " 3) Não escreve nada\n" +
             " 4) Mostra um erro\n";
-
     private String p7 = "\n[]\n" +
             "Qual dessas é uma forma certa de usar do while?\n" +
             " 1) while { jogar(); }\n" +
             " 2) faça { jogar(); } até parar;\n" +
             " 3) do { System.out.println(\"Vamos jogar!\"); } while (jogar == true);\n" +
             " 4) repetir { jogar(); } se quiser\n";
-
     private String p8 = "\n[]\n" +
             "O que acontece se a condição do while for falsa logo no começo?\n" +
             " 1) Fica preso em um loop\n" +
             " 2) Roda uma vez só\n" +
             " 3) Mostra \"erro!\"\n" +
             " 4) O código não roda\n";
-
     private String p9 = "\n[]\n" +
             "O que o do while faz se a condição for falsa no final?\n" +
             " 1) Roda uma vez e para\n" +
             " 2) Não roda nada\n" +
             " 3) Roda mil vezes\n" +
             " 4) Muda o valor sozinho\n";
-
     private String p10 = "\n[]\n" +
             "O que é importante lembrar sobre while e do while?\n" +
             " 1) do while é mais rápido\n" +
             " 2) while pergunta antes, do while roda antes\n" +
             " 3) while é só para números\n" +
             " 4) Eles funcionam com mágica\n";
-    public Nivel05() {}
+
+    public Nivel05() {
+    }
 
     public void ChamaNivel5(String nome) {
 
         int res, cc = 12;
 
-        Scanner sc = new Scanner(System.in);
-
         ArrayList<String> perguntasN5 = new ArrayList<>();
-
 
         perguntasN5.add(this.p1);
         perguntasN5.add(this.p2);
@@ -94,6 +84,9 @@ public class Nivel05 {
         perguntasN5.add(this.p9);
         perguntasN5.add(this.p10);
         Collections.shuffle(perguntasN5);
+
+        Scanner sc = new Scanner(System.in);
+
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
         System.out.println("                                                                      NÍVEL 05 \uD80C\uDDA4 ");
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
@@ -123,11 +116,11 @@ public class Nivel05 {
             sc.nextLine();
 
             System.out.println("");
-        System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +
-                "*Ao você acertar, a Bugzippy dará um passo ao seu formigueiro.");
+            System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +
+                    "*Ao você acertar, a Bugzippy dará um passo ao seu formigueiro.");
 
-        System.out.println("\n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao meu destino: " + cc-- +
-                "\n");
+            System.out.println("\n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao meu destino: " + cc-- +
+                    "\n");
 
             for (int i = 0; i < perguntasN5.size(); i++) {
                 if (i < 3) {
@@ -138,7 +131,7 @@ public class Nivel05 {
                         sc.nextLine();
                         if (res == 1) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
+                                    "\n");
                         } else {
                             System.out.println("ERROU!☹");
                         }
@@ -149,7 +142,7 @@ public class Nivel05 {
                         sc.nextLine();
                         if (res == 2) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
+                                    "\n");
                         } else {
                             System.out.println("ERROU!☹");
                         }
@@ -160,7 +153,7 @@ public class Nivel05 {
                         sc.nextLine();
                         if (res == 3) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
+                                    "\n");
                         } else {
                             System.out.println("ERROU!☹");
                         }
@@ -171,7 +164,7 @@ public class Nivel05 {
                         sc.nextLine();
                         if (res == 4) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
+                                    "\n");
                         } else {
                             System.out.println("ERROU!☹");
                         }
@@ -182,7 +175,7 @@ public class Nivel05 {
                         sc.nextLine();
                         if (res == 1) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
+                                    "\n");
                         } else {
                             System.out.println("ERROU!☹");
                         }
@@ -193,7 +186,7 @@ public class Nivel05 {
                         sc.nextLine();
                         if (res == 2) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
+                                    "\n");
                         } else {
                             System.out.println("ERROU!☹");
                         }
@@ -204,7 +197,7 @@ public class Nivel05 {
                         sc.nextLine();
                         if (res == 3) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
+                                    "\n");
                         } else {
                             System.out.println("ERROU!☹");
                         }
@@ -215,7 +208,7 @@ public class Nivel05 {
                         sc.nextLine();
                         if (res == 4) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
+                                    "\n");
                         } else {
                             System.out.println("ERROU!☹");
                         }
@@ -226,7 +219,7 @@ public class Nivel05 {
                         sc.nextLine();
                         if (res == 1) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
+                                    "\n");
                         } else {
                             System.out.println("ERROU!☹");
                         }
@@ -237,17 +230,18 @@ public class Nivel05 {
                         sc.nextLine();
                         if (res == 2) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
+                                    "\n");
                         } else {
                             System.out.println("ERROU!☹");
                         }
                     }
                 }
             }
+            System.out.print("\n\n");
             Nivel06 nvl6 = new Nivel06();
-            nvl6.ChamaNivel6(nome);//tem q fazer o metodo de chamar o nivel 5 aquiii
+            nvl6.ChamaNivel6(nome);
         } catch (Exception e) {
-            System.out.println("Entrada inválida! Por favor, digite apenas números.");
+            System.out.println("❌ Ocorreu um erro. Por favor, digite apenas números válidos.");
         }
     }
 }

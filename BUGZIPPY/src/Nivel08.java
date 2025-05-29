@@ -11,7 +11,6 @@ public class Nivel08 {
             " 4) Repetir ações com for\n" +
             " 5) Fazer contas matemáticas\n" +
             " 6) Criar um banco de dados";
-
     private String p2 = "\n[Capítulo 7, pág. 263]\n" +
             "Como se cria um ArrayList de Strings?\n" +
             " 1) ArrayList<String> nomes = new ArrayList<>();\n" +
@@ -20,7 +19,6 @@ public class Nivel08 {
             " 4) ArrayList<nome> = new String();\n" +
             " 5) ArrayList = {\"nome\"};\n" +
             " 6) ArrayList new = String[];";
-
     private String p3 = "\n[Capítulo 7, pág. 264]\n" +
             "Qual método adiciona um item a um ArrayList?\n" +
             " 1) addItem()\n" +
@@ -29,7 +27,6 @@ public class Nivel08 {
             " 4) add()\n" +
             " 5) insert()\n" +
             " 6) put()";
-
     private String p4 = "\n[Capítulo 7, pág. 265]\n" +
             "Qual comando remove um elemento do ArrayList?\n" +
             " 1) remove(index)\n" +
@@ -38,7 +35,6 @@ public class Nivel08 {
             " 4) erase()\n" +
             " 5) clear(index)\n" +
             " 6) cut()";
-
     private String p5 = "\n[Capítulo 7, pág. 266]\n" +
             "O que faz o método size()?\n" +
             " 1) Mostra o conteúdo do ArrayList\n" +
@@ -47,7 +43,6 @@ public class Nivel08 {
             " 4) Adiciona um novo item\n" +
             " 5) Ordena os itens\n" +
             " 6) Mostra o último item";
-
     private String p6 = "\n[Capítulo 7, pág. 267]\n" +
             "Como acessar o primeiro item de um ArrayList chamado nomes?\n" +
             " 1) nomes[1]\n" +
@@ -56,7 +51,6 @@ public class Nivel08 {
             " 4) nomes.get(0)\n" +
             " 5) nomes.top()\n" +
             " 6) nomes.index(1)";
-
     private String p7 = "\n[Capítulo 7, pág. 268]\n" +
             "O que acontece se tentar acessar um índice que não existe?\n" +
             " 1) O Java cria esse índice\n" +
@@ -65,7 +59,6 @@ public class Nivel08 {
             " 4) Dá erro em tempo de execução\n" +
             " 5) O Java coloca um valor vazio lá\n" +
             " 6) Ele reinicia o programa";
-
     private String p8 = "\n[Capítulo 7, pág. 269]\n" +
             "Como limpar todos os itens de um ArrayList?\n" +
             " 1) nomes.empty()\n" +
@@ -74,7 +67,6 @@ public class Nivel08 {
             " 4) nomes.deleteAll()\n" +
             " 5) nomes.erase()\n" +
             " 6) nomes.cut()";
-
     private String p9 = "\n[Capítulo 7, pág. 270]\n" +
             "Qual método substitui um valor em um ArrayList?\n" +
             " 1) update()\n" +
@@ -83,7 +75,6 @@ public class Nivel08 {
             " 4) set(index, valor)\n" +
             " 5) replace()\n" +
             " 6) switch()";
-
     private String p10 = "\n[Capítulo 7, pág. 271]\n" +
             "Como verificamos se um item está no ArrayList?\n" +
             " 1) nomes.has(\"João\")\n" +
@@ -93,163 +84,170 @@ public class Nivel08 {
             " 5) nomes.locate(\"João\")\n" +
             " 6) nomes.check(\"João\")";
 
-public Nivel08(){}
-public void ChamaNivel8(String nome) {
-    Scanner sc = new Scanner(System.in);
-    
-    int res = 0, cc = 3;
-    
-    ArrayList<String> perguntasN8 = new ArrayList<>();
-    perguntasN8.add(this.p1);
-    perguntasN8.add(this.p2);
-    perguntasN8.add(this.p3);
-    perguntasN8.add(this.p4);
-    perguntasN8.add(this.p5);
-    perguntasN8.add(this.p6);
-    perguntasN8.add(this.p7);
-    perguntasN8.add(this.p8);
-    perguntasN8.add(this.p9);
-    perguntasN8.add(this.p10);
+    public Nivel08() {
+    }
 
-    Collections.shuffle(perguntasN8);
+    public void ChamaNivel8(String nome) {
 
-    System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
-    System.out.println("                                                                      NÍVEL 08 \uD80C\uDDA4 ");
-    System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
-    System.out.println("Imagine uma caixa mágica chamada ArrayList! ");
-    System.out.println("Essa caixa pode guardar vários brinquedos, livros, ou o que você quiser!");
-    System.out.println("O mais legal é que ela cresce sozinha quando você coloca mais coisas nela!");
-    System.out.println("E se você quiser tirar algo, ela encolhe também! ");
-    System.out.println("Você pode dizer: 'coloque isso na caixa!', ou 'me mostra o brinquedo número 3!'");
-    System.out.println("Tudo isso é feito com comandos especiais como add(), get(), remove() e size().");
-    System.out.println("O ArrayList é como um super baú que ajuda os programadores a guardar coisas direitinho!");
-   
-    System.out.print("clique ENTER se voce entendeu");
-        sc.nextLine();
+        int res = 0, cc = 3;
 
-        System.out.println("");
-        System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +
-                "*Ao você acertar, a Bugzippy dará um passo ao seu formigueiro.");
+        ArrayList<String> perguntasN8 = new ArrayList<>();
+        perguntasN8.add(this.p1);
+        perguntasN8.add(this.p2);
+        perguntasN8.add(this.p3);
+        perguntasN8.add(this.p4);
+        perguntasN8.add(this.p5);
+        perguntasN8.add(this.p6);
+        perguntasN8.add(this.p7);
+        perguntasN8.add(this.p8);
+        perguntasN8.add(this.p9);
+        perguntasN8.add(this.p10);
+        Collections.shuffle(perguntasN8);
 
-        System.out.println("\n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao meu destino: " + cc-- +
-                "\n");
-        
-    for (int i = 0; i < perguntasN8.size(); i++) {
-            if (i < 3) {
-                if (perguntasN8.get(i).equals(this.p1)) {
-                    System.out.print(this.p1);
-                    System.out.print("\nescreva: ");
-                    res = sc.nextInt();
-                    sc.nextLine();
-                    if (res == 2) {
-                       System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
-                    } else {
-                        System.out.println("ERROU!☹");
-                    }
-                } else if (perguntasN8.get(i).equals(this.p2)) {
-                    System.out.print(this.p2);
-                    System.out.print("\nescreva: ");
-                    res = sc.nextInt();
-                    sc.nextLine();
-                    if (res == 1) {
-                        System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
-                    } else {
-                        System.out.println("ERROU!☹");
-                    }
-                } else if (perguntasN8.get(i).equals(this.p3)) {
-                    System.out.print(this.p3);
-                    System.out.print("\nescreva: ");
-                    res = sc.nextInt();
-                    sc.nextLine();
-                    if (res == 4) {
-                        System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
-                    } else {
-                        System.out.println("ERROU!☹");
-                    }
-                } else if (perguntasN8.get(i).equals(this.p4)) {
-                    System.out.print(this.p4);
-                    System.out.print("\nescreva: ");
-                    res = sc.nextInt();
-                    sc.nextLine();
-                    if (res == 1) {
-                        System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
-                    } else {
-                        System.out.println("ERROU!☹");
-                    }
-                } else if (perguntasN8.get(i).equals(this.p5)) {
-                    System.out.print(this.p5);
-                    System.out.print("\nescreva: ");
-                    res = sc.nextInt();
-                    sc.nextLine();
-                    if (res == 2) {
-                        System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
-                    } else {
-                        System.out.println("ERROU!☹");
-                    }
-                } else if (perguntasN8.get(i).equals(this.p6)) {
-                    System.out.print(this.p6);
-                    System.out.print("\nescreva: ");
-                    res = sc.nextInt();
-                    sc.nextLine();
-                    if (res == 4) {
-                       System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
-                    } else {
-                        System.out.println("ERROU!☹");
-                    }
-                } else if (perguntasN8.get(i).equals(this.p7)) {
-                    System.out.print(this.p7);
-                    System.out.print("\nescreva: ");
-                    res = sc.nextInt();
-                    sc.nextLine();
-                    if (res == 4) {
-                        System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
-                    } else {
-                        System.out.println("ERROU!☹");
-                    }
-                } else if (perguntasN8.get(i).equals(this.p8)) {
-                    System.out.print(this.p8);
-                    System.out.print("\nescreva: ");
-                    res = sc.nextInt();
-                    sc.nextLine();
-                    if (res == 3) {
-                        System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
-                    } else {
-                        System.out.println("ERROU!☹");
-                    }
-                } else if (perguntasN8.get(i).equals(this.p9)) {
-                    System.out.print(this.p9);
-                    System.out.print("\nescreva: ");
-                    res = sc.nextInt();
-                    sc.nextLine();
-                    if (res == 4) {
-                        System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
-                    } else {
-                        System.out.println("ERROU!☹");
-                    }
-                }else if (perguntasN8.get(i).equals(this.p10)) {
-                    System.out.print(this.p10);
-                    System.out.print("\nescreva: ");
-                    res = sc.nextInt();
-                    sc.nextLine();
-                    if (res == 3) {
-                        System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
-                    } else {
-                        System.out.println("ERROU!☹");
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
+        System.out.println("                                                                      NÍVEL 08 \uD80C\uDDA4 ");
+        System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
+
+        try {
+            System.out.println("Imagine uma caixa mágica chamada ArrayList! ");
+            System.out.println("Essa caixa pode guardar vários brinquedos, livros, ou o que você quiser!");
+            System.out.println("O mais legal é que ela cresce sozinha quando você coloca mais coisas nela!");
+            System.out.println("E se você quiser tirar algo, ela encolhe também! ");
+            System.out.println("Você pode dizer: 'coloque isso na caixa!', ou 'me mostra o brinquedo número 3!'");
+            System.out.println("Tudo isso é feito com comandos especiais como add(), get(), remove() e size().");
+            System.out.println("O ArrayList é como um super baú que ajuda os programadores a guardar coisas direitinho!");
+
+            System.out.print("clique ENTER se voce entendeu");
+            sc.nextLine();
+
+            System.out.println("");
+            System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +
+                    "*Ao você acertar, a Bugzippy dará um passo ao seu formigueiro.");
+
+            System.out.println("\n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao meu destino: " + cc-- +
+                    "\n");
+
+            for (int i = 0; i < perguntasN8.size(); i++) {
+                if (i < 3) {
+                    if (perguntasN8.get(i).equals(this.p1)) {
+                        System.out.print(this.p1);
+                        System.out.print("\nescreva: ");
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 2) {
+                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                    "\n");
+                        } else {
+                            System.out.println("ERROU!☹");
+                        }
+                    } else if (perguntasN8.get(i).equals(this.p2)) {
+                        System.out.print(this.p2);
+                        System.out.print("\nescreva: ");
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 1) {
+                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                    "\n");
+                        } else {
+                            System.out.println("ERROU!☹");
+                        }
+                    } else if (perguntasN8.get(i).equals(this.p3)) {
+                        System.out.print(this.p3);
+                        System.out.print("\nescreva: ");
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 4) {
+                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                    "\n");
+                        } else {
+                            System.out.println("ERROU!☹");
+                        }
+                    } else if (perguntasN8.get(i).equals(this.p4)) {
+                        System.out.print(this.p4);
+                        System.out.print("\nescreva: ");
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 1) {
+                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                    "\n");
+                        } else {
+                            System.out.println("ERROU!☹");
+                        }
+                    } else if (perguntasN8.get(i).equals(this.p5)) {
+                        System.out.print(this.p5);
+                        System.out.print("\nescreva: ");
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 2) {
+                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                    "\n");
+                        } else {
+                            System.out.println("ERROU!☹");
+                        }
+                    } else if (perguntasN8.get(i).equals(this.p6)) {
+                        System.out.print(this.p6);
+                        System.out.print("\nescreva: ");
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 4) {
+                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                    "\n");
+                        } else {
+                            System.out.println("ERROU!☹");
+                        }
+                    } else if (perguntasN8.get(i).equals(this.p7)) {
+                        System.out.print(this.p7);
+                        System.out.print("\nescreva: ");
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 4) {
+                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                    "\n");
+                        } else {
+                            System.out.println("ERROU!☹");
+                        }
+                    } else if (perguntasN8.get(i).equals(this.p8)) {
+                        System.out.print(this.p8);
+                        System.out.print("\nescreva: ");
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 3) {
+                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                    "\n");
+                        } else {
+                            System.out.println("ERROU!☹");
+                        }
+                    } else if (perguntasN8.get(i).equals(this.p9)) {
+                        System.out.print(this.p9);
+                        System.out.print("\nescreva: ");
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 4) {
+                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                    "\n");
+                        } else {
+                            System.out.println("ERROU!☹");
+                        }
+                    } else if (perguntasN8.get(i).equals(this.p10)) {
+                        System.out.print(this.p10);
+                        System.out.print("\nescreva: ");
+                        res = sc.nextInt();
+                        sc.nextLine();
+                        if (res == 3) {
+                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                    "\n");
+                        } else {
+                            System.out.println("ERROU!☹");
+                        }
                     }
                 }
             }
+            Fim fim = new Fim();
+            fim.Parabenizar(nome);
+        } catch (Exception e) {
+            System.out.println("❌ Ocorreu um erro. Por favor, digite apenas números válidos.");
         }
-    Fim fim = new Fim();
-    fim.Parabenizar(nome);
     }
 }

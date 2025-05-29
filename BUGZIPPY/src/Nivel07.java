@@ -11,7 +11,6 @@ public class Nivel07 {
             " 4) int lugares[] = new int[3][2];\n" +
             " 5) int lugares[2][3];\n" +
             " 6) int lugares = new int[2][3];\n";
-
     private String p2 = "\n[Cap. 7, pág. 214]\n" +
             "Em lugares[1][0], o que significa o número 1?\n" +
             " 1) Número do assento\n" +
@@ -20,7 +19,6 @@ public class Nivel07 {
             " 4) Número do passageiro\n" +
             " 5) Número do ônibus\n" +
             " 6) Número de assentos\n";
-
     private String p3 = "\n[Cap. 7, pág. 214]\n" +
             "Qual linha coloca o número 5 na segunda fileira, terceiro assento de uma matriz numeros?\n" +
             " 1) numeros[1][2] = 5;\n" +
@@ -29,7 +27,6 @@ public class Nivel07 {
             " 4) numeros[3][2] = 5;\n" +
             " 5) numeros[2,3] = 5;\n" +
             " 6) numeros[1:2] = 5;\n";
-
     private String p4 = "\n[Cap. 7, pág. 214]\n" +
             "O que essa linha imprime?\n" +
             "int[][] tabela = {\n" +
@@ -44,7 +41,6 @@ public class Nivel07 {
             " 4) 3\n" +
             " 5) 4\n" +
             " 6) Erro de compilação\n";
-
     private String p5 = "\n[Cap. 7, pág. 214]\n" +
             "O que for (int i = 0; i < matriz.length; i++) percorre?\n" +
             " 1) Os assentos de cada fileira\n" +
@@ -53,7 +49,6 @@ public class Nivel07 {
             " 4) Os valores da matriz\n" +
             " 5) As linhas e colunas ao mesmo tempo\n" +
             " 6) Os nomes dos assentos\n";
-
     private String p6 = "\n[Cap. 7, pág. 213]\n" +
             "Qual opção cria e preenche uma matriz com os valores abaixo?\n" +
             "1 2  \n" +
@@ -74,7 +69,6 @@ public class Nivel07 {
             " 4) O número do ônibus\n" +
             " 5) Um número aleatório\n" +
             " 6) A fileira";
-
     private String p8 = "\n[Cap. 7, pág. 214]\n" +
             "Qual dessas opções guarda o número 7 na primeira fileira e segundo assento?\n" +
             " 1) matriz[0][1] = 7;\n" +
@@ -92,7 +86,6 @@ public class Nivel07 {
             " 4) 8\n" +
             " 5) 1\n" +
             " 6) 3";
-
     private String p10 = "\n[Cap. 7, pág. 214]\n" +
             "O que essa linha faz?\n" +
             "System.out.println(matriz[1][0]);\n" +
@@ -103,7 +96,9 @@ public class Nivel07 {
             " 5) Apaga um valor da matriz\n" +
             " 6) Mostra o tamanho da matriz";
 
-    public Nivel07() {}
+    public Nivel07() {
+    }
+
     public void ChamaNivel7(String nome) {
 
         int res = 0, cc = 6;
@@ -164,11 +159,11 @@ public class Nivel07 {
             sc.nextLine();
 
             System.out.println("");
-        System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +
-                "*Ao você acertar, a Bugzippy dará um passo ao seu formigueiro.");
+            System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +
+                    "*Ao você acertar, a Bugzippy dará um passo ao seu formigueiro.");
 
-        System.out.println("\n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao meu destino: " + cc-- +
-                "\n");
+            System.out.println("\n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao meu destino: " + cc-- +
+                    "\n");
 
             for (int i = 0; i < perguntasN7.size(); i++) {
                 if (i < 3) {
@@ -179,7 +174,7 @@ public class Nivel07 {
                         sc.nextLine();
                         if (res == 1) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
+                                    "\n");
                         } else {
                             System.out.println("ERROU!☹");
                         }
@@ -190,7 +185,7 @@ public class Nivel07 {
                         sc.nextLine();
                         if (res == 3) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
+                                    "\n");
                         } else {
                             System.out.println("ERROU!☹");
                         }
@@ -201,7 +196,7 @@ public class Nivel07 {
                         sc.nextLine();
                         if (res == 1) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
+                                    "\n");
                         } else {
                             System.out.println("ERROU!☹");
                         }
@@ -212,7 +207,7 @@ public class Nivel07 {
                         sc.nextLine();
                         if (res == 3) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
+                                    "\n");
                         } else {
                             System.out.println("ERROU!☹");
                         }
@@ -223,7 +218,7 @@ public class Nivel07 {
                         sc.nextLine();
                         if (res == 3) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
+                                    "\n");
                         } else {
                             System.out.println("ERROU!☹");
                         }
@@ -234,7 +229,7 @@ public class Nivel07 {
                         sc.nextLine();
                         if (res == 3) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
+                                    "\n");
                         } else {
                             System.out.println("ERROU!☹");
                         }
@@ -245,7 +240,7 @@ public class Nivel07 {
                         sc.nextLine();
                         if (res == 6) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
+                                    "\n");
                         } else {
                             System.out.println("ERROU!☹");
                         }
@@ -256,7 +251,7 @@ public class Nivel07 {
                         sc.nextLine();
                         if (res == 1) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
+                                    "\n");
                         } else {
                             System.out.println("ERROU!☹");
                         }
@@ -267,7 +262,7 @@ public class Nivel07 {
                         sc.nextLine();
                         if (res == 2) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
+                                    "\n");
                         } else {
                             System.out.println("ERROU!☹");
                         }
@@ -278,7 +273,7 @@ public class Nivel07 {
                         sc.nextLine();
                         if (res == 4) {
                             System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
-                                "\n"); 
+                                    "\n");
                         } else {
                             System.out.println("ERROU!☹");
                         }
