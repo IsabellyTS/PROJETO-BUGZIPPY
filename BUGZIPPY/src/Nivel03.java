@@ -20,6 +20,7 @@ public class Nivel03 {
                 " 4) Serve para fazer contas de matemática\n" +
                 " 5) Mostra mensagens na tela\n" +
                 " 6) Deixa o programa mais lento\n";
+        
         String p2 = "\n[Capítulo 5, pág. 173]\n" +
                 "Para que serve o comando break dentro de um switch?\n" +
                 " 1) Para fazer uma pausa no teclado\n" +
@@ -28,6 +29,7 @@ public class Nivel03 {
                 " 4) Para repetir o mesmo código várias vezes\n" +
                 " 5) Para pular para o próximo case\n" +
                 " 6) Para escrever uma nova variável\n";
+        
         String p3 = "\n[Capítulo 5, pág. 173]\n" +
                 "O que acontece se esquecermos o break dentro do switch?\n" +
                 " 1) Ele para automaticamente\n" +
@@ -36,6 +38,7 @@ public class Nivel03 {
                 " 4) Ignora o switch completamente\n" +
                 " 5) Ele volta para o início do programa\n" +
                 " 6) Nada acontece\n";
+        
         String p4 = "\n[Capítulo 5, pág. 172]\n" +
                 "Qual destas opções mostra a forma correta de escrever um switch básico?\n" +
                 " 1) switch x { \ncase 1: \nbreak; }\n" +
@@ -44,6 +47,7 @@ public class Nivel03 {
                 " 4) switch = x { 1 -> System.out.println(\"Um\"); }\n" +
                 " 5) switch(x) case 1: System.out.println(\"Um\")\n" +
                 " 6) switched(x) { case 1: break; }\n";
+        
         String p5 = "\n[Capítulo 5, pág. 174]\n" +
                 "O que será impresso na tela?\n" +
                 "int dia = 2;\n" +
@@ -56,6 +60,7 @@ public class Nivel03 {
                 " 4) Erro de compilação\n" +
                 " 5) Terça\n" +
                 " 6) Segunda e Terça\n";
+        
         String p6 = "\n[Capítulo 5, pág. 174]\n" +
                 "O que acontece com este código?\nint x = 3;\nswitch(x) {\n case 1: System.out.println(\"Um\");\n case 2: System.out.println(\"Dois\");\n case 3: System.out.println(\"Três\");\n}\n" +
                 " 1) Imprime “Três”\n" +
@@ -64,6 +69,7 @@ public class Nivel03 {
                 " 4) Imprime “Três” e dá erro\n" +
                 " 5) Imprime “Três”, “Dois” e “Um”\n" +
                 " 6) Imprime “Três” e continua com os outros case\n";
+        
         String p7 = "\n[Capítulo 5, pág. 172]\n" +
                 "Qual tipo de variável é mais usada no switch?\n" +
                 " 1) boolean\n" +
@@ -72,6 +78,7 @@ public class Nivel03 {
                 " 4) int\n" +
                 " 5) String apenas\n" +
                 " 6) long apenas\n";
+        
         String p8 = "\n[Capítulo 5, pág. 174]\n" +
                 "Complete a frase: o switch é melhor usado quando...\n" +
                 " 1) Temos poucas opções de escolha\n" +
@@ -80,6 +87,7 @@ public class Nivel03 {
                 " 4) Queremos comparar dois valores apenas\n" +
                 " 5) Queremos que o código seja mais difícil de ler\n" +
                 " 6) Queremos usar apenas if e else\n";
+        
         String p9 = "\n[Capítulo 5, pág. 175]\n" +
                 "Qual dessas situações é uma boa ideia para usar switch em vez de if?\n" +
                 " 1) Quando queremos somar dois números\n" +
@@ -88,6 +96,7 @@ public class Nivel03 {
                 " 4) Quando lemos um número aleatório\n" +
                 " 5) Quando lidamos com textos longos\n" +
                 " 6) Quando precisamos de loops (for ou while)\n";
+        
         String p10 = "\n[Capítulo 5, pág. 176]\n" +
                 "Em qual dessas situações o uso do switch é mais indicado?\n" +
                 " 1) Para calcular a média de notas de um aluno\n" +
@@ -96,6 +105,7 @@ public class Nivel03 {
                 " 4) Para contar até 10 com um loop\n" +
                 " 5) Para comparar nomes completos\n" +
                 " 6) Para validar se uma senha tem mais de 8 caracteres\n";
+        
         perguntasN3.add(p1);
         perguntasN3.add(p2);
         perguntasN3.add(p3);
@@ -158,8 +168,8 @@ public class Nivel03 {
                             res = sc.nextInt();
                             sc.nextLine();
                             if (res == 2) {
-                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
-                                ;
+                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                "\n"); 
                             } else {
                             System.out.println("ERROU!☹");
                             }
@@ -169,8 +179,8 @@ public class Nivel03 {
                             res = sc.nextInt();
                             sc.nextLine();
                             if (res == 3) {
-                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
-                                ;
+                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                "\n"); 
                             } else {
                             System.out.println("ERROU!☹");
                             }
@@ -180,8 +190,8 @@ public class Nivel03 {
                             res = sc.nextInt();
                             sc.nextLine();
                             if (res == 3) {
-                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
-                                ;
+                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                "\n"); 
                             } else {
                             System.out.println("ERROU!☹");
                             }
@@ -191,8 +201,8 @@ public class Nivel03 {
                             res = sc.nextInt();
                             sc.nextLine();
                             if (res == 2) {
-                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
-                                ;
+                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                "\n"); 
                             } else {
                             System.out.println("ERROU!☹");
                             }
@@ -202,8 +212,8 @@ public class Nivel03 {
                             res = sc.nextInt();
                             sc.nextLine();
                             if (res == 2) {
-                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
-                                ;
+                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                "\n"); 
                             } else {
                             System.out.println("ERROU!☹");
                             }
@@ -213,8 +223,8 @@ public class Nivel03 {
                             res = sc.nextInt();
                             sc.nextLine();
                             if (res == 6) {
-                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
-                                ;
+                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                "\n"); 
                             } else {
                             System.out.println("ERROU!☹");
                             }
@@ -224,8 +234,8 @@ public class Nivel03 {
                             res = sc.nextInt();
                             sc.nextLine();
                             if (res == 4) {
-                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
-                                ;
+                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                "\n"); 
                             } else {
                             System.out.println("ERROU!☹");
                             }
@@ -235,8 +245,8 @@ public class Nivel03 {
                             res = sc.nextInt();
                             sc.nextLine();
                             if (res == 3) {
-                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
-                                ;
+                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                "\n"); 
                             } else {
                             System.out.println("ERROU!☹");
                             }
@@ -246,8 +256,8 @@ public class Nivel03 {
                             res = sc.nextInt();
                             sc.nextLine();
                             if (res == 2) {
-                            System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
-                                ;
+                            System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                "\n"); 
                             } else {
                             System.out.println("ERROU!☹");
                             }
@@ -257,7 +267,8 @@ public class Nivel03 {
                             res = sc.nextInt();
                             sc.nextLine();
                             if (res == 3) {
-                                System.out.print("ACERTOU! \n Parabéns, estou a um passo a menos no meu caminho! \n \\uD81A\\uDC7C\\uD81A\\uDD23\\uD81A\\uDD67\\uD81A\\uDC7C Passos para chegar ao destino: " + cc--);
+                                System.out.print("ACERTOU! \nParabéns, estou a um passo a menos no meu caminho! \n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao destino: " + cc-- +
+                                "\n"); 
                             } else {
                                 System.out.println("ERROU!☹");
                             }
