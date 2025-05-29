@@ -151,10 +151,12 @@ public class Nivel06 {
             System.out.print("Clique ENTER se voce entendeu");
             sc.nextLine();
 
-            System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +
-                    "*Ao você acertar, a Bugzippy dará um passo ao seu formigueiro.");
+           System.out.println("");
+        System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +
+                "*Ao você acertar, a Bugzippy dará um passo ao seu formigueiro.");
 
-            System.out.println("Passos para chegar ao meu destino: " + cc--);
+        System.out.println("\n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao meu destino: " + cc-- +
+                "\n");
 
             for (int i = 0; i < perguntasN6.size(); i++) {
                 if (i < 3) {
