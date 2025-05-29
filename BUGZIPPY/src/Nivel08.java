@@ -19,6 +19,7 @@ public void ChamaNivel8(String nome) {
             " 4) Repetir ações com for\n" +
             " 5) Fazer contas matemáticas\n" +
             " 6) Criar um banco de dados";
+    
     String p2 = "\n[Capítulo 7, pág. 263]\n" +
             "Como se cria um ArrayList de Strings?\n" +
             " 1) ArrayList<String> nomes = new ArrayList<>();\n" +
@@ -27,6 +28,7 @@ public void ChamaNivel8(String nome) {
             " 4) ArrayList<nome> = new String();\n" +
             " 5) ArrayList = {\"nome\"};\n" +
             " 6) ArrayList new = String[];";
+    
     String p3 = "\n[Capítulo 7, pág. 264]\n" +
             "Qual método adiciona um item a um ArrayList?\n" +
             " 1) addItem()\n" +
@@ -35,6 +37,7 @@ public void ChamaNivel8(String nome) {
             " 4) add()\n" +
             " 5) insert()\n" +
             " 6) put()";
+    
     String p4 = "\n[Capítulo 7, pág. 265]\n" +
             "Qual comando remove um elemento do ArrayList?\n" +
             " 1) remove(index)\n" +
@@ -43,6 +46,7 @@ public void ChamaNivel8(String nome) {
             " 4) erase()\n" +
             " 5) clear(index)\n" +
             " 6) cut()";
+    
     String p5 = "\n[Capítulo 7, pág. 266]\n" +
             "O que faz o método size()?\n" +
             " 1) Mostra o conteúdo do ArrayList\n" +
@@ -51,6 +55,7 @@ public void ChamaNivel8(String nome) {
             " 4) Adiciona um novo item\n" +
             " 5) Ordena os itens\n" +
             " 6) Mostra o último item";
+    
     String p6 = "\n[Capítulo 7, pág. 267]\n" +
             "Como acessar o primeiro item de um ArrayList chamado nomes?\n" +
             " 1) nomes[1]\n" +
@@ -59,6 +64,7 @@ public void ChamaNivel8(String nome) {
             " 4) nomes.get(0)\n" +
             " 5) nomes.top()\n" +
             " 6) nomes.index(1)";
+    
     String p7 = "\n[Capítulo 7, pág. 268]\n" +
             "O que acontece se tentar acessar um índice que não existe?\n" +
             " 1) O Java cria esse índice\n" +
@@ -67,6 +73,7 @@ public void ChamaNivel8(String nome) {
             " 4) Dá erro em tempo de execução\n" +
             " 5) O Java coloca um valor vazio lá\n" +
             " 6) Ele reinicia o programa";
+    
     String p8 = "\n[Capítulo 7, pág. 269]\n" +
             "Como limpar todos os itens de um ArrayList?\n" +
             " 1) nomes.empty()\n" +
@@ -75,6 +82,7 @@ public void ChamaNivel8(String nome) {
             " 4) nomes.deleteAll()\n" +
             " 5) nomes.erase()\n" +
             " 6) nomes.cut()";
+    
     String p9 = "\n[Capítulo 7, pág. 270]\n" +
             "Qual método substitui um valor em um ArrayList?\n" +
             " 1) update()\n" +
@@ -83,6 +91,7 @@ public void ChamaNivel8(String nome) {
             " 4) set(index, valor)\n" +
             " 5) replace()\n" +
             " 6) switch()";
+    
     String p10 = "\n[Capítulo 7, pág. 271]\n" +
             "Como verificamos se um item está no ArrayList?\n" +
             " 1) nomes.has(\"João\")\n" +
@@ -91,6 +100,7 @@ public void ChamaNivel8(String nome) {
             " 4) nomes.find(\"João\")\n" +
             " 5) nomes.locate(\"João\")\n" +
             " 6) nomes.check(\"João\")";
+    
     ArrayList<String> perguntasN8 = new ArrayList<>();
     perguntasN8.add(p1);
     perguntasN8.add(p2);
@@ -117,11 +127,12 @@ public void ChamaNivel8(String nome) {
     System.out.print("clique ENTER se voce entendeu");
         sc.nextLine();
 
+        System.out.println("");
         System.out.println("*Resolva as questões utilizando apenas as teclas [1], [2], [3]!\n" +
                 "*Ao você acertar, a Bugzippy dará um passo ao seu formigueiro.");
 
-        
-        System.out.println("Passos para chegar ao meu destino: " + cc--);
+        System.out.println("\n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao meu destino: " + cc-- +
+                "\n");
         
     for (int i = 0; i < perguntasN8.size(); i++) {
             if (i < 3) {
