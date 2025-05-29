@@ -131,7 +131,7 @@ public class Nivel08 {
                 if (i < 3) {
                     if (perguntasN8.get(i).equals(this.p1)) {
                         System.out.print(this.p1);
-                        System.out.print("\nescreva: ");
+                        System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 2) {
@@ -143,7 +143,7 @@ public class Nivel08 {
                         }
                     } else if (perguntasN8.get(i).equals(this.p2)) {
                         System.out.print(this.p2);
-                        System.out.print("\nescreva: ");
+                        System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 1) {
@@ -155,7 +155,7 @@ public class Nivel08 {
                         }
                     } else if (perguntasN8.get(i).equals(this.p3)) {
                         System.out.print(this.p3);
-                        System.out.print("\nescreva: ");
+                        System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 4) {
@@ -167,7 +167,7 @@ public class Nivel08 {
                         }
                     } else if (perguntasN8.get(i).equals(this.p4)) {
                         System.out.print(this.p4);
-                        System.out.print("\nescreva: ");
+                        System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 1) {
@@ -179,7 +179,7 @@ public class Nivel08 {
                         }
                     } else if (perguntasN8.get(i).equals(this.p5)) {
                         System.out.print(this.p5);
-                        System.out.print("\nescreva: ");
+                        System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 2) {
@@ -191,7 +191,7 @@ public class Nivel08 {
                         }
                     } else if (perguntasN8.get(i).equals(this.p6)) {
                         System.out.print(this.p6);
-                        System.out.print("\nescreva: ");
+                        System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 4) {
@@ -203,7 +203,7 @@ public class Nivel08 {
                         }
                     } else if (perguntasN8.get(i).equals(this.p7)) {
                         System.out.print(this.p7);
-                        System.out.print("\nescreva: ");
+                        System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 4) {
@@ -215,7 +215,7 @@ public class Nivel08 {
                         }
                     } else if (perguntasN8.get(i).equals(this.p8)) {
                         System.out.print(this.p8);
-                        System.out.print("\nescreva: ");
+                        System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 3) {
@@ -227,7 +227,7 @@ public class Nivel08 {
                         }
                     } else if (perguntasN8.get(i).equals(this.p9)) {
                         System.out.print(this.p9);
-                        System.out.print("\nescreva: ");
+                        System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 4) {
@@ -239,7 +239,7 @@ public class Nivel08 {
                         }
                     } else if (perguntasN8.get(i).equals(this.p10)) {
                         System.out.print(this.p10);
-                        System.out.print("\nescreva: ");
+                        System.out.print("\nEscreva: ");
                         res = sc.nextInt();
                         sc.nextLine();
                         if (res == 3) {
