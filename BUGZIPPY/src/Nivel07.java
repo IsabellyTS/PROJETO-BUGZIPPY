@@ -3,6 +3,7 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class Nivel07 {
+    private int res = 0, cc = 6;
     private String p1 = "\n[Cap. 7, pág. 214]\n" +
             "Qual dessas opções cria um ônibus com 3 fileiras e 2 assentos por fileira?\n" +
             " 1) int[][] lugares = new int[3][2];\n" +
@@ -101,7 +102,7 @@ public class Nivel07 {
 
     public void ChamaNivel7(String nome) {
 
-        int res = 0, cc = 6;
+        
 
         ArrayList<String> perguntasN7 = new ArrayList<>();
 
