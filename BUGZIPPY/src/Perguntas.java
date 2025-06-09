@@ -217,6 +217,7 @@ public class Perguntas {
                "5) Para comparar nomes completos\n6) Para validar se uma senha tem mais de 8 caracteres\n" +
                "escreva: ";
     }
+     
    public void perguntasN4(){
       String p1 = "\n[Capítulo 5, pág. 172] Para que serve o laço for em Java?\n" +
               "1) Criar uma nova janela\n" +
@@ -298,6 +299,7 @@ public class Perguntas {
               "5) Quando queremos repetir só se o usuário quiser\n" +
               "6) Quando usamos apenas switch\n";
    }
+     
      public void perguntasN5(){
         String p1 = "\n[]\n" +
                 "Para que serve o laço while em Java?\n" +
@@ -368,7 +370,6 @@ public class Perguntas {
                 " 2) while pergunta antes, do while roda antes\n" +
                 " 3) while é só para números\n" +
                 " 4) Eles funcionam com mágica\n";
-
      }
           
      public void perguntasN6(){
@@ -464,9 +465,100 @@ public class Perguntas {
                 " 5) numeros[0]\n" +
                 " 6) numeros = 2";        
           }
+     
      public void perguntasN7(){
-
+       String p1 = "\n[Cap. 7, pág. 214]\n" +
+                "Qual dessas opções cria um ônibus com 3 fileiras e 2 assentos por fileira?\n" +
+                " 1) int[][] lugares = new int[3][2];\n" +
+                " 2) int lugares[3][2];\n" +
+                " 3) int lugares = new int(3,2);\n" +
+                " 4) int lugares[] = new int[3][2];\n" +
+                " 5) int lugares[2][3];\n" +
+                " 6) int lugares = new int[2][3];\n";
+        String p2 = "\n[Cap. 7, pág. 214]\n" +
+                "Em lugares[1][0], o que significa o número 1?\n" +
+                " 1) Número do assento\n" +
+                " 2) Número da janela\n" +
+                " 3) Número da fileira\n" +
+                " 4) Número do passageiro\n" +
+                " 5) Número do ônibus\n" +
+                " 6) Número de assentos\n";
+        String p3 = "\n[Cap. 7, pág. 214]\n" +
+                "Qual linha coloca o número 5 na segunda fileira, terceiro assento de uma matriz numeros?\n" +
+                " 1) numeros[1][2] = 5;\n" +
+                " 2) numeros[2][3] = 5;\n" +
+                " 3) numeros[2][1] = 5;\n" +
+                " 4) numeros[3][2] = 5;\n" +
+                " 5) numeros[2,3] = 5;\n" +
+                " 6) numeros[1:2] = 5;\n";
+        String p4 = "\n[Cap. 7, pág. 214]\n" +
+                "O que essa linha imprime?\n" +
+                "int[][] tabela = {\n" +
+                "  {1, 2},\n" +
+                "  {3, 4}\n" +
+                "};\n" +
+                "System.out.println(tabela[0][1]);\n" +
+                "\n" +
+                " 1) 0\n" +
+                " 2) 1\n" +
+                " 3) 2\n" +
+                " 4) 3\n" +
+                " 5) 4\n" +
+                " 6) Erro de compilação\n";
+        String p5 = "\n[Cap. 7, pág. 214]\n" +
+                "O que for (int i = 0; i < matriz.length; i++) percorre?\n" +
+                " 1) Os assentos de cada fileira\n" +
+                " 2) Todas as colunas\n" +
+                " 3) As fileiras da matriz\n" +
+                " 4) Os valores da matriz\n" +
+                " 5) As linhas e colunas ao mesmo tempo\n" +
+                " 6) Os nomes dos assentos\n";
+        String p6 = "\n[Cap. 7, pág. 213]\n" +
+                "Qual opção cria e preenche uma matriz com os valores abaixo?\n" +
+                "1 2  \n" +
+                "3 4  \n" +
+                "\n" +
+                " 1) int[][] m = { 1, 2, 3, 4 };\n" +
+                " 2) int[][] m = new int[2][2]{1,2,3,4};\n" +
+                " 3) int[][] m = {{1, 2}, {3, 4}};\n" +
+                " 4) int[][] m = { {1 2}, {3 4} };\n" +
+                " 5) int[2][2] m = {{1,2},{3,4}};\n" +
+                " 6) int m[][] = new int[2][2]{1,2,3,4};\n";
+        String p7 = "\n[Cap. 7, pág. 214]\n" +
+                "Em lugares[0][1], o que o número 0 representa?\n" +
+                " 1) A coluna\n" +
+                " 2) A letra do alfabeto\n" +
+                " 3) A quantidade total de assentos\n" +
+                " 4) O número do ônibus\n" +
+                " 5) Um número aleatório\n" +
+                " 6) A fileira";
+        String p8 = "\n[Cap. 7, pág. 214]\n" +
+                "Qual dessas opções guarda o número 7 na primeira fileira e segundo assento?\n" +
+                " 1) matriz[0][1] = 7;\n" +
+                " 2) matriz[1][0] = 7;\n" +
+                " 3) matriz[7] = 0.1;\n" +
+                " 4) matriz[1][7] = 0;\n" +
+                " 5) matriz[0][0] = 7;\n" +
+                " 6) matriz[2] = 7;";
+        String p9 = "\n[Cap. 7, pág. 214]\n" +
+                "Quantos elementos cabem em uma matriz int[][] m = new int[2][2];?\n" +
+                " 1) 2\n" +
+                " 2) 4\n" +
+                " 3) 6\n" +
+                " 4) 8\n" +
+                " 5) 1\n" +
+                " 6) 3";
+        String p10 = "\n[Cap. 7, pág. 214]\n" +
+                "O que essa linha faz?\n" +
+                "System.out.println(matriz[1][0]);\n" +
+                " 1) Coloca um valor na matriz\n" +
+                " 2) Soma os valores da matriz\n" +
+                " 3) Cria uma nova matriz\n" +
+                " 4) Imprime o valor da segunda fileira, primeiro assento\n" +
+                " 5) Apaga um valor da matriz\n" +
+                " 6) Mostra o tamanho da matriz";
                }
+     
    public void perguntasN8(){
       String p1 = "\n[Capítulo 7, pág. 262]\n" +
               "Para que serve a classe ArrayList em Java?\n" +
