@@ -299,6 +299,75 @@ public class Perguntas {
               "6) Quando usamos apenas switch\n";
    }
      public void perguntasN5(){
+        String p1 = "\n[]\n" +
+                "Para que serve o laço while em Java?\n" +
+                " 1) Para repetir algo várias vezes\n" +
+                " 2) Para pintar a tela de azul\n" +
+                " 3) Para guardar números\n" +
+                " 4) Para desligar o computador\n";
+
+        String p2 = "\n[]\n" +
+                "O que o while faz primeiro?\n" +
+                " 1) Mostra uma mensagem\n" +
+                " 2) Verifica se a condição é verdadeira\n" +
+                " 3) Pede um número\n" +
+                " 4) Cria um jogo\n";
+
+        String p3 = "\n[]\n" +
+                "Quando o while para de repetir?\n" +
+                " 1) Quando o computador cansa\n" +
+                " 2) Quando o usuário aperta Enter\n" +
+                " 3) Quando a condição fica falsa\n" +
+                " 4) Nunca para\n";
+
+        String p4 = "\n[]\n" +
+                "Qual a diferença do do while?\n" +
+                " 1) Ele serve para decorar\n" +
+                " 2) Ele nunca repete\n" +
+                " 3) Ele só funciona com letras\n" +
+                " 4) Ele faz primeiro e pergunta depois\n";
+
+        String p5 = "\n[]\n" +
+                "Quando é bom usar do while?\n" +
+                " 1) Quando queremos que o código rode pelo menos uma vez\n" +
+                " 2) Quando queremos repetir só uma vez\n" +
+                " 3) Quando usamos a palavra mágica 'faça'\n" +
+                " 4) Quando o código está com sono\n";
+
+        String p6 = "\n[]\n" +
+                "O que esse código faz?\nwhile (i < 3) { System.out.println(\"Oi\"); i++; }\n" +
+                " 1) Escreve \"Oi\" mil vezes\n" +
+                " 2) Escreve \"Oi\" três vezes\n" +
+                " 3) Não escreve nada\n" +
+                " 4) Mostra um erro\n";
+
+        String p7 = "\n[]\n" +
+                "Qual dessas é uma forma certa de usar do while?\n" +
+                " 1) while { jogar(); }\n" +
+                " 2) faça { jogar(); } até parar;\n" +
+                " 3) do { System.out.println(\"Vamos jogar!\"); } while (jogar == true);\n" +
+                " 4) repetir { jogar(); } se quiser\n";
+
+        String p8 = "\n[]\n" +
+                "O que acontece se a condição do while for falsa logo no começo?\n" +
+                " 1) Fica preso em um loop\n" +
+                " 2) Roda uma vez só\n" +
+                " 3) Mostra \"erro!\"\n" +
+                " 4) O código não roda\n";
+
+        String p9 = "\n[]\n" +
+                "O que o do while faz se a condição for falsa no final?\n" +
+                " 1) Roda uma vez e para\n" +
+                " 2) Não roda nada\n" +
+                " 3) Roda mil vezes\n" +
+                " 4) Muda o valor sozinho\n";
+
+        String p10 = "\n[]\n" +
+                "O que é importante lembrar sobre while e do while?\n" +
+                " 1) do while é mais rápido\n" +
+                " 2) while pergunta antes, do while roda antes\n" +
+                " 3) while é só para números\n" +
+                " 4) Eles funcionam com mágica\n";
 
      }
           
