@@ -77,7 +77,7 @@ public class Perguntas {
                 " 6) class\n";
     }
 
-     public void perguntasN1(){
+     public void perguntasN2(){
      String p1 = "\n[Capítulo 4 – Página 131]\n" +
                 "O que faz o if?\n" +
                 " 1) Ele conta piadas\n" +
@@ -298,6 +298,16 @@ public class Perguntas {
               "5) Quando queremos repetir só se o usuário quiser\n" +
               "6) Quando usamos apenas switch\n";
    }
+     public void perguntasN5(){
+
+     }
+          
+     public void perguntasN6(){
+               
+          }
+     public void perguntasN7(){
+
+               }
    public void perguntasN8(){
       String p1 = "\n[Capítulo 7, pág. 262]\n" +
               "Para que serve a classe ArrayList em Java?\n" +
