@@ -76,6 +76,79 @@ public class Perguntas {
                 " 5) nome@com\n" +
                 " 6) class\n";
     }
+
+     public void perguntasN1(){
+     String p1 = "\n[Capítulo 4 – Página 131]\n" +
+                "O que faz o if?\n" +
+                " 1) Ele conta piadas\n" +
+                " 2) Ele decide se algo deve acontecer \n" +
+                " 3) Ele pinta a tela\n" +
+                " 4) Ele cria um jogo\n";
+
+        String p2 = "\n[Capítulo 4 – Página 131]\n" +
+                "Quando usamos o else?\n" +
+                " 1) Quando o if não acontece \n" +
+                " 2) Quando queremos repetir algo\n" +
+                " 3) Quando criamos uma variável\n" +
+                " 4) Quando desenhamos na tela\n";
+
+        String p3 = "\n[Capítulo 4 – Página 131]\n" +
+                "if (sol == true) { irPraPraia(); } - O que esse código quer dizer?\n" +
+                " 1) Se estiver chovendo, ir pra praia\n" +
+                " 2) Sempre ir pra praia\n" +
+                " 3) Dormir na praia\n" +
+                " 4) Só ir pra praia se tiver sol \n";
+
+        String p4 = "\n[Capítulo 4 – Página 132]\n" +
+                "O que significa o símbolo || ?\n" +
+                " 1) E\n" +
+                " 2) Ou \n" +
+                " 3) Não\n" +
+                " 4) Igual\n";
+
+        String p5 = "\n[Capítulo 4 – Página 132]\n" +
+                "O que significa o símbolo && ?\n" +
+                " 1) Ou\n" +
+                " 2) Se não\n" +
+                " 3) E \n" +
+                " 4) Multiplica\n";
+
+        String p6 = "\n[Capítulo 4 – Página 131]\n" +
+                "O que essa parte faz: if (idade >= 12)?\n" +
+                " 1) Vê se a idade é menor que 12\n" +
+                " 2) Vê se a idade é 12 ou mais \n" +
+                " 3) Multiplica a idade\n" +
+                " 4) Cria a idade\n";
+
+        String p7 = "\n[Capítulo 4 – Página 132]\n" +
+                "O que faz o operador '!' ?\n" +
+                " 1) Soma números\n" +
+                " 2) Compara dois textos\n" +
+                " 3) Nega uma condição \n" +
+                " 4) Transforma número em texto\n";
+
+        String p8 =  "\n[Capítulo 4 – Página 132]\n" +
+                "Para que servem os operadores lógicos?\n" +
+                " 1) Ajudar o programa a tomar decisões\n" +
+                " 2) Repetir códigos em laços\n" +
+                " 3) Criar textos coloridos\n" +
+                " 4) Mudar a cor da tela\n";
+
+        String p9 =  "\n[Capítulo 4 – Página 132]\n" +
+                "Qual destas opções de operadores lógicos serve para 'Está chovendo e tem vento!'\n" +
+                " 1) Chovendo && vento\n" +
+                " 2) Chovendo || vento\n" +
+                " 3) Chovendo + vento \n" +
+                " 4) Chovendo E vento\n";
+        
+        String p10 =  "\n[Capítulo 4 – Página 132]\n" +
+                "Qual destas frases corresponde a frase: Hoje eu NÃO vou para a aula.\n" +
+                " 1) Hoje eu ! vou para a aula.\n" +
+                " 2) Hoje eu && vou para a aula.\n" +
+                " 3) Hoje eu || vou para a aula.\n" +
+                " 4) Hoje eu + vou para a aula.\n" ;
+     }
+
     public void perguntasN3(){
        String p1 = "\n[Capítulo 5, pág. 172]\n" +
                "O que o comando switch faz no Java? Escolha a melhor explicação:\n" +
