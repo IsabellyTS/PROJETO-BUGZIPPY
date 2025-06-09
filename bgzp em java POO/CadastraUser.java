@@ -1,4 +1,6 @@
 public class CadastraUser {
+
+    //nao verifiquei ainda
     private String nome;
 
     public CadastraUser() {
