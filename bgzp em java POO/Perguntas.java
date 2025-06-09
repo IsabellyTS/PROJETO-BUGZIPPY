@@ -31,49 +31,7 @@ public class Perguntas {
         ArrayList<String> listaPerguntas = perguntas.getPerguntas();
 }
     }
-/*public class Perguntas {
-
-    private String p1, p2, p3,p4, p5, p6, p7, p8, p9, p10;
-
-    public String getP1() {
-        return p1;
-    }
-
-    public String getP2() {
-        return p2;
-    }
-
-    public String getP3() {
-        return p3;
-    }
-
-    public String getP4() {
-        return p4;
-    }
-
-    public String getP5() {
-        return p5;
-    }
-
-    public String getP6() {
-        return p6;
-    }
-
-    public String getP7() {
-        return p7;
-    }
-
-    public String getP8() {
-        return p8;
-    }
-
-    public String getP9() {
-        return p9;
-    }
-
-    public String getP10() {
-        return p10;
-    }
+/*
 
     protected void perguntasN1(){
 
