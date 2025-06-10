@@ -36,7 +36,7 @@ public class Inicio {
                     System.out.println("\nVamos nessa, Bugmigo(a)! " + this.nome + "! " +
                             "Juntos, enfrentaremos desafios de programação e encontraremos o caminho certo. \nEu te dou uma mão, e você me guia pelo labirinto. \n Vamos lá!");
                     Nivel01 nvl01 = new Nivel01();
-                    nvl01.ChamaNivel1(this.nome);
+                    nvl01.ChamaNivel1();
                     break;
                 case 2:
                     System.out.println("Que pena Bugmigo, " + this.nome + ", irei continuar perdido aqui...");

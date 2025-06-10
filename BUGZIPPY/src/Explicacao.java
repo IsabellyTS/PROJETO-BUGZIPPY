@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
-    public class Explicacao {
+public class Explicacao {
+    public  Explicacao(){}
 
-    private void ExplicacaoN1 (){
+    public void explicacaoN1 (){
         Scanner sc = new Scanner(System.in);
         System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------");
         System.out.println("                                                                      NÍVEL 01 \uD80C\uDDA4 ");

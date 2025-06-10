@@ -4,7 +4,7 @@ import java.util.Collections;
 public class Sorteador {
     Perguntas perg = new Perguntas();
 
-    protected void sorteadorN1 (){
+    protected void sorteadorN1 (String p1, String p2, String p3, String p4, String p5, String p6, String p7, String p8, String p9, String p10){
         ArrayList<String> perguntasN1 = new ArrayList<>();
         perg.perguntasN1();
 
