@@ -136,7 +136,7 @@ public class Nivel02 {
         System.out.println("\n \uD80C\uDDFC ⋆.˚ \uD80C\uDDA4⋆.˚ \uD80C\uDDFC Passos para chegar ao meu destino: " + cc-- +
                 "\n");
 
-        //Perguntas
+        //perguntas.Perguntas
         for (int i = 0; i < perguntasN2.size(); i++) {
             if (i < 3) {
                 if (perguntasN2.get(i).equals(p1)) {

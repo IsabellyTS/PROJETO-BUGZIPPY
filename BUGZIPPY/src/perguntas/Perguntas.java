@@ -1,13 +1,36 @@
+package perguntas;
+
 import java.util.ArrayList;
 
 public class Perguntas {
+    protected String p1, p2, p3, p4, p5, p6, p7, p8, p9, p10;
+    protected int resposta;
+    protected int passos;
+
     private ArrayList<String> perguntas = new ArrayList<>();
 
     public Perguntas(){}
+
+    public void RetornaPerguntas(){
+
+    }
+    public void AdicionaPerguntas(){
+
+        perguntas.add(p1);
+        perguntas.add(p2);
+        perguntas.add(p3);
+        perguntas.add(p4);
+        perguntas.add(p5);
+        perguntas.add(p6);
+        perguntas.add(p7);
+        perguntas.add(p8);
+        perguntas.add(p9);
+        perguntas.add(p10);
+    }
     public void inicializarPerguntas(int nivel) {
         perguntas.clear();
 
-        if (nivel == 1) {
+        /*if (nivel == 1) {
             perguntas.add("\n[Capítulo 2] O que é uma variável?\n 1) Botão secreto\n 2) Guardar valores\n 3) Erro\n");
             perguntas.add("Qual linha cria uma variável inteira com valor 12?\n 1) int idade = 12;\n 2) idade = int 12;\n");
             perguntas.add("Como somar os valores das variáveis a e b?\n 1) total = a + b\n 2) int total = a + b\n");
@@ -19,7 +42,7 @@ public class Perguntas {
             perguntas.add("[Capítulo 4] Qual operador lógico representa 'OU'?\n 1) &&\n 2) ||\n 3) !\n");
             perguntas.add("O que significa o operador '!'\n 1) Soma números\n 2) Nega uma condição\n");
             perguntas.add("Qual fórmula representa 'Está chovendo e tem vento'? \n 1) Chovendo && vento\n 2) Chovendo || vento\n");
-        }
+        }*/
     }
 
     public ArrayList<String> getPerguntas() {
