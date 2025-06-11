@@ -1,50 +1,22 @@
-import java.util.ArrayList;
-
 public class Perguntas {
-    private ArrayList<String> perguntas = new ArrayList<>();
 
-    public void inicializarPerguntas(int nivel) {
-        perguntas.clear();
+     public void perguntasN1(){
 
-        if (nivel == 1) {
-            perguntas.add("\n[Capítulo 2] O que é uma variável?\n 1) Botão secreto\n 2) Guardar valores\n 3) Erro\n");
-            perguntas.add("Qual linha cria uma variável inteira com valor 12?\n 1) int idade = 12;\n 2) idade = int 12;\n");
-            perguntas.add("Como somar os valores das variáveis a e b?\n 1) total = a + b\n 2) int total = a + b\n");
-        } else if (nivel == 2) {
-            perguntas.add("[Capítulo 4] O que faz o 'if'?\n 1) Conta piadas\n 2) Decide se algo acontece\n 3) Pinta a tela\n");
-            perguntas.add("Quando usamos o 'else'?\n 1) Quando o 'if' não acontece\n 2) Quando repetimos algo\n");
-            perguntas.add("if (sol == true) { irPraPraia(); } - O que esse código quer dizer?\n 1) Se estiver chovendo, ir pra praia\n 2) Só ir pra praia se tiver sol\n");
-        } else if (nivel == 3) {
-            perguntas.add("[Capítulo 4] Qual operador lógico representa 'OU'?\n 1) &&\n 2) ||\n 3) !\n");
-            perguntas.add("O que significa o operador '!'\n 1) Soma números\n 2) Nega uma condição\n");
-            perguntas.add("Qual fórmula representa 'Está chovendo e tem vento'? \n 1) Chovendo && vento\n 2) Chovendo || vento\n");
-        }
-    }
-
-    public ArrayList<String> getPerguntas() {
-        return perguntas;
-    }
-    public void iniciarPerguntas() {
-        Perguntas perguntas = new Perguntas();
-        perguntas.inicializarPerguntas(1); // Inicializa antes de chamar getPerguntas()
-        ArrayList<String> listaPerguntas = perguntas.getPerguntas();
-}
-    }
-/*
-
-    protected void perguntasN1(){
-
-         p1 = "\n[Capítulo 2 – Página 37]\nO que é uma variável?\n" +
+        String p1 = "\n[Capítulo 2 – Página 37]\nO que é uma variável?\n" +
                 " 1) Um botão secreto no teclado\n" +
                 " 2) Um lugar para guardar valores, como números e textos\n" +
                 " 3) Um tipo de erro\n" +
-                " 4) Uma função mágica\n" ;
+                " 4) Uma função mágica\n" +
+                " 5) Um comando que fecha o programa\n" +
+                " 6) Um vírus de computador\n";
 
-        p2 = "\n[Capítulo 2 – Página 37-38]\nQual linha cria uma variável inteira com valor 12?\n" +
+        String p2 = "\n[Capítulo 2 – Página 37-38]\nQual linha cria uma variável inteira com valor 12?\n" +
                 " 1) int idade = 12;\n" +
                 " 2) idade = int 12;\n" +
                 " 3) idade := 12;\n" +
-                " 4) String idade = 12;\n" ;
+                " 4) String idade = 12;\n" +
+                " 5) double idade = idade;\n" +
+                " 6) idade int = '12';\n";
 
         String p3 =  "\n[Capítulo 2 – Página 37-38-41-42]\nComo somar os valores das variáveis a e b e guardar o resultado?\n" +
                 " 1) total = a mais b\n" +
@@ -56,7 +28,9 @@ public class Perguntas {
                 " 1) Números inteiros\n" +
                 " 2) Letras\n" +
                 " 3) Palavras longas\n" +
-                " 4) Verdadeiro ou falso\n" ;
+                " 4) Verdadeiro ou falso\n" +
+                " 5) Fotos\n" +
+                " 6) Vídeos\n";
 
         String p5 = "\n[Capítulo 2 – Página 41-42]\nSe eu tenho 10 balas e como 3, qual é a fórmula para saber quantas sobraram?\n" +
                 " 1) int sobrou = 10 + 3\n" +
@@ -68,7 +42,9 @@ public class Perguntas {
                 " 1) 12 idade = int;\n" +
                 " 2) idade: int = 12;\n" +
                 " 3) var idade = 12;\n" +
-                " 4) int idade = 12;\n" ;
+                " 4) int idade = 12;\n" +
+                " 5) idade := 12;\n" +
+                " 6) idade = '12';\n";
 
         String p7 = "\n[Capítulo 2 – Página 41-42]\nComo juntar os valores 5 e 3 para fazer uma subtração?\n" +
                 " 1) int resultado = 5 - 3\n" +
@@ -80,21 +56,25 @@ public class Perguntas {
                 " 1) Só para escrever o nome do jogador\n" +
                 " 2) Para decorar o código\n" +
                 " 3) Para guardar imagens\n" +
-                " 4) Para usar em contas e decisões\n";
+                " 4) Para usar em contas e decisões\n" +
+                " 5) Para imprimir na tela com println\n" +
+                " 6) Para fazer desenhos\n";
 
         String p9 =  "\n[Capítulo 2 – Página 37]\nO que significa a palavra int em Java?\n" +
                 " 1) Iniciar um programa\n" +
                 " 2) Mostrar uma mensagem\n" +
                 " 3) Guardar um número inteiro\n" +
-                " 4) Criar uma nova janela\n" ;
+                " 4) Criar uma nova janela\n" +
+                " 5) Ligar a internet\n" +
+                " 6) Apagar um valor\n";
 
         String p10 =  "\n[Capítulo 2 – Página 36]\nQual nome é válido para uma variável?\n" +
                 " 1) 1nome\n" +
                 " 2) meu nome\n" +
                 " 3) nome_do_usuario\n" +
-                " 4) nome-do-usuário\n" ;
-         Sorteador sorteador = new Sorteador();
-         sorteador.sorteadorN1();
+                " 4) nome-do-usuário\n" +
+                " 5) nome@com\n" +
+                " 6) class\n";
     }
 
      public void perguntasN2(){
@@ -664,4 +644,3 @@ public class Perguntas {
    }
 
 }
-*/

@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class RespostasCorretas {
     private ArrayList<Integer> respostas = new ArrayList<>();
 
+    public RespostasCorretas(){}
     public void inicializarRespostas(int nivel) {
         respostas.clear();
 
