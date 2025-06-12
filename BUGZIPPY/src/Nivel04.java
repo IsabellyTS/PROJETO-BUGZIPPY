@@ -7,7 +7,7 @@ public class Nivel04 extends Nivel {
         super("Nível 04: Laços (for)", 3,
                 "Imagina que você vai contar de 1 até 5.\nEm vez de dizer 1, 2, 3, 4, 5 sozinho, você pode mandar o computador fazer isso com o comando \"for\".\n" +
                         "Veja como é:\nfor (int i = 1; i <= 5; i++) {\n    System.out.println(i);\n}\n\n" +
-                        "=Vamos entender cada parte:=\nint i = 1;     -> Comece no número 1\ni <= 5;        -> Continue enquanto o número for até 5\n" +
+                        "Vamos entender cada parte:\nint i = 1;     -> Comece no número 1\ni <= 5;        -> Continue enquanto o número for até 5\n" +
                         "i++            -> Aumente de 1 em 1\n{ ... }        -> Aqui dentro você coloca o que quer fazer\n" +
                         "Então, é como brincar com 5 brinquedos:\nBrinque com o número 1, depois o 2, até chegar no 5.\n" +
                         "E a cada vez, o computador faz o que você mandar.\nO \"for\" é uma forma do computador repetir alguma coisa várias vezes!\n"

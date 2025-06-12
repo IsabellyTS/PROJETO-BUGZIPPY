@@ -43,11 +43,6 @@ public class Ranking {
         }
     }
 
-    /**
-     * Adiciona uma nova entrada ao ranking.
-     * @param nome O nome do jogador.
-     * @param pontuacao A pontuação do jogador.
-     */
     public void adicionarPontuacao(String nome, int pontuacao) {
         // Primeiro, lê o ranking existente
         List<EntradaRanking> rankingAtual = carregarRanking();
@@ -59,10 +54,6 @@ public class Ranking {
         salvarRanking(rankingAtual);
     }
 
-    /**
-     * Carrega o ranking do arquivo.
-     * @return Uma lista de EntradaRanking.
-     */
     private List<EntradaRanking> carregarRanking() {
         List<EntradaRanking> ranking = new ArrayList<>();
         File arquivo = new File(NOME_ARQUIVO_RANKING);

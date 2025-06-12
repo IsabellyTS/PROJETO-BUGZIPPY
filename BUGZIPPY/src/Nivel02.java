@@ -5,12 +5,12 @@ public class Nivel02 extends Nivel {
 
     public Nivel02() {
         super("Nível 02: Condicionais (if/else)", 3,
-                ">> O que é o if e o else?\n +\n[Capítulo 4 – Página 131]\nO if é uma palavra usada para verificar se algo é verdadeiro.\n" +
-                        "=Se for, o computador executa um bloco de código.\nSe não for, podemos usar o else para fazer outra coisa.\nÉ como perguntar:\n" +
-                        "\"Se estiver chovendo, levo guarda-chuva. Senão, vou sem ele.\"\nEm Java, isso fica assim:\nif (chovendo) {\\n\" +\n" +
+                ">> O que é o if e o else? [Capítulo 4 – Página 131]\nO if é uma palavra usada para verificar se algo é verdadeiro.\n" +
+                        "Se for, o computador executa um bloco de código.\nSe não for, podemos usar o else para fazer outra coisa.\nÉ como perguntar:\n" +
+                        "\"Se estiver chovendo, levo guarda-chuva. Senão, vou sem ele.\"\nEm Java, isso fica assim:\nif (chovendo) {\n" +
                         "    System.out.println(\"Leve o guarda-chuva.\");\n} else {\n    System.out.println(\"Pode sair sem guarda-chuva.\");\n" +
-                        "}\n\n                -------------------------------------------------------------\n\n" +
-                        ">> O que são Operadores Lógicos?\n[Capítulo 4 – Página 132]\nOperadores lógicos ajudam a fazer perguntas mais completas no if.\n" +
+                        "}\n\n-------------------------------------------------------------\n\n" +
+                        ">> O que são Operadores Lógicos? [Capítulo 4 – Página 132]\nOperadores lógicos ajudam a fazer perguntas mais completas no if.\n" +
                         "ºVeja os principais:\n&& quer dizer E\nA condição só é verdadeira se as duas partes forem verdadeiras.\n-Exemplo: \"Se estiver chovendo e for segunda-feira...\"\n" +
                         "|| quer dizer OU\nA condição é verdadeira se pelo menos uma das partes for verdadeira.\n-Exemplo: \"Se estiver chovendo ou nevando...\"\n" +
                         "! quer dizer NÃO\nEle inverte a condição. Se era verdadeiro, vira falso.\n-Exemplo: \"!chovendo\" significa \"não está chovendo\".");
