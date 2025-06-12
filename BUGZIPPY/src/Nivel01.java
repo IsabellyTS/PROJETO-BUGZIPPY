@@ -13,7 +13,7 @@ public class Nivel01 extends Nivel {
                         "Java é uma linguagem de programação, ou seja, uma forma de conversar com o computador.\nEla é usada no mundo todo porque funciona em vários tipos de computadores." +
                         "\nFrase famosa: \"Escreva uma vez e execute em qualquer lugar\".\nIsso quer dizer que um programa em Java pode rodar em muitos lugares sem mudar nada." +
                         "\n\n-------------------------------------------------------------\n\n>> O que são Variáveis? [Capítulo 2 – Página 37]" +
-                        "\nVariáveis são como caixinhas que guardam informações.\nPor exemplo, podemos ter uma variável chamada idade que guarda o número 12," +
+                        "\nVariáveis são como caixinhas que guardam informações.\nPor exemplo, podemos ter uma variável chamada idade que guarda o número 12,"  +
                         "\nou uma chamada nome que guarda o texto \"Maria\".\n\nExemplo:\nint idade = 12;\nString nome = ''Maria'';" +
                         "\n\n-------------------------------------------------------------\n\n>> Tipos de variáveis [Capítulo 2 – Página 37-38]\n\n" +
                         "int     - guarda números inteiros (ex: 5, 10, 99)\ndouble  - guarda números com vírgula (ex: 3.14, 8.5)\nchar    - guarda um caractere, como 'A' ou '7'\n" +
