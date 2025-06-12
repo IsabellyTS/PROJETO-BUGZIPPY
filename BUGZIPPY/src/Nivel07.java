@@ -5,9 +5,17 @@ public class Nivel07 extends Nivel {
 
     public Nivel07() {
         super("Nível 07: Arrays Multidimensionais", 3,
-                "\nQuase consegui! Mas me deparei com um labirinto cheio de portas em fileiras e colunas. \n" +
-                        "Preciso usar ARRAYS MULTIDIMENSIONAIS para navegar. \n" +
-                        "Se você acertar 10 perguntas, estarei em casa!");
+                "Lembre-se do nosso ônibus de Arrays, com assentos numerados de 0 em diante?\nAgora, imagine que nosso ônibus cresceu e virou um *ônibus de dois andares*!\n" +
+                        "Ou, melhor ainda, imagine que ele tem *várias filas de assentos*, como em um cinema ou em um teatro.\nUma *Matriz* no Java é como essa organização de assentos: você tem *linhas* e *colunas*!\n" +
+                        "Para encontrar um passageiro, você precisa dizer duas coisas: *em qual fil** ele está e *em qual assento (coluna)* daquela fila.\nNo Java, a fila e o assento (coluna) também começam do *zero (0)*!\n" +
+                        "Vamos ver como funciona nossa 'tabela de passageiros':\nString[][] nomes = new String[2][3]; // Criamos uma tabela com 2 filas e 3 assentos por fila\n// As filas são: Fila 0 e Fila 1\n" +
+                        "// Os assentos em cada fila são: Assento 0, Assento 1, Assento 2\nPara colocar passageiros, dizemos a fila e o assento:\nnomes[0][0] = \"João\";   // João está na Fila 0, Assento 0\n" +
+                        "nomes[0][1] = \"Maria\";  // Maria está na Fila 0, Assento 1\nnomes[0][2] = \"Pedro\";  // Pedro está na Fila 0, Assento 2\nnomes[1][0] = \"Ana\";    // Ana está na Fila 1, Assento 0\n" +
+                        "nomes[1][1] = \"Lucas\";  // Lucas está na Fila 1, Assento 1\nnomes[1][2] = \"Sofia\";  // Sofia está na Fila 1, Assento 2\nPara saber quem está em um lugar específico, usamos os dois números:\n" +
+                        "System.out.println(nomes[1][0]); // Isso vai mostrar 'Ana', que está na Fila 1, Assento 0!\n*Super Dica para Matrizes*: Assim como no ônibus simples, você pode preencher a tabela de uma vez só, como se ela já viesse organizada:\n" +
+                        "int[][] notas = {{80, 75, 90}, {60, 85, 70}}; // Duas filas de notas!\nSystem.out.println(notas[0][2]); // Mostra 90, que é a terceira nota da primeira fila!\n" +
+                        "As *Matrizes* são super úteis para organizar informações que precisam de mais de um 'endereço' para serem encontradas, como um placar de jogo, um mapa de tesouro ou notas de alunos organizadas por turma e prova!\n" +
+                        "Lembre-se sempre: comece a contar as filas e os assentos (colunas) do *zero (0)*!");
     }
 
     @Override

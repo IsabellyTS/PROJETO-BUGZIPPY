@@ -6,9 +6,12 @@ public class Nivel05 extends Nivel {
 
     public Nivel05() {
         super("Nível 05: Laços (while/do-while)", 3,
-                "\nOh não! O caminho está cheio de armadilhas e só consigo atravessá-las se eu continuar pulando até a condição ser segura. \n" +
-                        "Você me ajuda a usar o laço WHILE e DO-WHILE? \n" +
-                        "Preciso de 10 acertos para seguir em frente!");
+                ">>O que é while e do while?\n[Capítulo 5 – Páginas 171 a 180]\nImagina que você está jogando um jogo onde precisa repetir uma tarefa, como pular corda, até alguém dizer “pare!”.\n" +
+                        "Na programação, usamos o while e o do while para fazer coisas se repetirem várias vezes, igual no jogo.\nWhile é assim:\n" +
+                        "Primeiro ele pergunta se pode fazer a tarefa.\nSe a resposta for “sim”, ele faz. Aí pergunta de novo.\nMas se a resposta for “não” logo de cara, ele nem começa.\n" +
+                        "Exemplo:\nEnquanto estiver sol, vou brincar lá fora.\nSe estiver chovendo, nem saio de casa!\ndo while é diferente:\nEle faz a tarefa uma vez primeiro, e só depois pergunta se pode continuar.\n" +
+                        "Mesmo que a resposta seja “não”, ele já fez uma vez.\nExemplo:\nVou experimentar o sorvete e depois decido se quero mais.\nMesmo que eu não goste, eu experimentei uma vez.\n" +
+                        "Então:\nwhile pergunta antes de fazer.\ndo while faz uma vez e depois pergunta.");
     }
 
     @Override

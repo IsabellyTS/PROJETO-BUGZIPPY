@@ -5,9 +5,14 @@ public class Nivel03 extends Nivel {
 
     public Nivel03() {
         super("Nível 03: Switch", 3,
-                "\nQuase lá! Agora preciso de uma ajuda para escolher entre várias opções de caminho. \n" +
-                        "No mundo da programação, usamos o SWITCH para isso. \n" +
-                        "Me ajude a acertar 10 questões para eu me aproximar ainda mais do formigueiro!"
+                "Imagine que você tem um controle remoto com vários botões.\nCada botão faz uma coisa diferente: um liga a TV, outro muda o canal, outro aumenta o volume...\n" +
+                        "O switch case no Java funciona como esse controle remoto!\nVocê diz: \"Se eu apertar o botão 1, faça isso. Se for o botão 2, faça aquilo.\"\n" +
+                        "É como dar comandos diferentes para cada número!\nVeja um exemplo:\nint botão = 2;\nswitch (botão) {\n    case 1:\n" +
+                        "        System.out.println(\"Ligando a TV!\");\n        break;\n    case 2:\n        System.out.println(\"Mudando de canal!\");\n" +
+                        "        break;\n    case 3:\n        System.out.println(\"Aumentando o volume!\");\n        break;\n    default:\n" +
+                        "        System.out.println(\"Botão desconhecido!\");\n}\n\nO \"case\" é cada botão diferente que você pode apertar.\nO \"break\" é como dizer: \"pronto, parei por aqui\". " +
+                        "Ele evita que o código continue executando os próximos botões.\nE o \"default\" é o que acontece se apertarmos um botão que não existe!\n" +
+                        "\n\nCom o switch case, seu programa pode escolher o que fazer com base em um número, uma letra ou até uma palavra!\n"
         );
     }
 

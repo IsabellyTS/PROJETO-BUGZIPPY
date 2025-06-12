@@ -5,9 +5,16 @@ public class Nivel06 extends Nivel {
 
     public Nivel06() {
         super("Nível 06: Arrays", 3,
-                "\nUfa! Estou quase lá! Mas o caminho está bagunçado e preciso organizar meus suprimentos para a jornada final. \n" +
-                        "Vamos organizar tudo em ARRAYS? \n" +
-                        "Acerte 10 perguntas para que eu organize tudo e chegue no formigueiro!");
+                "Pense em um ônibus com vários assentos, e cada assento tem um número para você se sentar.\nMas aqui tem um segredo: no Java, o primeiro assento do ônibus é sempre o assento zero (0)!\n" +
+                        "Um Array é como esse ônibus: um conjunto de 'lugares' onde você pode guardar várias informações (passageiros) do mesmo tipo.\nCada assento no ônibus é um índice do seu Array.\n" +
+                        "E você pode colocar um 'passageiro' (um valor) em cada assento ou pegá-lo de volta, sabendo o número do assento.\nVeja como podemos usar nosso ônibus:\n" +
+                        "int[] idades = new int[4]; // Criamos um ônibus com 4 assentos para idades\"\nidades[0] = 25;           // A idade 25 senta no assento 0\n" +
+                        "idades[1] = 30;           // A idade 30 senta no assento 1\nidades[2] = 18;           // A idade 18 senta no assento 2\nidades[3] = 40;           // A idade 40 senta no assento 3\n" +
+                        "Para saber a idade de alguém que está no assento, fazemos assim:\nSystem.out.println(idades[2]); // Isso vai mostrar a idade 18, do assento 2!\n" +
+                        "\nSuper Dica: Você pode até encher o ônibus com passageiros direto, logo que ele é criado!\n" +
+                        "É como se todos os passageiros já estivessem esperando para entrar em seus lugares certinhos:\nString[] nomes = {\"Ana\", \"Bruno\", \"Carla\"}; // Um ônibus de nomes já com 3 passageiros!\n" +
+                        "System.out.println(nomes[0]); // Mostra 'Ana', a passageira do assento 0!\"\nCom os Arrays, você organiza dados de um jeito super prático, como uma lista de números, de palavras ou de qualquer outra coisa!\n" +
+                        "E o legal é que todos os 'passageiros' no mesmo ônibus são do mesmo tipo (são todas idades, ou todos nomes, etc.).\nNunca se esqueça: o primeiro assento é sempre o zero (0)!");
     }
 
     @Override

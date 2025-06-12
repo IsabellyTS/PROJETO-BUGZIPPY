@@ -5,9 +5,10 @@ public class Nivel08 extends Nivel {
 
     public Nivel08() {
         super("Nível 08: ArrayList", 3,
-                "\nÉ a última barreira! Estou quase no meu formigueiro, mas preciso atravessar um rio com pedras que mudam de lugar. \n" +
-                        "Tenho que usar o ArrayList para me adaptar! \n" +
-                        "Acerte as últimas 10 perguntas e serei livre!");
+                "Imagine uma caixa mágica chamada ArrayList!\nEssa caixa pode guardar vários brinquedos, livros, ou o que você quiser!\n" +
+                        "O mais legal é que ela cresce sozinha quando você coloca mais coisas nela!\nE se você quiser tirar algo, ela encolhe também!\n" +
+                        "Você pode dizer: \"coloque isso na caixa!\", ou \"me mostra o brinquedo número 3!\"\nTudo isso é feito com comandos especiais como add(), get(), remove() e size().\n" +
+                        "O ArrayList é como um super baú que ajuda os programadores a guardar coisas direitinho!");
     }
 
     @Override
