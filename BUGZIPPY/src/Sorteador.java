@@ -1,46 +1,24 @@
-import perguntas.Perguntas;
-
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Scanner;
-
+//NÃO ESTÁ LENDO AS STRINGS DAS PERGUNTAS
 public class Sorteador {
-    private Perguntas perg = new Perguntas();
-    private Scanner scanner = new Scanner(System.in);
-    private int nivelAtual = 1;
+    Perguntas perg = new Perguntas();
 
-    public Sorteador(){}
-    public void iniciarJogo() {
-        while (nivelAtual <= 8) { // Define os 3 níveis
-            perg.inicializarPerguntas(nivelAtual);
-            if (sorteadorNivel(nivelAtual)) {
-                System.out.println("\n🔥 Parabéns! Você avançou para o nível " + (nivelAtual + 1) + "! 🔥");
-                nivelAtual++;
-            } else {
-                System.out.println("\n❌ Você não acertou o suficiente. Tente novamente!");
-            }
-        }
-        System.out.println("\n🏆 Você completou todos os níveis! Fim do jogo. 🏆");
-    }
+    protected void sorteadorN1 (String p1, String p2, String p3, String p4, String p5, String p6, String p7, String p8, String p9, String p10){
+        ArrayList<String> perguntasN1 = new ArrayList<>();
+        perg.perguntasN1();
 
-    private boolean sorteadorNivel(int nivel) {
-        ArrayList<String> perguntas = perg.getPerguntas();
-        RespostasCorretas respostasCorretas = new RespostasCorretas();
-        respostasCorretas.inicializarRespostas(nivel);
-        ArrayList<Integer> respostas = respostasCorretas.getRespostas();
-        Collections.shuffle(perguntas);
+            perguntasN1.add(p1);
+            perguntasN1.add(p2);
+            perguntasN1.add(p3);
+            perguntasN1.add(p4);
+            perguntasN1.add(p5);
+            perguntasN1.add(p6);
+            perguntasN1.add(p7);
+            perguntasN1.add(p8);
+            perguntasN1.add(p9);
+            perguntasN1.add(p10);
+            Collections.shuffle(perguntasN1);
 
-        int acertos = 0;
-        for (int i = 0; i < 3; i++) {
-            System.out.println("\n" + perguntas.get(i));
-            System.out.print("Sua resposta: ");
-            int respostaUsuario = scanner.nextInt();
-
-            if (respostaUsuario == respostas.get(i)) {
-                acertos++;
-            }
-        }
-
-        return acertos >= 3;
     }
 }
