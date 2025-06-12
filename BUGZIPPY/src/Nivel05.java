@@ -19,7 +19,7 @@ public class Nivel05 extends Nivel {
         perguntasDoNivel.clear();
 
         perguntasDoNivel.add(new Pergunta(
-                "[]", // Não há capítulo/página no original, mantendo vazio
+                "[Capítulo 4, pág. 93 - 96]", // Não há capítulo/página no original, mantendo vazio
                 "Para que serve o laço while em Java?",
                 Arrays.asList(
                         "Para repetir algo várias vezes",
@@ -31,7 +31,7 @@ public class Nivel05 extends Nivel {
         ));
 
         perguntasDoNivel.add(new Pergunta(
-                "[]",
+                "[Capítulo 4, pág. 93 - 96]",
                 "O que o while faz primeiro?",
                 Arrays.asList(
                         "Mostra uma mensagem",
@@ -43,7 +43,7 @@ public class Nivel05 extends Nivel {
         ));
 
         perguntasDoNivel.add(new Pergunta(
-                "[]",
+                "[Capítulo 4, pág. 93 - 96]",
                 "Quando o while para de repetir?",
                 Arrays.asList(
                         "Quando o computador cansa",
@@ -55,7 +55,7 @@ public class Nivel05 extends Nivel {
         ));
 
         perguntasDoNivel.add(new Pergunta(
-                "[]",
+                "[Capítulo 4, pág. 93 - 96]",
                 "Qual a principal diferença entre while e do-while?",
                 Arrays.asList(
                         "While é mais rápido",
@@ -67,7 +67,7 @@ public class Nivel05 extends Nivel {
         ));
 
         perguntasDoNivel.add(new Pergunta(
-                "[]",
+                "[Capítulo 4, pág. 93 - 96]",
                 "No do-while, onde a condição é verificada?",
                 Arrays.asList(
                         "No início do laço",
@@ -79,7 +79,7 @@ public class Nivel05 extends Nivel {
         ));
 
         perguntasDoNivel.add(new Pergunta(
-                "[]",
+                "[Capítulo 4, pág. 93 - 96]",
                 "O que um loop 'while(true)' geralmente causa?",
                 Arrays.asList(
                         "Um erro de compilação",
@@ -91,7 +91,7 @@ public class Nivel05 extends Nivel {
         ));
 
         perguntasDoNivel.add(new Pergunta(
-                "[]",
+                "[Capítulo 4, pág. 93 - 96]",
                 "Qual dessas estruturas de laço é a melhor para repetir algo um número INDEFINIDO de vezes (até uma condição ser falsa)?",
                 Arrays.asList(
                         "for",
@@ -103,7 +103,7 @@ public class Nivel05 extends Nivel {
         ));
 
         perguntasDoNivel.add(new Pergunta(
-                "[]",
+                "[Capítulo 5, pág. 150 - 155]",
                 "Se você quiser garantir que um bloco de código seja executado pelo menos uma vez, qual laço você usaria?",
                 Arrays.asList(
                         "for",
@@ -115,7 +115,7 @@ public class Nivel05 extends Nivel {
         ));
 
         perguntasDoNivel.add(new Pergunta(
-                "[]",
+                "[Capítulo 4, pág. 93 - 96]",
                 "Em 'int contador = 0; while (contador < 3) { contador++; }', qual será o valor final de 'contador'?",
                 Arrays.asList(
                         "0",
@@ -127,7 +127,7 @@ public class Nivel05 extends Nivel {
         ));
 
         perguntasDoNivel.add(new Pergunta(
-                "[]",
+                "[Capítulo 4, pág. 93 - 96]",
                 "O que a instrução 'break;' faz em um laço while?",
                 Arrays.asList(
                         "Pula a iteração atual",
