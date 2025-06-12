@@ -20,14 +20,12 @@ public class Nivel01 extends Nivel {
                 "[Capítulo 2 – Página 37]",
                 "O que é uma variável?",
                 Arrays.asList(
-                        "Um botão secreto no teclado",
                         "Um lugar para guardar valores, como números e textos",
                         "Um tipo de erro",
                         "Uma função mágica",
-                        "Um comando que fecha o programa",
-                        "Um vírus de computador"
+                        "Um comando que fecha o programa"
                 ),
-                2
+                1
         ));
 
         perguntasDoNivel.add(new Pergunta(
@@ -36,10 +34,8 @@ public class Nivel01 extends Nivel {
                 Arrays.asList(
                         "int idade = 12;",
                         "idade = int 12;",
-                        "idade := 12;",
                         "String idade = 12;",
-                        "double idade = idade;",
-                        "idade int = '12';"
+                        "double idade = idade;"
                 ),
                 1
         ));
@@ -48,14 +44,12 @@ public class Nivel01 extends Nivel {
                 "[Capítulo 2 – Página 37-38-41-42]",
                 "Como somar os valores das variáveis a e b e guardar o resultado?",
                 Arrays.asList(
-                        "resultado = a - b;",
-                        "resultado = a + b;",
-                        "a + b = resultado;",
-                        "somar(a,b);",
-                        "resultado += a, b;",
-                        "calcular(a,b);"
+                        "total = a mais b",
+                        "String total = a + b",
+                        "int total = a + b",
+                        "char total = a + b"
                 ),
-                2
+                3
         ));
 
         perguntasDoNivel.add(new Pergunta(
@@ -65,9 +59,7 @@ public class Nivel01 extends Nivel {
                         "int",
                         "String",
                         "boolean",
-                        "double",
-                        "char",
-                        "long"
+                        "double"
                 ),
                 4
         ));
@@ -79,53 +71,45 @@ public class Nivel01 extends Nivel {
                         "Guardar números",
                         "Guardar textos, palavras e frases",
                         "Fazer contas",
-                        "Criar botões",
-                        "Guardar apenas uma letra",
-                        "Armazenar verdadeiro ou falso"
+                        "Criar botões"
                 ),
                 2
         ));
 
         perguntasDoNivel.add(new Pergunta(
                 "[Capítulo 2 – Página 40]",
-                "Como você guarda o nome \"Buggy\" em uma variável String chamada 'nome'?",
+                "Como você guarda o nome \"Bugzippy\" em uma variável String chamada 'nome'?",
                 Arrays.asList(
-                        "String nome = Buggy;",
-                        "String nome = \"Buggy\";",
-                        "nome = 'Buggy';",
-                        "text nome = Buggy;",
-                        "String = Buggy nome;",
-                        "String nome = 123;"
+                        "String nome = \"Bugippy\";",
+                        "nome = 'Bugippy';",
+                        "text nome = Bugippy;",
+                        "String = Bugippy nome;"
                 ),
-                2
+                1
         ));
 
         perguntasDoNivel.add(new Pergunta(
                 "[Capítulo 2 – Página 40]",
                 "Qual dessas variáveis guarda 'verdadeiro' ou 'falso'?",
                 Arrays.asList(
-                        "int",
                         "String",
                         "char",
                         "double",
-                        "boolean",
-                        "long"
+                        "boolean"
                 ),
-                5
+                4
         ));
 
         perguntasDoNivel.add(new Pergunta(
                 "[Capítulo 2 – Página 40]",
                 "Como você cria uma variável booleana chamada 'estaChovendo' e diz que é 'verdadeiro'?",
                 Arrays.asList(
-                        "boolean estaChovendo = 1;",
                         "estaChovendo = true;",
                         "boolean estaChovendo = true;",
                         "bool estaChovendo = verdadeiro;",
-                        "boolean estaChovendo = \"true\";",
-                        "boolean estaChovendo = 'V';"
+                        "boolean estaChovendo = \"true\";"
                 ),
-                3
+                2
         ));
 
         perguntasDoNivel.add(new Pergunta(
@@ -135,9 +119,7 @@ public class Nivel01 extends Nivel {
                         "Ele apaga a mensagem",
                         "Ele cria uma nova tela",
                         "Ele mostra a mensagem \"Olá\" na tela",
-                        "Ele salva a mensagem em um arquivo",
-                        "Ele reproduz um som",
-                        "Ele desenha a mensagem"
+                        "Ele salva a mensagem em um arquivo"
                 ),
                 3
         ));
@@ -149,9 +131,7 @@ public class Nivel01 extends Nivel {
                         "Mostrar(pontos);",
                         "print pontos;",
                         "System.out.println(pontos);",
-                        "exibir pontos;",
-                        "System.out.write(pontos);",
-                        "Console.log(pontos);"
+                        "exibir pontos;"
                 ),
                 3
         ));

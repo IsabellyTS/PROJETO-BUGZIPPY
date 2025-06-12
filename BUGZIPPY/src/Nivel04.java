@@ -20,13 +20,11 @@ public class Nivel04 extends Nivel {
                 "Para que serve o laço for em Java?",
                 Arrays.asList(
                         "Criar uma nova janela",
-                        "Repetir um bloco de código um número definido de vezes",
                         "Fazer cálculos com variáveis",
-                        "Ler dados do usuário",
-                        "Mostrar mensagens de erro",
-                        "Organizar as pastas do projeto"
+                        "Repetir um bloco de código um número definido de vezes",
+                        "Ler dados do usuário"
                 ),
-                2
+                3
         ));
 
         perguntasDoNivel.add(new Pergunta(
@@ -46,23 +44,23 @@ public class Nivel04 extends Nivel {
                 "No laço for, o que a 'condição' (segunda parte) faz?",
                 Arrays.asList(
                         "Define o valor inicial do contador",
-                        "Verifica se o laço deve continuar executando",
                         "Atualiza o valor do contador a cada repetição",
-                        "Executa o código dentro do laço"
+                        "Executa o código dentro do laço",
+                        "Verifica se o laço deve continuar executando"
                 ),
-                2
+                4
         ));
 
         perguntasDoNivel.add(new Pergunta(
                 "[Capítulo 5, pág. 175]", // Provavelmente erro no Cap/Pág aqui, deve ser sobre for
                 "O que o 'contador' (variável de controle) de um laço for normalmente faz?",
                 Arrays.asList(
-                        "Guarda um texto",
                         "Controla quantas vezes o laço irá repetir",
+                        "Guarda um texto",
                         "Faz somas",
                         "Imprime mensagens"
                 ),
-                2
+                1
         ));
 
         perguntasDoNivel.add(new Pergunta(
@@ -94,11 +92,11 @@ public class Nivel04 extends Nivel {
                 "Qual é a diferença principal entre for e while?",
                 Arrays.asList(
                         "For é para números, while é para textos",
-                        "For é para repetir um número definido de vezes, while é para repetir enquanto uma condição for verdadeira",
                         "For é mais rápido que while",
+                        "For é para repetir um número definido de vezes, while é para repetir enquanto uma condição for verdadeira",
                         "Não há diferença"
                 ),
-                2
+                3
         ));
 
         perguntasDoNivel.add(new Pergunta(
@@ -122,7 +120,8 @@ public class Nivel04 extends Nivel {
                         "for (int i = 0; i > 0; i++)",
                         "for (int i = 1; i == 1; i = i)"
                 ),
-                2 // 'for (;;)' ou 'for (int i=0; true; i++)'
+                2
+                // 'for (;;)' ou 'for (int i=0; true; i++)'
         ));
 
         perguntasDoNivel.add(new Pergunta(
@@ -130,11 +129,11 @@ public class Nivel04 extends Nivel {
                 "O que a instrução 'continue;' faz em um laço for?",
                 Arrays.asList(
                         "Para o laço completamente",
-                        "Pula a iteração atual e vai para a próxima",
                         "Reinicia o laço do começo",
+                        "Pula a iteração atual e vai para a próxima",
                         "Gera um erro"
                 ),
-                2
+                3
         ));
     }
 }

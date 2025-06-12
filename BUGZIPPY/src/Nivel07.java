@@ -21,9 +21,7 @@ public class Nivel07 extends Nivel {
                         "int[][] lugares = new int[3][2];",
                         "int lugares[3][2];",
                         "int lugares = new int(3,2);",
-                        "int lugares[] = new int[3][2];",
-                        "int lugares[2][3];",
-                        "int lugares = new int[2][3];"
+                        "int lugares[] = new int[3][2];"
                 ),
                 1
         ));

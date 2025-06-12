@@ -21,9 +21,7 @@ public class Nivel08 extends Nivel {
                         "Criar gráficos",
                         "Armazenar muitos elementos que podem crescer automaticamente",
                         "Criar botões na tela",
-                        "Repetir ações com for",
-                        "Fazer contas matemáticas",
-                        "Criar um banco de dados"
+                        "Repetir ações com for"
                 ),
                 2
         ));
@@ -35,9 +33,7 @@ public class Nivel08 extends Nivel {
                         "ArrayList<String> nomes = new ArrayList<>();",
                         "ArrayList nomes = \"String\";",
                         "String[] nomes = ArrayList();",
-                        "ArrayList<nome> = new String();",
-                        "ArrayList = {\"a\", \"b\"};",
-                        "new ArrayList<String> nomes;"
+                        "ArrayList<nome> = new String();"
                 ),
                 1
         ));

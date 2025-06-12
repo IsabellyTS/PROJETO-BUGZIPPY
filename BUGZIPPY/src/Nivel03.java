@@ -22,9 +22,7 @@ public class Nivel03 extends Nivel {
                         "Repete um bloco de código várias vezes",
                         "Compara uma variável com vários valores possíveis",
                         "Cria um novo método no programa",
-                        "Serve para fazer contas de matemática",
-                        "Mostra mensagens na tela",
-                        "Deixa o programa mais lento"
+                        "Serve para fazer contas de matemática"
                 ),
                 2
         ));

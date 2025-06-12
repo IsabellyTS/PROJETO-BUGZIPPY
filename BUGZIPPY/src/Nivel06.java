@@ -21,9 +21,7 @@ public class Nivel06 extends Nivel {
                         "int idades = new int[4];",
                         "int[4] idades = new int;",
                         "int[] idades = new int[4];",
-                        "array int idades = 4;",
-                        "new int idades[4];",
-                        "int idades(4);"
+                        "array int idades = 4;"
                 ),
                 3
         ));
